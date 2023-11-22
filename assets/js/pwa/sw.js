@@ -1,20 +1,17 @@
 // 커밋과 동시에 페이지가 업데이트 되도록 설정
 // https://friendlyvillain.github.io/posts/chirpy-refresh/
 
-self.addEventListener("install", (event) => {
+self.addEventListener('install', function(e) {
   self.skipWaiting();
 });
 
-self.addEventListener("activate", (event) => {
-  self.registration
-    .unregister()
-    .then(() => self.clients.matchAll())
-    .then((clients) => {
-      clients.forEach((client) => {
-        if (client.url && "navigate" in client) {
-          client.navigate(client.url);
-        }
-      });
+self.addEventListener('activate', function(e) {
+  self.registration.unregister()
+    .then(function() {
+      return self.clients.matchAll();
+    })
+    .then(function(clients) {
+      clients.forEach(client => client.navigate(client.url))
     });
 });
 
