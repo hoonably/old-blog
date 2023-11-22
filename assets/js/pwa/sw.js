@@ -1,109 +1,112 @@
+---
+layout: compress
+permalink: '/sw.js'
+# PWA service worker
+---
+
+self.importScripts('{{ "/assets/js/data/swcache.js" | relative_url }}');
+
+const cacheName = 'chirpy-{{ "now" | date: "%s" }}';
+
+function verifyDomain(url) {
+  for (const domain of allowedDomains) {
+    const regex = RegExp(`^http(s)?:\/\/${domain}\/`);
+    if (regex.test(url)) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+function isExcluded(url) {
+  for (const item of denyUrls) {
+    if (url === item) {
+      return true;
+    }
+  }
+  return false;
+}
+
+self.addEventListener('install', (event) => {
+  event.waitUntil(
+    caches.open(cacheName).then((cache) => {
+      return cache.addAll(resource);
+    })
+  );
+});
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys().then((keyList) => {
+      return Promise.all(
+        keyList.map((key) => {
+          if (key !== cacheName) {
+            return caches.delete(key);
+          }
+        })
+      );
+    })
+  );
+});
+
+self.addEventListener('message', (event) => {
+  if (event.data === 'SKIP_WAITING') {
+    self.skipWaiting();
+  }
+});
+
+self.addEventListener('fetch', (event) => {
+  event.respondWith(
+    caches.match(event.request).then((response) => {
+      if (response) {
+        return response;
+      }
+
+      return fetch(event.request).then((response) => {
+        const url = event.request.url;
+
+        if (
+          event.request.method !== 'GET' ||
+          !verifyDomain(url) ||
+          isExcluded(url)
+        ) {
+          return response;
+        }
+
+        /* see: <https://developers.google.com/web/fundamentals/primers/service-workers#cache_and_return_requests> */
+        let responseToCache = response.clone();
+
+        caches.open(cacheName).then((cache) => {
+          /* console.log('[sw] Caching new resource: ' + event.request.url); */
+          cache.put(event.request, responseToCache);
+        });
+
+        return response;
+      });
+    })
+  );
+});
+
 // 커밋과 동시에 페이지가 업데이트 되도록 설정
 // https://friendlyvillain.github.io/posts/chirpy-refresh/
 
-self.addEventListener('install', function(e) {
-  self.skipWaiting();
-});
-
-self.addEventListener('activate', function(e) {
-  self.registration.unregister()
-    .then(function() {
-      return self.clients.matchAll();
-    })
-    .then(function(clients) {
-      clients.forEach(client => client.navigate(client.url))
-    });
-});
-
-
-
-
-// ---
-// layout: compress
-// permalink: '/sw.js'
-// # PWA service worker
-// ---
-
-// self.importScripts('{{ "/assets/js/data/swcache.js" | relative_url }}');
-
-// const cacheName = 'chirpy-{{ "now" | date: "%s" }}';
-
-// function verifyDomain(url) {
-//   for (const domain of allowedDomains) {
-//     const regex = RegExp(`^http(s)?:\/\/${domain}\/`);
-//     if (regex.test(url)) {
-//       return true;
-//     }
-//   }
-
-//   return false;
-// }
-
-// function isExcluded(url) {
-//   for (const item of denyUrls) {
-//     if (url === item) {
-//       return true;
-//     }
-//   }
-//   return false;
-// }
-
-// self.addEventListener('install', (event) => {
-//   event.waitUntil(
-//     caches.open(cacheName).then((cache) => {
-//       return cache.addAll(resource);
-//     })
-//   );
+// self.addEventListener("install", (event) => {
+//   self.skipWaiting();
 // });
 
-// self.addEventListener('activate', (event) => {
-//   event.waitUntil(
-//     caches.keys().then((keyList) => {
-//       return Promise.all(
-//         keyList.map((key) => {
-//           if (key !== cacheName) {
-//             return caches.delete(key);
-//           }
-//         })
-//       );
-//     })
-//   );
-// });
-
-// self.addEventListener('message', (event) => {
-//   if (event.data === 'SKIP_WAITING') {
-//     self.skipWaiting();
-//   }
-// });
-
-// self.addEventListener('fetch', (event) => {
-//   event.respondWith(
-//     caches.match(event.request).then((response) => {
-//       if (response) {
-//         return response;
-//       }
-
-//       return fetch(event.request).then((response) => {
-//         const url = event.request.url;
-
-//         if (
-//           event.request.method !== 'GET' ||
-//           !verifyDomain(url) ||
-//           isExcluded(url)
-//         ) {
-//           return response;
+// self.addEventListener("activate", (event) => {
+//   self.registration
+//     .unregister()
+//     .then(() => self.clients.matchAll())
+//     .then((clients) => {
+//       clients.forEach((client) => {
+//         if (client.url && "navigate" in client) {
+//           client.navigate(client.url);
 //         }
-
-//         /* see: <https://developers.google.com/web/fundamentals/primers/service-workers#cache_and_return_requests> */
-//         let responseToCache = response.clone();
-
-//         caches.open(cacheName).then((cache) => {
-//           /* console.log('[sw] Caching new resource: ' + event.request.url); */
-//           cache.put(event.request, responseToCache);
-//         });
-
-//         return response;
 //       });
-//     })
-//   );
+//     });
 // });
+
+
+
