@@ -1,8 +1,8 @@
 ---
-title: "[JAVA] String, StringBuffer, StringBuilder 비교" #대괄호를 쓰려면 ""로 감싸주면 된다.
+title: "[Java] String, StringBuffer, StringBuilder 비교" #대괄호를 쓰려면 ""로 감싸주면 된다.
 date: 2023-11-22 13:10:00 +09:00
 categories: [코딩언어, Java]
-tags: [자바]
+tags: [Java,String]
 
 
 

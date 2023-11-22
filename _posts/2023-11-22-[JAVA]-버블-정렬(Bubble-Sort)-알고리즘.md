@@ -1,8 +1,8 @@
 ---
-title: "[JAVA] 버블 정렬(Bubble Sort) 알고리즘" #대괄호를 쓰려면 ""로 감싸주면 된다.
+title: "[Java] 버블 정렬(Bubble Sort) 알고리즘" #대괄호를 쓰려면 ""로 감싸주면 된다.
 date: 2023-11-22 00:50:00 +09:00
 categories: [알고리즘, 정렬]
-tags: [java, algorithm]
+tags: [Java, Algorithm, Baekjoon]
 
 
 ---

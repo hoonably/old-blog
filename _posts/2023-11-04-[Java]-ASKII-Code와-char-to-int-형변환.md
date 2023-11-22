@@ -2,7 +2,7 @@
 title: "[Java] ASKII Code와 char to int 형변환" #대괄호를 쓰려면 ""로 감싸주면 된다.
 date: 2023-11-04 01:50:00 +09:00
 categories: [코딩언어, Java]
-tags: [java, coding, programmers]     
+tags: [Java, programmers]     
 
 # TAG names should always be lowercase
 
