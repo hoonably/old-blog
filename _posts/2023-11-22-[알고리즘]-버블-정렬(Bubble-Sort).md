@@ -1,5 +1,5 @@
 ---
-title: "[Java] 버블 정렬(Bubble Sort) 알고리즘" #대괄호를 쓰려면 ""로 감싸주면 된다.
+title: "[알고리즘] 버블 정렬(Bubble Sort)" #대괄호를 쓰려면 ""로 감싸주면 된다.
 date: 2023-11-22 00:50:00 +09:00
 categories: [알고리즘, 정렬]
 tags: [Java, Algorithm, Baekjoon]
@@ -19,20 +19,44 @@ tags: [Java, Algorithm, Baekjoon]
 
 <br/>
 
-> ### 함수 사용 방법
+> ### 파이썬 (Python)
+
+- #### 오름차순 (Bubble Sort - Ascending)
 
 ```java
-bubblesort(arr);
+def bubbleSort_ASC(arr):
+    n = len(arr)
+    for i in range(n-1, -1, -1):
+        for j in range(0, i):
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+    return arr
 ```
 
-> ### 함수
+- #### 내림차순 (Bubble Sort - Descending)
+
+```python
+def bubbleSort_DESC(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(n-1, i, -1):
+            if arr[j] > arr[j-1]:
+                arr[j], arr[j-1] = arr[j-1], arr[j]
+    return arr
+```
+
+
+
+> ### 자바 (Java)
+
+- #### 오름차순 (Bubble Sort - Ascending)
 
 ```java
-public static void bubblesort(int[] arr) {
+public static void bubblesort_ASC(int[] arr) {
   int temp = 0;
   for(int i=0;i<arr.length;i++) {
     for(int j=0; j < arr.length - i - 1 ; j++) {
-      if(arr[j]>arr[j+1]) { //내림차순일때는 부호 반대로
+      if(arr[j]>arr[j+1]) {
 				temp = arr[j];
 				arr[j] = arr[j+1];
 				arr[j+1] = temp;
@@ -42,9 +66,40 @@ public static void bubblesort(int[] arr) {
 }
 ```
 
+- #### 내림차순 (Bubble Sort - Descending)
+
+  ```java
+  public static void bubblesort_DESC(int[] arr) {
+    int temp = 0;
+    for(int i=0;i<arr.length;i++) {
+      for(int j=0; j < arr.length - i - 1 ; j++) {
+        if(arr[j]<arr[j+1]) {
+  				temp = arr[j];
+  				arr[j] = arr[j+1];
+  				arr[j+1] = temp;
+        }
+      }
+    }
+  }
+  ```
+
+  
+
+
+
+<br/>
+
+## 💡 버블정렬 (Bubble Sort) ?
+
+---
+
+버블 정렬은 원소를 정렬할 때 사용하며, 원소가 거품처럼 올라오는 것처럼 보여 버블 정렬이라는 이름이 붙여졌다.
+
 <br/>
 
 ## 💡 알고리즘 이해
+
+---
 
 가장 큰 수부터 차례대로 맨 뒤로 이동시켜 고정한다고 생각하면 쉽다.
 
