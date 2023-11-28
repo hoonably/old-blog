@@ -19,9 +19,9 @@ tags: [Java, Algorithm, Baekjoon]
 
 <br/>
 
-> ### 파이썬 (Python)
+> ### **파이썬 (Python)**
 
-- #### 오름차순 (Bubble Sort - Ascending)
+- #### **오름차순 (Bubble Sort - Ascending)**
 
 ```java
 def bubbleSort_ASC(arr):
@@ -33,7 +33,7 @@ def bubbleSort_ASC(arr):
     return arr
 ```
 
-- #### 내림차순 (Bubble Sort - Descending)
+- #### **내림차순 (Bubble Sort - Descending)**
 
 ```python
 def bubbleSort_DESC(arr):
@@ -47,9 +47,9 @@ def bubbleSort_DESC(arr):
 
 
 
-> ### 자바 (Java)
+> ### **자바 (Java)**
 
-- #### 오름차순 (Bubble Sort - Ascending)
+- #### **오름차순 (Bubble Sort - Ascending)**
 
 ```java
 public static void bubblesort_ASC(int[] arr) {
@@ -66,7 +66,7 @@ public static void bubblesort_ASC(int[] arr) {
 }
 ```
 
-- #### 내림차순 (Bubble Sort - Descending)
+- #### **내림차순 (Bubble Sort - Descending)**
 
   ```java
   public static void bubblesort_DESC(int[] arr) {
@@ -120,7 +120,7 @@ public static void bubblesort_ASC(int[] arr) {
 
 <br/>
 
-> ### 모든 단계에서 일어나는 일
+> ### **모든 단계에서 일어나는 일**
 
 각 단계에서 정해진 가장 큰 수를 고정하고 그 앞부분에서 단계를 또 시작한다.
 
@@ -149,7 +149,7 @@ public static void swap (int[] arr, int i, int j) {
 
 <br/>
 
-미리 만들었던 swap 함수를 사용하여 bubblesort 함수를 만들어보자.
+미리 만들었던 `swap 함수`를 사용하여 `bubblesort 함수`를 만들어보자.
 
 ```java
 public static void bubblesort(int[] arr) {
@@ -251,16 +251,16 @@ public class Main {
 
 ## 💡 정리
 
-> ### 장점
+> ### **장점**
 
 - 구현이 아주 간단하다.
 - 알고리즘을 이해하기 쉽다.
 
-> ### 단점
+> ### **단점**
 
 - 하나의 원소를 옮기는데 여러번 교환해야 하는 일이 발생한다.
 - 이미 옳은 위치에 정렬되어있는 상태의 요소도 교환되는 일이 많다.
-- 정렬 알고리즘 중에서 가장 느리고 효율성이 떨어진다.
+- 정렬 알고리즘 중에서 가장 느리고 **효율성이 떨어진다.**
 
 <br/>
 
