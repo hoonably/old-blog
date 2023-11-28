@@ -2,7 +2,7 @@
 title: "[Java] String, StringBuffer, StringBuilder, BufferedWriter 비교" #대괄호를 쓰려면 ""로 감싸주면 된다.
 date: 2023-11-27 23:00:00 +09:00
 categories: [코딩언어, Java]
-tags: [Java,String]
+tags: [Java, Baekjoon]
 
 
 
@@ -152,12 +152,12 @@ public class Main {
 
 ---
 
-|                |              String               |    StringBuffer    |   StringBuilder    | BuffereWriter |
-| :------------: | :-------------------------------: | :----------------: | :----------------: | ------------- |
-|     클래스     |               불변                |        가변        |        가변        |               |
-|  문자열 변경   |           str += "추가"           | sb.append("추가"); | sb.append("추가"); |               |
-|      속도      |       `매우 매우 매우 느림`       |        빠름        |    `가장 빠름`     | 보통          |
-| 추천 사용 방법 | 문자열의 변경이나 추가가 없는경우 |  멀티쓰레드 환경   |  단일쓰레드 환경   |               |
+|                |              String               |    StringBuffer    |   StringBuilder    |   BuffereWriter   |
+| :------------: | :-------------------------------: | :----------------: | :----------------: | :---------------: |
+|     클래스     |               불변                |        가변        |        가변        |       가변        |
+|  문자열 변경   |           str += "추가"           | sb.append("추가"); | sb.append("추가"); | bw.write("추가"); |
+|      속도      |       `매우 매우 매우 느림`       |        빠름        |    `가장 빠름`     |       보통        |
+| 추천 사용 방법 | 문자열의 변경이나 추가가 없는경우 |  멀티쓰레드 환경   |  단일쓰레드 환경   |                   |
 
 <br/>
 

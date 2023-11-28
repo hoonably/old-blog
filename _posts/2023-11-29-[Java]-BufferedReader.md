@@ -2,7 +2,7 @@
 title: "[Java] BufferedReader" #대괄호를 쓰려면 ""로 감싸주면 된다.
 date: 2023-11-29 23:00:00 +09:00
 categories: [코딩언어, Java]
-tags: [Java,입력]
+tags: [Java, Baekjoon]
 
 
 
@@ -16,30 +16,9 @@ https://dev-myblog.tistory.com/entry/JAVA-String-StringBuilder-StringBuffer-Buff
 
 ---
 
-- java.lang에 있다.
-- 한번 정해지면 변경불가능한 `불변(immutable) 클래스`다.
-- String 객체가 생성되면 그 값은 변경되는게 아니라 새로운 객체로 추가 및 변경이 된다.
 
-<br/>
 
-## 💡 StringBuffer 란?
 
----
-
-- java.lang에 있다.
-- StringBuffer는 변경이 가능한 `가변(mutable) 클래스`다.
-- 멀티 쓰레드 환경에서 동시에 같은 문자열 인스턴스에 접근할 때 **중복 점유를 막을 수 있는 장치**가 되어 있다.
-- 위의 장치 때문에 **동기화 과정에서 성능 저하**가 발생할 수 있다.
-
-<br/>
-
-## 💡 StringBuilder 란?
-
----
-
-- java.lang에 있다.
-- StringBuilder는 변경이 가능한 `가변(mutable) 클래스`이다.
-- 멀티쓰레드 환경에서 불안정적이지만 일반적 환경에서는 StringBuffer처럼 성능저하가 일어나지 않기 때문에 사용하기 좋다.
 
 <br/>
 
