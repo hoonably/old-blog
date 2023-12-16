@@ -1,9 +1,17 @@
 ---
-title: "Typora를 이용한 깃블로그 작성을 위한 마크다운 팁" #대괄호를 쓰려면 ""로 감싸주면 된다.
+title: "[Blog] Typora를 이용한 깃블로그 작성을 위한 마크다운 팁" #대괄호를 쓰려면 ""로 감싸주면 된다.
 date: 2023-11-03 00:01:00 +09:00
-categories: [Blog, 마크다운]
-tags: [Markdown, Blog]
 
+categories: [Blog, Markdown]
+
+# Algorithm : 시간복잡도, 자료구조, 정렬, 탐색, 탐욕알고리즘, 정수론, 그래프, 트리, 조합, 다이나믹프로그래밍
+# Language : Java, Python, C++
+# Blog : Markdown, Just_blog
+# Baekjoon : Bronze, Silver, Gold, Platinum, Diamond, Ruby
+
+tags: [Blog]
+
+# Algorithm, Baekjoon, Python, Java, DB, Blog
 ---
 
 
@@ -13,6 +21,8 @@ tags: [Markdown, Blog]
 `Mac` 환경에서 `Typora`를 사용해 글을 작성할 때 기준이다.
 
 [J1mmyson님 블로그](https://j1mmyson.github.io/posts/MarkdownSyntax/){:target="_blank"} 를 많이 참고했고, 그 중 코딩 블로그 기준으로 자주 쓸 만한 것을 고르고 또 필요한 것들을 추가했다.
+
+[Typora 공식 단축키 사이트](https://support.typora.io/Shortcut-Keys/#change-shortcut-keys){:target="_blank"}
 
 <br/>
 
@@ -27,7 +37,7 @@ tags: [Markdown, Blog]
 title: "[Java] Hello Java!" # 대괄호를 쓰려면 ""로 감싸주면 된다.
 date: 2023-11-09 19:30:00 +09:00  # 09:00 - > 한국 표준 시간
 categories: [Programming, Java] # 대분류,소분류
-tags: [java,coding]		# 무조건 소문자
+tags: [java,coding]
 
 #여기부터는 부가기능이다. 쓰지 않아도 된다.
 typora-root-url: ../ # typora에서 자동으로 이미지를 img에 올릴때
@@ -88,8 +98,6 @@ error가 발생하지 않는다면 [http://127.0.0.1:4000/](http://127.0.0.1:400
 
 `<br/>`을 사용하면 엔터를 두번 친 효과를 낼 수 있다.
 
-Typora 단축키는 **`command+v`** 이다.
-
 ```markdown
 <br/>
 ```
@@ -106,11 +114,27 @@ Typora 단축키는 **`command+v`** 이다.
 ---
 ```
 
-- 결과
+<br/>
+
+
+
+## 💡 인용문 (BlockQuote)
 
 ---
 
-<br/>
+```>```  입력 후 ```space```
+
+중첩이 가능하다.
+
+```markdown
+> 인용
+```
+
+- 결과
+
+  > 인용
+
+  
 
 ## 💡 폰트
 

@@ -1,10 +1,17 @@
 ---
 title: "[Java] ASKII Code와 char to int 형변환" #대괄호를 쓰려면 ""로 감싸주면 된다.
 date: 2023-11-04 01:50:00 +09:00
-categories: [코딩언어, Java]
-tags: [Java, Programmers]     
 
-# TAG names should always be lowercase
+categories: [Language, Java]
+
+# Algorithm : 시간복잡도, 자료구조, 정렬, 탐색, 탐욕알고리즘, 정수론, 그래프, 트리, 조합, 다이나믹프로그래밍
+# Language : Java, Python, C++
+# Blog : Markdown, Just_blog
+# Baekjoon : Bronze, Silver, Gold, Platinum, Diamond, Ruby
+
+tags: [Java, Programmers]
+
+# Algorithm, Baekjoon, Programmers, Python, Java, DB, Blog
 
 ---
 

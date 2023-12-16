@@ -1,9 +1,17 @@
 ---
 title: "[알고리즘] 버블 정렬(Bubble Sort)" #대괄호를 쓰려면 ""로 감싸주면 된다.
 date: 2023-11-22 00:50:00 +09:00
-categories: [알고리즘, 정렬]
-tags: [Java, Algorithm, Baekjoon]
 
+categories: [Algorithm, 정렬]
+
+# Algorithm : 시간복잡도, 자료구조, 정렬, 탐색, 탐욕알고리즘, 정수론, 그래프, 트리, 조합, 다이나믹프로그래밍
+# Language : Java, Python, C++
+# Blog : Markdown, Just_blog
+# Baekjoon : Bronze, Silver, Gold, Platinum, Diamond, Ruby
+
+tags: [Python, Java, Algorithm]
+
+# Algorithm, Baekjoon, Python, Java, DB, Blog
 
 ---
 
