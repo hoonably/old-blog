@@ -21,7 +21,7 @@ tags: [Blog]
 
 글을 작성하면서 옆에 작게 띄워놓고 참고하도록 하기 위해서 작성하였습니다.
 
-자세한 내용은 [이 링크](https://hhhoon.github.io/posts/Typora%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EA%B9%83%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9E%91%EC%84%B1%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%ED%8C%81/){:target="_blank"} 을 참고해주세요.
+자세한 내용은 [이 링크](https://hoonably.github.io/posts/Blog-Typora%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EA%B9%83%EB%B8%94%EB%A1%9C%EA%B7%B8-%EC%9E%91%EC%84%B1%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4-%ED%8C%81/){:target="_blank"} 을 참고해주세요.
 
 <br/>
 

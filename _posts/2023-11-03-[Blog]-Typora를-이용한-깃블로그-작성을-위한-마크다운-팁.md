@@ -57,7 +57,7 @@ pin: true # 홈페이지 메인화면에 이 게시물 고정
 먼저 터미널을 열고 다음을 입력한다.
 
 ```
-$ cd hhhoon.github.io   # 본인의 깃헙 블로그 저장소로 이동
+$ cd hoonably.github.io   # 본인의 깃헙 블로그 저장소로 이동
 $ jekyll serve          # jekyll 서버 실행
 ```
 
@@ -276,12 +276,12 @@ System.out.prinln("앗농칭구얌")
 - 작성 예시
 
 ```markdown
-[Hoon's blog 바로가기](https://hhhoon.github.io/){:target="_blank"}
+[Hoon's blog 바로가기](https://hoonably.github.io/){:target="_blank"}
 ```
 
 - 결과
 
-[Hoon's blog 바로가기](https://hhhoon.github.io/){:target="_blank"}
+[Hoon's blog 바로가기](https://hoonably.github.io/){:target="_blank"}
 
 <br/>
 
@@ -381,7 +381,7 @@ Jekyll 은 [Liquid](https://shopify.github.io/liquid/){:target="_blank"} 언어�
 Error 코드
 
 {% raw %}Liquid Exception: Liquid syntax error (line 330): Unknown tag 'endraw' 
-in /Users/hoon/hhhoon.github.io/_posts/2023-11-09-Typora를-이용한-깃블로그-작성을-위한-마크다운-팁.md {% endraw %}
+in /Users/hoon/hoonably.github.io/_posts/2023-11-09-Typora를-이용한-깃블로그-작성을-위한-마크다운-팁.md {% endraw %}
 ```
 
 
