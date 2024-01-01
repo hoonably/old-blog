@@ -247,7 +247,9 @@ public class Main {
 
 ## 💡 시간복잡도
 
-시간 복잡도에 대한 설명은 다음에 포스팅 하도록 하겠다.
+시간 복잡도가 무엇인지 모른다면 이 글을 참고하자.
+
+[[알고리즘] 시간 복잡도 (Time Complexity)](https://hoonably.github.io/posts/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%8B%9C%EA%B0%84-%EB%B3%B5%EC%9E%A1%EB%8F%84-(Time-Complexity)/){:target="_blank"}
 
 <img width="1107" alt="image" src="https://github.com/hhhoon/hhhoon.github.io/assets/77783081/76be57bb-c35a-4225-a1df-58db08724fd1">
 
