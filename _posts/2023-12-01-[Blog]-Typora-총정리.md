@@ -10,6 +10,8 @@ categories: [Blog, Markdown]
 
 tags: [Blog]
 
+image: https://github.com/hoonably/hoonably.github.io/assets/77783081/addc585e-45dc-4c1f-bd0c-91ad30d955c5
+
 # Algorithm, Baekjoon, Python, Java, DB, Blog
 
 
