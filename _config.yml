@@ -35,7 +35,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Hoon
-  email: happypjh2001@naver.com # change to your email address
+  email: hoonably@naver.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username # change to your twitter homepage
@@ -92,9 +92,9 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: hoonably/hoonably.github.io # <gh-username>/<repo>
-    repo_id: R_kgDOKtZV8A
-    category: Announcements
-    category_id: DIC_kwDOKtZV8M4Ca85g
+    repo_id:
+    category:
+    category_id:
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
