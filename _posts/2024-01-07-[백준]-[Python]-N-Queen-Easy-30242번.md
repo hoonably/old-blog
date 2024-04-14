@@ -25,7 +25,7 @@ image: https://github.com/hoonably/hoonably.github.io/assets/77783081/a773640b-7
 
 ---
 
-[🧩 N-Queen (Easy)](https://www.acmicpc.net/problem/30242){:target="_blank"}
+[🧩 N-Queen (Easy)](https://www.acmicpc.net/problem/30242)
 
 <img width="1132" alt="image" src="https://github.com/hoonably/hoonably.github.io/assets/77783081/15d1d8b6-3e2d-4942-97da-088bbf7e23cf">
 
