@@ -195,3 +195,6 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+plugins:
+   - jekyll-target-blank  # 링크 누를때 새로운 탭에서 열리도록 하는 플러그인
