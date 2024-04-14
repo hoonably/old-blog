@@ -119,6 +119,7 @@ baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
+# 신택스 하이라이터 적용!!!!
 kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
