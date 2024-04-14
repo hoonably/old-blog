@@ -1,5 +1,6 @@
 /*
  * The syntax dark mode styles.
+ * 다크모드 상태의 코드블럭에 대한 설정>
  */
 
 @mixin dark-syntax {
@@ -35,23 +36,30 @@
     background-color: #151515;
   }
 
+  // error 색 (한글 에러판정 때문에 변경)
   .highlight .err {
-    color: #151515;
-    background-color: #ac4142;
+    color: #cdca8c;
+    // background-color: #ac4142;
   }
 
+
+  // 주석 색
   .highlight .c,
   .highlight .ch,
   .highlight .cd,
   .highlight .cm,
-  .highlight .cpf,
   .highlight .c1,
   .highlight .cs {
-    color: #848484;
+    color: #6dbd6d;
   }
 
+  // #include, #define
   .highlight .cp {
-    color: #f4bf75;
+    color: #aa759f;
+  }
+  // <stdio.h>
+  .highlight .cpf {
+    color: #ffaa34;
   }
 
   .highlight .nt {
@@ -60,7 +68,7 @@
 
   .highlight .o,
   .highlight .ow {
-    color: #d0d0d0;
+    color: #ffffff;
   }
 
   .highlight .p,
@@ -83,7 +91,9 @@
     font-weight: bold;
   }
 
-  .highlight .k,
+  .highlight .k {
+    color: #aa759f;
+  }
   .highlight .kn,
   .highlight .kp,
   .highlight .kr,
@@ -95,8 +105,9 @@
     color: #d28445;
   }
 
+  // int, long 
   .highlight .kt {
-    color: #d28445;
+    color: #6ab7ff;
   }
 
   .highlight .kd {
@@ -131,13 +142,22 @@
     color: #b76d45;
   }
 
+  // 함수명
+  .highlight .nf{
+    color: #feffce;
+  }
+
+  .highlight .n {
+    color: #d5d5d5;
+  }
+
   .highlight .nn {
     color: #f4bf75;
   }
 
   .highlight .nc {
     color: #f4bf75;
-  }
+  }å
 
   .highlight .no {
     color: #f4bf75;
@@ -155,7 +175,7 @@
   .highlight .il,
   .highlight .mo,
   .highlight .mx {
-    color: #90a959;
+    color: #c5dd93;
   }
 
   .highlight .ss {

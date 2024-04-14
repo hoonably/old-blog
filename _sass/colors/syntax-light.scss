@@ -170,11 +170,13 @@
     color: #8250df;
   }
 
+  // error 색 (한글 에러판정 때문에 변경)
   .highlight .err {
-    color: #f6f8fa;
-    background-color: #82071e;
+    color: #419341;
+    // background-color: #82071e;
   }
 
+  // 주석 색
   .highlight .c,
   .highlight .ch,
   .highlight .cd,
@@ -183,7 +185,7 @@
   .highlight .cpf,
   .highlight .c1,
   .highlight .cs {
-    color: #68717a;
+    color: #419341;
   }
 
   .highlight .gl {
