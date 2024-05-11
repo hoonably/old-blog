@@ -10,7 +10,7 @@ categories: [VSCode, 설정]
 # Baekjoon : Bronze, Silver, Gold, Platinum, Diamond, Ruby
 # VSCode : 설정
 
-tags: [VSCode, C++, C언어, Python, Java]
+tags: [VSCode, C++, C언어, Python, Java, Tips]
 
 # Algorithm, Baekjoon, Python, Java, DB, Blog
 # 백트래킹, 
