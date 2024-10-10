@@ -1,10 +1,15 @@
 ## This Repository is my coding blog
 
+- [Gitblog Link](https://hoonably.github.io/)
+
+<br/>
+
+## Categories
+
 - Data Structure
 - [Algorithm](https://hoonably.github.io/categories/algorithm/)
 - [Problem Solving (Baekjoon)](https://hoonably.github.io/categories/baekjoon/)
 - [Language Study (C++, Python, Java, SQL...)](https://hoonably.github.io/categories/language/)
-
 
  <br/>
   <br/>
