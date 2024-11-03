@@ -11,7 +11,7 @@ subtitle: Someone Who Lives and Breathes Computers
 
 
 # 🧑🏻‍💻 Jeong Hoon Park
-<div style="text-align: left;">
+<div class="responsive-images" style="text-align: left;">
   <img src="{{ 'assets/img/profile1.jpg' | prepend: site.baseurl }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
   <img src="{{ 'assets/img/profile2.jpg' | prepend: site.baseurl }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
 </div>

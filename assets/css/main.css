@@ -167,6 +167,7 @@ h3 { /* 헤더 아래에 밑줄 넣기 */
   margin-left: 5px; /* 이미지와 텍스트 사이의 간격 조정 */
 }
 
+
 /* =List (목록) *//*************************************************************/
   ul, ol {
     padding-left: 20px; /* 목록의 전체 들여쓰기 조정 */
@@ -300,6 +301,18 @@ h3 { /* 헤더 아래에 밑줄 넣기 */
       text-align: center;
       width: 100%; }
 
+
+    /* 이미지 좌우로 최대한 맞춰서 */
+    .responsive-images {
+      display: flex;
+      /* justify-content: space-between; */
+      align-items: left;
+    }
+  
+    .responsive-images img {
+      float: none;
+      margin-right: 0;
+    }
   }
 
 /* =Glitch effect, Source: http://codepen.io/bulby97/pen/fcvay *//*************************************************************/
