@@ -9,7 +9,6 @@ author: "hoonably"
 ---
 
 
-<br/>
 
 ## 💡 버블정렬 함수
 
@@ -17,7 +16,6 @@ author: "hoonably"
 
 처음 보는거라면 꼭 아래로 내려가 이해해보도록 하자.
 
-<br/>
 
 ### 파이썬 (Python)
 
@@ -87,19 +85,16 @@ public static void bubblesort_ASC(int[] arr) {
 
 
 
-<br/>
 
 ## 💡 버블정렬 (Bubble Sort) ?
 
 버블 정렬은 원소를 정렬할 때 사용하며, 원소가 거품처럼 올라오는 것처럼 보여 버블 정렬이라는 이름이 붙여졌다.
 
-<br/>
 
 ## 💡 알고리즘 이해
 
 가장 큰 수부터 차례대로 맨 뒤로 이동시켜 고정한다고 생각하면 쉽다.
 
-<br/>
 
 ### 각 단계에서 일어나는 일
 
@@ -114,7 +109,6 @@ public static void bubblesort_ASC(int[] arr) {
 
 한 단계마다 가장 큰 수가 제일 뒤로 가게 된다. 
 
-<br/>
 
 ### 모든 단계에서 일어나는 일
 
@@ -127,7 +121,6 @@ public static void bubblesort_ASC(int[] arr) {
 |  3단계  |  2   |  1   | `3`  | `4`  | `5`  |
 |  4단계  |  1   | `2`  | `3`  | `4`  | `5`  |
 
-<br/>
 
 ## 💡 코드 이해
 
@@ -143,7 +136,6 @@ public static void swap (int[] arr, int i, int j) {
 }
 ```
 
-<br/>
 
 미리 만들었던 `swap 함수`를 사용하여 `bubblesort 함수`를 만들어보자.
 
@@ -159,7 +151,6 @@ public static void bubblesort(int[] arr) {
 }
 ```
 
-<br/>
 
 하지만 우리는 똑똑하니까 한번에 해보자.
 
@@ -179,7 +170,6 @@ public static void bubblesort(int[] arr) {
 }
 ```
 
-<br/>
 
 ## 💡 코드 테스트 - 백준 2750번: 수 정렬하기
 
@@ -231,7 +221,6 @@ public class Main {
 5
 ```
 
-<br/>
 
 ## 💡 시간복잡도
 
@@ -245,7 +234,6 @@ public class Main {
 
 버블 정렬의 시간 복잡도는 best, worst, average case 모두 `O(n^2)` 이다.
 
-<br/>
 
 ## 💡 정리
 
@@ -260,7 +248,6 @@ public class Main {
 - 이미 옳은 위치에 정렬되어있는 상태의 요소도 교환되는 일이 많다.
 - 정렬 알고리즘 중에서 가장 느리고 효율성이 떨어진다.
 
-<br/>
 
 ## 💡 결론
 

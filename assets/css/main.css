@@ -95,11 +95,11 @@
 
   .page-title__text {
     font-weight: 700;
-    font-size: 170%; }
+    font-size: 140%; }
 
   .page-title__subtitle {
     font-weight: 400;
-    font-size: 90%;
+    font-size: 70%;
     color: #828282; }
 
 
@@ -115,10 +115,19 @@ h1 {
 h2 { /* 헤더 아래에 밑줄 넣기 */
   /* border-top: 1px solid #ccc; */
   /* padding-top: 10px; */
-  /* margin-top: 20px; */
-  border-bottom: 1px solid #ccc;
+  margin-top: 80px; /*헤더 위에 여백*/
+  border-bottom: 2px solid #ccc;
   padding-bottom: 10px;
   margin-bottom: 20px;
+}
+
+h3 { /* 헤더 아래에 밑줄 넣기 */
+  /* border-top: 1px solid #ccc; */
+  /* padding-top: 10px; */
+  margin-top: 50px; /*헤더 위에 여백*/
+  border-bottom: 0.3px solid #ccc;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 /* =Table (표) *//*************************************************************/

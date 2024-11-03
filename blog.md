@@ -10,6 +10,7 @@ subtitle: ramblings of me
 <h4 class="post-teaser__month">
 <strong>
 {% if category.name %} 
+<br><br><br>
 - - - - - - - - - - -  {{ category.name }} - - - - - - - - - - - 
 {% else %} 
 {{ Print }} 
