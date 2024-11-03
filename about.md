@@ -4,7 +4,7 @@ layout: page
 title : Who am I?
 subtitle: Someone Who Lives and Breathes Computers
 # A Person Who Loves Technology
-# 
+# d
 ---
 
 <span style="float: right; "><a href="{{ '/assets/resume.pdf' | prepend: site.baseurl }}"><strong>> Download as PDF</strong></a> </span>

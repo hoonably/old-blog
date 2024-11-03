@@ -1,7 +1,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <!-- 캐시 저장 X -->
- <!--
+<!--
 no-cache : 캐시 사용 전 재검증을 위한 요청을 강제
 no-store : 클라이언트의 요청, 서버의 응답 등을 저장 안함
 must-revalidate : 캐시 사용 전 반드시 만료된 것인지 검사
@@ -19,6 +19,8 @@ Ex) Expires: Wed, 21 Oct 2015 07:28:00 GMT
 
 <!-- 페이지 로드시마다 페이지를 캐싱하지 않는다.(HTTP 1.0) -->
 <meta http-equiv="Pragma" content="no-cache" />
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{% if page.title %} {{ page.title }} — {{ page.subtitle }} {% endif %} | {{ site.title }}</title>
 <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
