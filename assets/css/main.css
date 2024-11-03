@@ -225,8 +225,8 @@ h2 { /* 헤더 위아래에 밑줄 넣기 */
 
 /* =Main Page *//*************************************************************/
   #about-img {
-    border-radius: 13%;
-    max-width: 125px;
+    border-radius: 13%;  /* 끝부분 둥글게 */
+    max-width: 350px;
     margin: auto;
     margin-bottom: 3%;
   }
