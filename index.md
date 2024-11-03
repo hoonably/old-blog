@@ -6,9 +6,13 @@ sitemap:
   priority: 0.9
 ---
 
-<img src="{{ '/assets/img/pudhina.jpg' | prepend: site.baseurl }}" id="about-img">
+<img src="{{ 'assets/img/my_profile.jpg' | prepend: site.baseurl }}" id="main-img">
 
 <div id="describe-text">
 	<p></p>
+
+	Click <a href="{{ '/about' | prepend: site.baseurl }}" class="no-target-blank">About</a> 
+	to learn more about me.
+
 	<p></p>
 </div>

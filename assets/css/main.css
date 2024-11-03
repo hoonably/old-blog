@@ -224,9 +224,9 @@ h2 { /* 헤더 위아래에 밑줄 넣기 */
   }
 
 /* =Main Page *//*************************************************************/
-  #about-img {
+  #main-img {
     border-radius: 13%;  /* 끝부분 둥글게 */
-    max-width: 350px;
+    max-width: 300px;
     margin: auto;
     margin-bottom: 3%;
   }
@@ -234,7 +234,9 @@ h2 { /* 헤더 위아래에 밑줄 넣기 */
   #describe-text {
       display: block;
       text-align: center;
-      width: 100%; }
+      width: 100%; 
+      font-size: 1.3em; /* 원하는 크기로 조정 */
+  }
 
 /* =Small screen *//*************************************************************/
   @media (max-width: 500px) {
