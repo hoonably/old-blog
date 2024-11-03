@@ -102,6 +102,62 @@
     font-size: 75%;
     color: #828282; }
 
+
+/* =Section Titles *//*************************************************************/
+h2 { /* 헤더 위아래에 밑줄 넣기 */
+  /* border-top: 1px solid #ccc; */
+  /* padding-top: 10px; */
+  /* margin-top: 20px; */
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* =Table (표) *//*************************************************************/
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+
+  table img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* =텍스트나 이미지 사이 간격 *//*************************************************************/
+.about__text {
+  display: block;
+}
+
+.about__text div {
+  display: block;
+  margin-bottom: 10px; /* 텍스트와 이미지 사이의 간격 조정 */
+}
+
+.about__text a img {
+  display: inline-block;
+  margin-left: 5px; /* 이미지와 텍스트 사이의 간격 조정 */
+}
+
+/* =List (목록) *//*************************************************************/
+  ul, ol {
+    padding-left: 20px; /* 목록의 전체 들여쓰기 조정 */
+  }
+
+  li {
+    margin-bottom: 5px; /* 목록 항목 간의 간격 조정 */
+  }
+
 /* =Post teasers *//*************************************************************/
   .list-posts {
     list-style-type: none;
