@@ -1,3 +1,24 @@
+## This Repository is my Website
+- [Home](https://hoonably.github.io)
+- [About](https://hoonably.github.io/about)
+- [Gitblog Link](https://hoonably.github.io/blog)
+
+<br/>
+
+## Blog Categories
+- Algorithm
+- Problem Solving (Baekjoon)
+- Language Study (C++, Python, Java, SQL...)
+- Reviews
+- Talking
+
+<br><br><br>
+
+<details>
+    <summary> Chirpy Jekyll Theme Detail </summary>
+&nbsp;
+
+
 # Pudhina
 A simple, minimal [Jekyll](jekyllrb.com) theme for a personal web page and blog, focusing on white space and readability
 
@@ -35,3 +56,5 @@ Inspired by the theme [Daktilo](https://github.com/kronik3r/daktilo)
 
 ## License
 The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+</details>
