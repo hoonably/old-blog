@@ -27,12 +27,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
         with:
-          ruby-version: 2.7  # Jekyll이 지원하는 Ruby 버전
+          source: ./
+          destination: ./_site
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
 
       - name: Install dependencies
         run: |
@@ -41,9 +48,6 @@ jobs:
 
       - name: Build Jekyll site
         run: bundle exec jekyll build
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
 
   # Deployment job
   deploy:
