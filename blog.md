@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog
-subtitle: Select ramblings of Pudhina
+subtitle: ramblings of me
 ---
 
 <div>
@@ -10,7 +10,7 @@ subtitle: Select ramblings of Pudhina
 <h4 class="post-teaser__month">
 <strong>
 {% if category.name %} 
-- - - - -  {{ category.name }} - - - - - 
+- - - - - - - - - - -  {{ category.name }} - - - - - - - - - - - 
 {% else %} 
 {{ Print }} 
 {% endif %}
@@ -19,7 +19,7 @@ subtitle: Select ramblings of Pudhina
 <ul class="list-posts">
 {% for post in category.items %}
 <li class="post-teaser">
-<a href="{{ post.url | prepend: site.baseurl }}">
+<a href="{{ post.url | prepend: site.baseurl }}" class="no-target-blank">
 <span class="post-teaser__title">{{ post.title }}</span>
 <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
 </a>
