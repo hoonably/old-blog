@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/general/2016/05/21/welcome-to-jekyll.html/</loc>
+      <loc>https://hoonably.github.io/general/2016/05/21/welcome-to-jekyll.html/</loc>
       
         <lastmod>2016-05-21T00:51:21+09:00</lastmod>
       
@@ -18,7 +18,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/junk/2016/05/21/this-post-demonstrates-post-content-styles.html/</loc>
+      <loc>https://hoonably.github.io/junk/2016/05/21/this-post-demonstrates-post-content-styles.html/</loc>
       
         <lastmod>2016-05-21T00:51:21+09:00</lastmod>
       
@@ -33,7 +33,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/misc/2016/05/21/super-long-article.html/</loc>
+      <loc>https://hoonably.github.io/misc/2016/05/21/super-long-article.html/</loc>
       
         <lastmod>2016-05-21T00:51:21+09:00</lastmod>
       
@@ -48,7 +48,7 @@
   
     
     <url>
-      <loc>http://localhost:4000/general/2016/05/21/my-example-post.html/</loc>
+      <loc>https://hoonably.github.io/general/2016/05/21/my-example-post.html/</loc>
       
         <lastmod>2016-05-21T00:51:21+09:00</lastmod>
       
@@ -66,9 +66,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/about.html</loc>
+      <loc>https://hoonably.github.io/about.html</loc>
       
-        <lastmod>2024-11-03T14:54:26+09:00</lastmod>
+        <lastmod>2024-11-03T15:58:35+09:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -81,9 +81,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/blog.html</loc>
+      <loc>https://hoonably.github.io/blog.html</loc>
       
-        <lastmod>2024-11-03T14:54:26+09:00</lastmod>
+        <lastmod>2024-11-03T15:58:35+09:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -96,9 +96,9 @@
   
     
     <url>
-      <loc>http://localhost:4000/</loc>
+      <loc>https://hoonably.github.io/</loc>
       
-        <lastmod>2024-11-03T14:54:26+09:00</lastmod>
+        <lastmod>2024-11-03T15:58:35+09:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -111,6 +111,21 @@
   
     
   
+    
+  
+    
+    <url>
+      <loc>https://hoonably.github.io/feed.xml</loc>
+      
+        <lastmod>2024-11-03T15:58:35+09:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
     
   
 </urlset>
