@@ -26,26 +26,23 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
-
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
+      # 수정
       - name: Install dependencies
         run: |
           gem install bundler
           bundle install
-
       - name: Build Jekyll site
         run: bundle exec jekyll build
 
