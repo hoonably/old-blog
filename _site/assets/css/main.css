@@ -95,16 +95,24 @@
 
   .page-title__text {
     font-weight: 700;
-    font-size: 150%; }
+    font-size: 170%; }
 
   .page-title__subtitle {
     font-weight: 400;
-    font-size: 75%;
+    font-size: 90%;
     color: #828282; }
 
 
 /* =Section Titles *//*************************************************************/
-h2 { /* 헤더 위아래에 밑줄 넣기 */
+/* 
+h1 { 
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+} 
+*/
+
+h2 { /* 헤더 아래에 밑줄 넣기 */
   /* border-top: 1px solid #ccc; */
   /* padding-top: 10px; */
   /* margin-top: 20px; */
@@ -266,7 +274,7 @@ h2 { /* 헤더 위아래에 밑줄 넣기 */
       font-size: 150%; }
 
     .page-title__subtitle {
-      font-size: 65%; }
+      font-size: 80%; }
 
     .post-teaser__title {
       font-size: 150%;
