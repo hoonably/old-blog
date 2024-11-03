@@ -40,10 +40,10 @@ Ex) Expires: Wed, 21 Oct 2015 07:28:00 GMT
 <div class="wrapper">
 <header class="header">
 <div class="navigation">
-<a href="/" class="logo">hoonably</a>
+<a href="/" class="logo no-target-blank">hoonably</a>
 <ul class="menu">
-<li class="menu__entry"><a href="/about">About</a></li>
-<li class="menu__entry"><a href="/blog">Blog</a></li>
+<li class="menu__entry"><a href="/about" class="no-target-blank">About</a></li>
+<li class="menu__entry"><a href="/blog" class="no-target-blank">Blog</a></li>
 </ul>
 </div>
 <ul class="social-links">
@@ -94,13 +94,16 @@ Ex) Expires: Wed, 21 Oct 2015 07:28:00 GMT
 <script>hljs.initHighlightingOnLoad();</script>
 </body>
 
-<!-- 새 창에서 열리도록 -->
-<!-- <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      var links = document.querySelectorAll('a');
-      links.forEach(function(link) {
+<!-- 새 탭에서 열리도록 -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var links = document.querySelectorAll('a');
+    links.forEach(function(link) {
+      // 'no-target-blank' class가 있는 부분은 새 탭에서 열기 제외
+      if (!link.classList.contains('no-target-blank')) { 
         link.setAttribute('target', '_blank');
-      });
+      }
     });
+  });
 </script>
-</html> -->
+</html>

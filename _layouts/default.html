@@ -12,13 +12,16 @@
 {% include externals/scripting.html %}
 </body>
 
-<!-- 새 창에서 열리도록 -->
-<!-- <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      var links = document.querySelectorAll('a');
-      links.forEach(function(link) {
+<!-- 새 탭에서 열리도록 -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var links = document.querySelectorAll('a');
+    links.forEach(function(link) {
+      // 'no-target-blank' class가 있는 부분은 새 탭에서 열기 제외
+      if (!link.classList.contains('no-target-blank')) { 
         link.setAttribute('target', '_blank');
-      });
+      }
     });
+  });
 </script>
-</html> -->
+</html>
