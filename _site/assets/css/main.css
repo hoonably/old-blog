@@ -4,7 +4,10 @@
     font-family: 'Quicksand', sans-serif;  
     font-size: 100%;
     color: #012;
-    background-color: #FFF; }
+    background-color: #FFF; 
+    padding-left: 50px; /* 왼쪽 여백 추가 */
+    padding-right: 50px; /* 오른쪽 여백 추가 */
+  }
 
   a {
     color: #57A;
@@ -103,6 +106,14 @@
     color: #828282; }
 
 
+/* category-name 스타일 */
+.category-name {
+  text-align: left; /* 왼쪽 정렬 */
+  font-size: 18px; /* 글씨 크기 */
+  display: block; /* 블록 요소로 설정하여 정렬 적용 */
+  margin-bottom: 10px; /* 아래 여백 추가 */
+}
+
 /* =Section Titles *//*************************************************************/
 
 h1 { 
@@ -188,7 +199,7 @@ h3 { /* 헤더 아래에 밑줄 넣기 */
 
   .post-teaser__title {
     font-size: 100%;
-    color: #828282; }
+    color: #101010; }
 
   .post-teaser__date {
     font-size: 100%;
@@ -258,10 +269,10 @@ h3 { /* 헤더 아래에 밑줄 넣기 */
   }
 
 /* =Small screen *//*************************************************************/
-  @media (max-width: 500px) {
+  @media (max-width: 600px) {
     p, ul, ol, dl {
       font-size: 100%;
-      line-height: 1.6; }
+      line-height: 1.4; }
 
     .wrapper {
       width: 90%;
@@ -282,16 +293,20 @@ h3 { /* 헤더 아래에 밑줄 넣기 */
       margin-bottom: 30px; }
 
     .page-title__text {
-      font-size: 150%; }
+      font-size: 120%; }
 
     .page-title__subtitle {
-      font-size: 80%; }
+      font-size: 60%; }
 
     .post-teaser__title {
-      font-size: 150%;
+      font-size: 100%;
       display: block;
       text-align: center;
       width: 100%; }
+
+    .category-name {
+      text-align: center;
+    }
 
     .post-teaser__date {
       font-size: 100%;
