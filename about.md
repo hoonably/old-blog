@@ -10,7 +10,7 @@ subtitle: Someone Who Lives and Breathes Computers
 <span style="float: right; "><a href="{{ '/assets/resume.pdf' | prepend: site.baseurl }}"><strong>> Download as PDF</strong></a> </span>
 
 
-# 🧑🏻‍💻 Jeong Hoon Park
+## 🧑🏻‍💻 Jeong Hoon Park
 <div class="responsive-images" style="text-align: left;">
   <img src="{{ 'assets/img/profile1.jpg' | prepend: site.baseurl }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
   <img src="{{ 'assets/img/profile2.jpg' | prepend: site.baseurl }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
@@ -40,8 +40,8 @@ Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliq
 
 ## 🛠 PS (Problem Solving)
 ### 💡 Baekjoon Online Judge (<a href="https://solved.ac/hoonably" target="_blank">solved.ac profile</a>)
-- 🏆 Ranking: #579 (Top 0.39%)
-- ⏳ Longest Streak: 300+α Days (23.12.31 ~ now)
+- 🏆 Ranking: **#579** (Top 0.39%)
+- ⏳ Longest Streak: **300+α** Days (23.12.31 ~ now)
 <div class="responsive-links" style="display: flex; justify-content: flex-start;">
   <a href="https://solved.ac/hoonably" style="margin-right: 10px;" target="_blank">
     <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=hoonably" alt="Solved.ac 프로필">
