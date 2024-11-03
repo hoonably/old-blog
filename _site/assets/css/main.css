@@ -107,7 +107,7 @@
 
 h1 { 
   margin-top: 100px; /*헤더 위에 여백*/
-  border-bottom: 2px solid #ccc;
+  /* border-bottom: 2px solid #ccc; */
   padding-bottom: 10px;
   margin-bottom: 20px;
 } 
@@ -512,6 +512,30 @@ h3 { /* 헤더 아래에 밑줄 넣기 */
       text-shadow: -1px 0 0 blue, 1px 0 0 lime; }
     100% {
       text-shadow: -1px 0 0 blue, 1px 0 0 lime; } }
+
+      
   /* Custom */
   .go-home {
     text-align: center; }
+
+/* 복사 버튼 스타일 */
+.copy-button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.copy-button:hover {
+  background: #45a049;
+}
+
+pre {
+  position: relative;
+}
