@@ -10,8 +10,8 @@ subtitle: ramblings of me
 <h4 class="post-teaser__month">
 <strong>
 {% if category.name %} 
-<br><br>
-<span class="category-name">- - - - - - - - - - - {{ category.name }} - - - - - - - - - - -</span>
+<br>
+<span class="category-name">- - - - - - {{ category.name }} - - - - - -</span>
 {% else %} 
 {{ Print }} 
 {% endif %}
@@ -20,7 +20,7 @@ subtitle: ramblings of me
 <ul class="list-posts">
 {% for post in category.items %}
 <li class="post-teaser">
-<a href="{{ post.url | prepend: site.baseurl }}" class="no-target-blank">
+<a href="{{ post.url | prepend: relative_url }}" class="no-target-blank">
 <span class="post-teaser__title">{{ post.title }}</span>
 <span class="post-teaser__date">{{ post.date | date: "%d %B %Y" }}</span>
 </a>

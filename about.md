@@ -7,13 +7,13 @@ subtitle: Someone Who Lives and Breathes Computers
 # d
 ---
 
-<span style="float: right; "><a href="{{ '/assets/resume.pdf' | prepend: site.baseurl }}"><strong>> Download as PDF</strong></a> </span>
+<span style="float: right; "><a href="{{ '/assets/resume.pdf' | prepend: relative_url }}"><strong>> Download as PDF</strong></a> </span>
 
 
 ## 🧑🏻‍💻 Jeong Hoon Park
 <div class="responsive-images" style="text-align: left;">
-  <img src="{{ 'assets/img/profile1.jpg' | prepend: site.baseurl }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
-  <img src="{{ 'assets/img/profile2.jpg' | prepend: site.baseurl }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
+  <img src="{{ 'assets/img/profile1.jpg' | prepend: relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
+  <img src="{{ 'assets/img/profile2.jpg' | prepend: relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
 </div>
 
 <br style="clear: both;">
