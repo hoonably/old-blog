@@ -1,26 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- <html lang="ko"> -->
 <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<!-- 캐시 저장 X -->
-<!--
-no-cache : 캐시 사용 전 재검증을 위한 요청을 강제
-no-store : 클라이언트의 요청, 서버의 응답 등을 저장 안함
-must-revalidate : 캐시 사용 전 반드시 만료된 것인지 검사
-(http 1.1에서 적용됨)
--->
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<!--
-특정시간 이후엔 리소스가 만료됐음을 의미. 0, -1 등은 즉시 만료
-Ex) Expires: Wed, 21 Oct 2015 07:28:00 GMT
--->
-<meta http-equiv="Expires" content="0" />
-<!-- 위의 명시된 날짜 이후가 되면 페이지가 캐싱되지 않는다.(1990년 이후 쭉) -->
-<meta http-equiv="Expires" content="Mon, 06 Jan 1990 00:00:01 GMT" />
-<!-- 페이지 로드시마다 페이지를 캐싱하지 않는다.(HTTP 1.0) -->
-<meta http-equiv="Pragma" content="no-cache" />
-
+<!-- 캐시 저장 X --> <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title> 404 —   | hoonably</title>
 <meta name="description" content="A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability
@@ -123,4 +107,5 @@ I suggest you get <a href="/" class="no-target-blank">home</a>, it's 404 and it'
     });
   });
 </script>
+<!-- </html> -->
 </html>
