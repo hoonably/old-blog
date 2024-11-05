@@ -4,7 +4,7 @@
 # Site settings
 title: hoonably
 description: >
-  A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability
+  Jeonghoon Park's Website
 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://hoonably.github.io" # the base hostname & protocol for your site
