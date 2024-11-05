@@ -1,7 +1,7 @@
 ## This Repository is my Website
 - [Home](https://hoonably.github.io)
 - [About](https://hoonably.github.io/about)
-- [Gitblog Link](https://hoonably.github.io/blog)
+- [Gitblog](https://hoonably.github.io/blog)
 
 <br/>
 

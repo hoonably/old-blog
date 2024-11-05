@@ -156,7 +156,7 @@ h2 { /* 헤더 아래에 밑줄 넣기 */
 h3 { /* 헤더 아래에 밑줄 넣기 */
   /* border-top: 1px solid #ccc; */
   /* padding-top: 10px; */
-  margin-top: 50px; /*헤더 위에 여백*/
+  margin-top: 30px; /*헤더 위에 여백*/
   border-bottom: 0.3px solid #ccc;
   padding-bottom: 5px;
   margin-bottom: 10px;

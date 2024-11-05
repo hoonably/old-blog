@@ -39,6 +39,7 @@ Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliq
 
 
 ## 🛠 PS (Problem Solving)
+I love algorithms and solving problem!
 ### 💡 Baekjoon Online Judge (<a href="https://solved.ac/hoonably" target="_blank">solved.ac profile</a>)
 - 🏆 Ranking: **#579** (Top 0.39%)
 - ⏳ Longest Streak: **300+α** Days (23.12.31 ~ now)
