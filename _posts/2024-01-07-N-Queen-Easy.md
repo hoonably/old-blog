@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "[백준] [Python] 🧩 N-Queen (Easy) 30242번"
 subtitle: "Gold 3 - Backtracking"
 date: 2024-01-07 01:50:00 +09:00

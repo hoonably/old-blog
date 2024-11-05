@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "First blog test"
 subtitle: "\"Hello World!\""
 date: 2023-10-25 03:20:00 +09:00

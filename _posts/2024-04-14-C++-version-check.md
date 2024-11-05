@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "[C++] C++ 버전 체크 방법"
 subtitle: "Gold - bitmasking"
 date: 2024-04-14 20:50:00 +09:00

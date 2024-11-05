@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "[Java] String, StringBuffer, StringBuilder, BufferedWriter 비교"
 subtitle: ""
 date: 2023-11-27 23:00:00 +09:00

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "시간 복잡도 (Time Complexity)"
 subtitle: ""
 date: 2023-12-15 23:50:00 +09:00

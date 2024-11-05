@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "[백준] [C++] 🧩 N-Queen (Hard) 30243번"
 subtitle: "Diamond 5 - Bitmasking, Backtracking"
 date: 2024-02-14 19:00:00 +09:00

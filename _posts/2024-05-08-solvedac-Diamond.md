@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "[백준] 💎 다이아몬드 달성 및 Tip"
 subtitle: ""
 date: 2024-05-09 01:50:00 +09:00

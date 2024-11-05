@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "[VSCode] Code Runner을 위한 setting.json 설정"
 subtitle: ""
 date: 2024-04-14 21:30:00 +09:00

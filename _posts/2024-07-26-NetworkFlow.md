@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "네트워크 플로우 (Network-Flow)"
 subtitle: ""
 date: 2024-07-26 01:40:00 +09:00

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "버블 정렬 (Bubble Sort)"
 subtitle: ""
 date: 2023-11-22 00:50:00 +09:00

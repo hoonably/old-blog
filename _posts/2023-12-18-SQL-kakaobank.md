@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "SQL로 간소한 카카오뱅크 데이터베이스 만들어보기"
 subtitle: ""
 date: 2023-12-18 01:12:00 +09:00
