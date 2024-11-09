@@ -11,8 +11,6 @@ sitemap:
 <div class="page-title__subtitle">My name is Jeonghoon Park</div>
 </h1>
 
-<br>
-
 <img src="{{ 'assets/img/profile1.jpg' | prepend: relative_url }}" id="main-img">
 
 <div id="describe-text">

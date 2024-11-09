@@ -2,7 +2,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <!-- 캐시 저장 X --> <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{% if page.title %} {{ page.title }} — {{ page.subtitle }} {% endif %} | {{ site.title }}</title>
+
+<!-- 페이지 창에 대표로 뜨는 부분 (구글 검색시 뜨는 부분) -->
+<!-- <title>{% if page.title %} {{ page.title }} — {{ page.subtitle }} {% endif %} | {{ site.title }}</title> -->
+<title>{% if page.title %} {{ page.title }} {% endif %} | {{ site.title }}</title>
+
+
 <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: relative_url }}">
