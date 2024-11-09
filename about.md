@@ -15,6 +15,11 @@ subtitle: Someone Who Lives and Breathes Computers
   <img src="{{ 'assets/img/profile1.jpg' | prepend: relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
   <img src="{{ 'assets/img/profile2.jpg' | prepend: relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
 </div>
+<br>
+<div>
+<a href="https://github.com/hoonably"><img src="https://img.shields.io/badge/-Github-181717?style=flat&logo=GitHub&logoColor=white&" style="height: 25px;"></a>
+
+</div>
 
 <br style="clear: both;">
 
