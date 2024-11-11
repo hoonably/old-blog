@@ -378,6 +378,12 @@ li {
     text-align: center;
     width: 100%; }
 
+  #main-img {
+    border-radius: 13%;  /* 끝부분 둥글게 */
+    max-width: 200px;
+    margin: auto;
+    margin-bottom: 3%;
+  }
 
   /* 이미지 좌우로 최대한 맞춰서 */
   .responsive-images {

@@ -1,15 +1,10 @@
 ---
-layout: default
+layout: page
 title: Hello
-subtitle: 
+subtitle: My name is Jeonghoon Park
 sitemap:
   priority: 0.9
 ---
-
-<h1 class="page-title">
-<div class="page-title__text">Hello</div>
-<div class="page-title__subtitle">My name is Jeonghoon Park</div>
-</h1>
 
 <img src="{{ 'assets/img/profile1.jpg' | prepend: relative_url }}" id="main-img">
 
