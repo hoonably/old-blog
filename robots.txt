@@ -6,4 +6,4 @@ sitemap:
 User-agent: *
 Disallow: /assets/img/profile1.jpg
 
-Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: {{ site.url }}/my_sitemap.xml
