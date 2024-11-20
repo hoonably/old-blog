@@ -4,7 +4,6 @@ layout: page
 title : Who am I?
 subtitle: Someone Who Lives and Breathes Computers
 # A Person Who Loves Technology
-# d
 ---
 <span style="float: right; "><a href="{{ '/assets/CV_JeonghoonPark.pdf' | prepend: relative_url }}"><strong>> Download CV as PDF</strong></a> </span>
 
@@ -35,7 +34,7 @@ I have a dream to spend my life studying/researching with good people.
 
 ### UNIST <span style="float: right; ">2020 ~ now</span>  
 
-| **Major** | Advanced Programming, System Programming, <br><a href="https://solved.ac/hoonably" target="_blank">Data Structures</a>, Computer Architecture, Principles of Programming Languages |
+| **Major** | Advanced Programming, System Programming, <br><a href="https://github.com/hoonably/data-structure" target="_blank">Data Structures</a>, Computer Architecture, Principles of Programming Languages |
 | **Math** | Calculus I, Applied Linear Algebra, <br>Probability and Random Process, Statistics, Discrete Mathematics |
  
 <!-- Institute <span style="float: right; ">Duration</span>  
