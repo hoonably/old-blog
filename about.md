@@ -6,8 +6,7 @@ subtitle: Someone Who Lives and Breathes Computers
 # A Person Who Loves Technology
 # d
 ---
-
-<span style="float: right; "><a href="{{ '/assets/resume.pdf' | prepend: relative_url }}"><strong>> Download as PDF</strong></a> </span>
+<span style="float: right; "><a href="{{ '/assets/CV_JeonghoonPark.pdf' | prepend: relative_url }}"><strong>> Download CV as PDF</strong></a> </span>
 
 
 ## 🧑🏻‍💻 Jeong Hoon Park
@@ -15,23 +14,29 @@ subtitle: Someone Who Lives and Breathes Computers
   <img src="{{ 'assets/img/profile1.jpg' | prepend: relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
   <img src="{{ 'assets/img/profile2.jpg' | prepend: relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
 </div>
+Hello, My name is Jeonghoon Park.  
+I have a dream to spend my life studying/researching with good people.
 <br>
-<div>
-<a href="https://github.com/hoonably"><img src="https://img.shields.io/badge/-Github-181717?style=flat&logo=GitHub&logoColor=white&" style="height: 25px;"></a>
-
+<div class="about__text">
+  <div>
+    <a href="https://github.com/hoonably"><img src="https://img.shields.io/badge/-Github-181717?style=flat&logo=GitHub&logoColor=white&" style="height: 25px;"></a>
+    <a href="https://www.linkedin.com/in/hoonably"><img src="https://img.shields.io/badge/linkedin-0A66C2?style=flat&logo=linkedin&logoColor=white&" style="height: 25px;"></a>
+    <a href="https://www.instagram.com/hoonably"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white&" style="height: 25px;"></a>
+  </div>
+  <div><a href="mailto:happypjh2001@unist.ac.kr">e-mail</a> : happypjh2001@unist.ac.kr</div>
 </div>
-
 <br style="clear: both;">
 
-
-## 📈 EDUCATION
+## 🎓 EDUCATION
 
 | Start | End | Institution	| Details |
 |:-------:|:-----:|:-----:|:-----:|
-| 2020 | ~ |<img src="https://github.com/user-attachments/assets/191a5ba1-dc55-49de-9cb6-39166240aa33" alt="UNIST image" width="50"/> [UNIST](https://www.unist.ac.kr/) | 🎓 B.S. in Computer Science & Engineering|
+| 2020 | ~ |<img src="https://github.com/user-attachments/assets/191a5ba1-dc55-49de-9cb6-39166240aa33" alt="UNIST image" width="50"/> [UNIST](https://www.unist.ac.kr/) | B.S.<br>in Computer Science & Engineering|
 
-UNIST <span style="float: right; ">2024-Fall</span>  
-- [Data Structure](https://github.com/hoonably/data-structure) : Data structure by C++
+### UNIST <span style="float: right; ">2020 ~ now</span>  
+
+| **Major** | Advanced Programming, System Programming, <br><a href="https://solved.ac/hoonably" target="_blank">Data Structures</a>, Computer Architecture, Principles of Programming Languages |
+| **Math** | Calculus I, Applied Linear Algebra, <br>Probability and Random Process, Statistics, Discrete Mathematics |
  
 <!-- Institute <span style="float: right; ">Duration</span>  
 **Course**  
@@ -43,11 +48,14 @@ Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliq
 
 
 
+
+
+
 ## 🛠 PS (Problem Solving)
-I love algorithms and solving problem!
-### 💡 Baekjoon Online Judge (<a href="https://solved.ac/hoonably" target="_blank">solved.ac profile</a>)
-- 🏆 Ranking: **#579** (Top 0.39%)
-- ⏳ Longest Streak: **300+α** Days (23.12.31 ~ now)
+### Baekjoon Online Judge (<a href="https://solved.ac/hoonably" target="_blank">solved.ac profile</a>)<span style="float: right; ">2023. 12. 31 ~ now</span>  
+  - 🏆 Ranking: **#579** (Top 0.39%)
+  - ⏳ Longest Streak: **300+α** Days (23.12.31 ~ now)
+  - <a href="https://github.com/hoonably/PS" target="_blank">PS codes repository in github</a>
 <div class="responsive-links" style="display: flex; justify-content: flex-start;">
   <a href="https://solved.ac/hoonably" style="margin-right: 10px;" target="_blank">
     <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=hoonably" alt="Solved.ac 프로필">
@@ -55,9 +63,32 @@ I love algorithms and solving problem!
   <a href="https://solved.ac/hoonably" target="_blank">
     <img src="http://mazandi.herokuapp.com/api?handle=hoonably&theme=dark" alt="mazandi profile">
   </a>
-</div>
+</div>  
+### ICPC 2024 Seoul Online Preliminary Contest <span style="float: right; ">2024. 10. 26</span>  
+  - Team ‘WhereIsWoongJae’ with Hyeonseo Kim, Jaehyun Bang
+  - 201st / 455
 
 
+
+
+
+## 💼 EXPERIENCE
+
+### Math institution (hagwon) - **Topmath** <span style="float: right; ">2021. 7 ~ 2024. 7 (3 years)</span>  
+  - Math instruction in Korean high school all curriculum.
+  - Calculus, probability and statistics, geometry, etc.
+  - 4-10 students in a class.
+ 
+<!-- 
+Title - **Comapany** <span style="float: right; ">Duration</span>  
+_Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
+Technologies used  
+
+Title - **Comapany** <span style="float: right; ">Duration</span>  
+_Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
+Technologies used  
+-->
+ 
 ## 🚀 PROJECTS
 I want to do some project!
 
@@ -71,30 +102,11 @@ Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse pl
 Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse platea dictumst. Etiam facilisis velit velit, id dapibus lacus bibendum nec. Proin euismod tortor non nunc luctus, ut varius mauris tristique.   -->
 
 
-## 💼 EXPERIENCE
-I want to do experience!
-
-<!-- 
-Title - **Comapany** <span style="float: right; ">Duration</span>  
-_Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
-Technologies used  
- 
-Title - **Comapany** <span style="float: right; ">Duration</span>  
-_Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
-Technologies used  
-
-Title - **Comapany** <span style="float: right; ">Duration</span>  
-_Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
-Technologies used  
--->
- 
-
 ## 🔭 INTERESTS
 
-- Software Engineering
-- Web Development (React, Node.js)
-- Cloud Computing (AWS, Docker)
 - Artificial Intelligence
+- System Software
+- Algorithm
   
 
 
