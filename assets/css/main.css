@@ -286,6 +286,12 @@ li {
   text-align: center;
 }
 
+.about__date {
+  float: right;
+  font-size: 85%;
+  color: #828282;
+}
+
 /* =Page navigation *//*************************************************************/
 .PageNavigation {
   display: block;

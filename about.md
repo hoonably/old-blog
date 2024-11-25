@@ -32,16 +32,16 @@ I have a dream to spend my life studying/researching with good people.
 |:-------:|:-----:|:-----:|:-----:|
 | 2020 | ~ |<img src="https://github.com/user-attachments/assets/191a5ba1-dc55-49de-9cb6-39166240aa33" alt="UNIST image" width="50"/> [UNIST](https://www.unist.ac.kr/) | B.S.<br>in Computer Science & Engineering|
 
-### UNIST <span style="float: right; ">2020 ~ now</span>  
+### UNIST <span class="about__date">2020 ~ now</span>  
 
 | **Major** | Advanced Programming, System Programming, <br><a href="https://github.com/hoonably/data-structure" target="_blank">Data Structures</a>, Computer Architecture, Principles of Programming Languages |
 | **Math** | Calculus I, Applied Linear Algebra, <br>Probability and Random Process, Statistics, Discrete Mathematics |
  
-<!-- Institute <span style="float: right; ">Duration</span>  
+<!-- Institute <span class="about__date">Duration</span>  
 **Course**  
 Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliquam facilisis eget quis massa. Duis et ultricies diam, non venenatis nisl. Maecenas sed mauris consectetur, faucibus mi ac, commodo velit.  
 
-Institute <span style="float: right; ">Duration</span>  
+Institute <span class="about__date">Duration</span>  
 **Course**  
 Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliquam facilisis eget quis massa. Duis et ultricies diam, non venenatis nisl. Maecenas sed mauris consectetur, faucibus mi ac, commodo velit.  -->
 
@@ -51,7 +51,7 @@ Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliq
 
 
 ## 🛠 PS (Problem Solving)
-### Baekjoon Online Judge (<a href="https://solved.ac/hoonably" target="_blank">solved.ac profile</a>)<span style="float: right; ">2023. 12. 31 ~ now</span>  
+### Baekjoon Online Judge (<a href="https://solved.ac/hoonably" target="_blank">solved.ac profile</a>)<span class="about__date">2023. 12. 31 ~ now</span>  
   - 🏆 Ranking: **#579** (Top 0.39%)
   - ⏳ Longest Streak: **300+α** Days (23.12.31 ~ now)
   - <a href="https://github.com/hoonably/PS" target="_blank">PS codes repository in github</a>
@@ -63,7 +63,7 @@ Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliq
     <img src="http://mazandi.herokuapp.com/api?handle=hoonably&theme=dark" alt="mazandi profile">
   </a>
 </div>  
-### ICPC 2024 Seoul Online Preliminary Contest <span style="float: right; ">2024. 10. 26</span>  
+### ICPC 2024 Seoul Online Preliminary Contest <span class="about__date">2024. 10. 26</span>  
   - Team ‘WhereIsWoongJae’ with Hyeonseo Kim, Jaehyun Bang
   - 201st / 455
 
@@ -73,17 +73,17 @@ Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliq
 
 ## 💼 EXPERIENCE
 
-### Math institution (hagwon) - **Topmath** <span style="float: right; ">2021. 7 ~ 2024. 7 (3 years)</span>  
+### Math institution (hagwon) - **Topmath** <span class="about__date">2021. 7 ~ 2024. 7 (3 years)</span>  
   - Math instruction in Korean high school all curriculum.
   - Calculus, probability and statistics, geometry, etc.
   - 4-10 students in a class.
  
 <!-- 
-Title - **Comapany** <span style="float: right; ">Duration</span>  
+Title - **Comapany** <span class="about__date">Duration</span>  
 _Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
 Technologies used  
 
-Title - **Comapany** <span style="float: right; ">Duration</span>  
+Title - **Comapany** <span class="about__date">Duration</span>  
 _Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
 Technologies used  
 -->
@@ -91,13 +91,13 @@ Technologies used
 ## 🚀 PROJECTS
 I want to do some project!
 
-<!-- **Title** - Description - Place <span style="float: right; ">Time span</span>  
+<!-- **Title** - Description - Place <span class="about__date">Time span</span>  
 Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse platea dictumst. Etiam facilisis velit velit, id dapibus lacus bibendum nec. Proin euismod tortor non nunc luctus, ut varius mauris tristique.  
 
-**Title** - Description - Place <span style="float: right; ">Time span</span>  
+**Title** - Description - Place <span class="about__date">Time span</span>  
 Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse platea dictumst. Etiam facilisis velit velit, id dapibus lacus bibendum nec. Proin euismod tortor non nunc luctus, ut varius mauris tristique.   -->
 
-<!-- **Title** - Description - Place <span style="float: right; ">Time span</span>  
+<!-- **Title** - Description - Place <span class="about__date">Time span</span>  
 Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse platea dictumst. Etiam facilisis velit velit, id dapibus lacus bibendum nec. Proin euismod tortor non nunc luctus, ut varius mauris tristique.   -->
 
 
