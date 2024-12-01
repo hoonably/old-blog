@@ -313,7 +313,7 @@ li {
 /* =Main Page *//*************************************************************/
 #main-img {
   border-radius: 13%;  /* 끝부분 둥글게 */
-  max-width: 250px;
+  max-width: 200px;
   margin: auto;
   margin-bottom: 3%;
 }
@@ -386,7 +386,7 @@ li {
 
   #main-img {
     border-radius: 13%;  /* 끝부분 둥글게 */
-    max-width: 200px;
+    max-width: 160px;
     margin: auto;
     margin-bottom: 3%;
   }
