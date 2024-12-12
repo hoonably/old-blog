@@ -76,6 +76,7 @@ Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliq
 ### Math institution (hagwon) - **Topmath** <span class="about__date">2021. 7 ~ 2024. 7 (3 years)</span>  
   - Math instruction in Korean high school all curriculum.
   - Calculus, probability and statistics, geometry, etc.
+  - Teaching multiple classes on my own, not just part-time.
   - 4-10 students in a class.
  
 <!-- 
@@ -104,7 +105,7 @@ Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse pl
 ## 🔭 INTERESTS
 
 - Artificial Intelligence
-- System Software
+- Operating System
 - Algorithm
   
 
