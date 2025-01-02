@@ -51,9 +51,9 @@ Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliq
 
 
 ## 🛠 PS (Problem Solving)
-### Baekjoon Online Judge (<a href="https://solved.ac/hoonably" target="_blank">solved.ac profile</a>)<span class="about__date">2023. 12. 31 ~ now</span>  
-  - 🏆 Ranking: **#579** (Top 0.39%)
-  - ⏳ Longest Streak: **300+α** Days (23.12.31 ~ now)
+### Baekjoon Online Judge (<a href="https://solved.ac/hoonably" target="_blank">solved.ac profile</a>)<span class="about__date">2023. 12. 31 ~ </span>  
+  - 🏆 Ranking: **#576** (Top 0.38%)
+  - ⏳ Longest Streak: **366** Days (23.12.31 ~ 24.12.31)
   - <a href="https://github.com/hoonably/PS" target="_blank">PS codes repository in github</a>
 <div class="responsive-links" style="display: flex; justify-content: flex-start;">
   <a href="https://solved.ac/hoonably" style="margin-right: 10px;" target="_blank">

@@ -57,8 +57,8 @@ author: "hoonably"
 
 솔직히 교수님이 PDF도 잘 만드시고, 설명도 잘해주셔서 재밌어서 가장 열심히 공부한 과목인듯 하다.
 
-A+ 어느정도는 예상했.. ㅎ
+데이터구조도 교수님의 강의가 너무 좋았지만, 내용이 대부분 이미 알던거라 컴구 공부를 더 많이 한듯 하다.
 
-1등 하고싶었는데 몇등일지 모르겠네요
+1등 하고싶었는데 몇등일지 모르겠습니다 ㅎㅎ
 
 <img width="919" alt="image" src="https://github.com/user-attachments/assets/bdc3f3c9-3b7a-4b62-8149-adb6aef35fcc" />
