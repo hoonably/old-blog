@@ -28,15 +28,20 @@ I have a dream to spend my life studying/researching with good people.
 
 ## 🎓 EDUCATION
 
-| Start | End | Institution	| Details |
-|:-------:|:-----:|:-----:|:-----:|
-| 2020 | ~ |<img src="https://github.com/user-attachments/assets/191a5ba1-dc55-49de-9cb6-39166240aa33" alt="UNIST image" width="50"/> [UNIST](https://www.unist.ac.kr/) | B.S.<br>in Computer Science & Engineering|
 
-### UNIST <span class="about__date">2020 ~ now</span>  
 
-| **Major** | Advanced Programming, System Programming, <br><a href="https://github.com/hoonably/data-structure" target="_blank">Data Structures</a>, Computer Architecture, Principles of Programming Languages |
-| **Math** | Calculus I, Applied Linear Algebra, <br>Probability and Random Process, Statistics, Discrete Mathematics |
- 
+### [UNIST](https://www.unist.ac.kr/) <span class="about__date">2020.03 ~ now</span>  
+B.S. in Computer Science & Engineering
+<img src="https://github.com/user-attachments/assets/191a5ba1-dc55-49de-9cb6-39166240aa33" alt="UNIST image" height="50"/> 
+
+<br>
+
+### [UAI](https://sites.google.com/view/uailab/home?authuser=0) <span class="about__date">2024.12 ~ now</span>
+Undergraduate Intern in UAI
+
+<img src="https://github.com/user-attachments/assets/caa6479b-6202-4464-aef3-747eea97aec4" alt="UAI_logo1" height="35"/>
+
+
 <!-- Institute <span class="about__date">Duration</span>  
 **Course**  
 Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliquam facilisis eget quis massa. Duis et ultricies diam, non venenatis nisl. Maecenas sed mauris consectetur, faucibus mi ac, commodo velit.  
@@ -104,8 +109,8 @@ Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse pl
 
 ## 🔭 INTERESTS
 
-- Artificial Intelligence
-- Operating System
+- On-device AI
+- System programming
 - Algorithm
   
 
