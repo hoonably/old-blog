@@ -1,11 +1,10 @@
 source "https://rubygems.org"
 
-gem "github-pages", "~> 228"  # github-pages와 호환되는 버전
-gem "webrick"  # webrick 추가
+gem "github-pages", "~> 228"  # GitHub Pages와 호환되는 버전
+gem "webrick"  # Ruby 3.0 이상에서 필요
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-
-gem 'csv'
-
 end
+
+gem "csv"  # group 블록 밖에서 선언

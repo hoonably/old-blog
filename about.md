@@ -5,8 +5,8 @@ title : Who am I?
 subtitle: Someone Who Lives and Breathes Computers
 # A Person Who Loves Technology
 ---
-<span style="float: right; "><a href="{{ '/pdf_files/CV_JeonghoonPark.pdf' | prepend: relative_url }}"><strong>> Download CV as PDF</strong></a> </span>
-
+<span style="float: right; "><a href="{{ '/pdf_files/CV_JeonghoonPark.pdf' | prepend: relative_url }}"><strong>> Download CV as PDF (Might not latest)</strong></a> </span>  
+<span style="float: right; "><a href="https://docs.google.com/document/d/1bB1oRGQLz7CdFOSeQ7TDATfNh-0aqKD9yZqbrmqVTZc/edit?usp=sharing"><strong>> Look CV as docs (Automatically latest)</strong></a> </span>
 
 
 

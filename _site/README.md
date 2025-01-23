@@ -15,7 +15,7 @@
 <br><br><br>
 
 <details>
-    <summary> Chirpy Jekyll Theme Detail </summary>
+    <summary> Jekyll Pudhina Theme Detail </summary>
 &nbsp;
 
 
