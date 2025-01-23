@@ -8,6 +8,9 @@ subtitle: Someone Who Lives and Breathes Computers
 <span style="float: right; "><a href="{{ '/pdf_files/CV_JeonghoonPark.pdf' | prepend: relative_url }}"><strong>> Download CV as PDF</strong></a> </span>
 
 
+
+
+
 ## 🧑🏻‍💻 Jeong Hoon Park
 <div class="responsive-images" style="text-align: left;">
   <img src="{{ 'assets/img/profile1.jpg' | prepend: relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
@@ -26,22 +29,16 @@ I have a dream to spend my life studying/researching with good people.
 </div>
 <br style="clear: both;">
 
+
+
+
+
 ## 🎓 EDUCATION
 
 | Start | End | Institution	| Details |
 |:-------:|:-----:|:-----:|:-----:|
-| 2020.03 | ~ |<img src="https://github.com/user-attachments/assets/191a5ba1-dc55-49de-9cb6-39166240aa33" alt="UNIST image" height="30"/> [UNIST](https://www.unist.ac.kr/) | 🎓 B.S. in Computer Science & Engineering|
-| 2025.01 | ~ |<img src="https://github.com/user-attachments/assets/4c165111-8680-4456-94ce-22016c1acd5c" alt="UNIST image" height="30"/> [UAI](https://sites.google.com/view/uailab/home?authuser=0) | 🥼 Undergraduate Intern in UAI Lab |
-
-
-<!-- Institute <span class="about__date">Duration</span>  
-**Course**  
-Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliquam facilisis eget quis massa. Duis et ultricies diam, non venenatis nisl. Maecenas sed mauris consectetur, faucibus mi ac, commodo velit.  
-
-Institute <span class="about__date">Duration</span>  
-**Course**  
-Description in gravida nisl. Nulla quis pharetra sem. Nam nec arcu non erat aliquam facilisis eget quis massa. Duis et ultricies diam, non venenatis nisl. Maecenas sed mauris consectetur, faucibus mi ac, commodo velit.  -->
-
+| 2020.03 | ~ |<img src="assets/img/UNIST_logo1.jpg" alt="UNIST image" width="150"/> [UNIST](https://www.unist.ac.kr/) | 🎓 Bachelor of Science<br>in Computer Science & Engineering|
+| 2025.01 | ~ |<img src="assets/img/UAI_logo1-2.png" alt="UNIST image" width="150"/> [UAI](https://sites.google.com/view/uailab/home?authuser=0) | 🥼 Undergraduate Intern<br>in Ubiquitous Artificial Intelligence Lab |
 
 
 
@@ -102,6 +99,7 @@ Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse pl
 ## 🔭 INTERESTS
 
 - On-device AI
+- Adaptive and Personalized AI
 - System programming
 - Algorithm
   
@@ -120,24 +118,20 @@ Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse pl
       <td>Expert</td>
       <td>
         <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white" alt="C++" style="display: inline-block;">
+        <img src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white" alt="C" style="display: inline-block;">
+        <img src="https://img.shields.io/badge/Python-ECD53F?style=flat&logo=Python&logoColor=white" alt="Python" style="display: inline-block;">
       </td>
     </tr>
     <tr>
       <td>Proficient</td>
       <td>
-        <img src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white" alt="C" style="display: inline-block;">
-      </td>
-    </tr>
-    <tr>
-      <td>Competent</td>
-      <td>
-        <img src="https://img.shields.io/badge/Python-ECD53F?style=flat&logo=Python&logoColor=white" alt="Python" style="display: inline-block;">
         <img src="https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white" alt="Markdown" style="display: inline-block;">
       </td>
     </tr>
     <tr>
       <td>Familiar</td>
       <td>
+        <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML" style="display: inline-block;">
         <img src="https://img.shields.io/badge/Java-FF7800?style=flat&logo=OpenJDK&logoColor=white" alt="Java" style="display: inline-block;">
       </td>
     </tr>
@@ -146,7 +140,6 @@ Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse pl
       <td>
         <img src="https://img.shields.io/badge/MariaDB-003545?style=flat&logo=MariaDB&logoColor=white" alt="MariaDB" style="display: inline-block;">
         <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white" alt="MySQL" style="display: inline-block;">
-        <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML" style="display: inline-block;">
       </td>
     </tr>
   </tbody>
