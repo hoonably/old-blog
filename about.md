@@ -11,7 +11,7 @@ subtitle: Someone Who Lives and Breathes Computers
 ## 🧑🏻‍💻 Jeong Hoon Park
 <div class="responsive-images" style="text-align: left;">
   <img src="{{ 'assets/img/profile1.jpg' | prepend: relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
-  <img src="{{ 'assets/img/profile2.jpg' | prepend: relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
+  <img src="{{ 'assets/img/profile3.jpg' | prepend: relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
 </div>
 Hello, My name is Jeonghoon Park.  
 I have a dream to spend my life studying/researching with good people.
@@ -28,18 +28,10 @@ I have a dream to spend my life studying/researching with good people.
 
 ## 🎓 EDUCATION
 
-
-
-### [UNIST](https://www.unist.ac.kr/) <span class="about__date">2020.03 ~ now</span>  
-B.S. in Computer Science & Engineering
-<img src="https://github.com/user-attachments/assets/191a5ba1-dc55-49de-9cb6-39166240aa33" alt="UNIST image" height="50"/> 
-
-<br>
-
-### [UAI](https://sites.google.com/view/uailab/home?authuser=0) <span class="about__date">2024.12 ~ now</span>
-Undergraduate Intern in UAI
-
-<img src="https://github.com/user-attachments/assets/caa6479b-6202-4464-aef3-747eea97aec4" alt="UAI_logo1" height="35"/>
+| Start | End | Institution	| Details |
+|:-------:|:-----:|:-----:|:-----:|
+| 2020.03 | ~ |<img src="https://github.com/user-attachments/assets/191a5ba1-dc55-49de-9cb6-39166240aa33" alt="UNIST image" height="30"/> [UNIST](https://www.unist.ac.kr/) | 🎓 B.S. in Computer Science & Engineering|
+| 2025.01 | ~ |<img src="https://github.com/user-attachments/assets/4c165111-8680-4456-94ce-22016c1acd5c" alt="UNIST image" height="30"/> [UAI](https://sites.google.com/view/uailab/home?authuser=0) | 🥼 Undergraduate Intern in UAI Lab |
 
 
 <!-- Institute <span class="about__date">Duration</span>  

@@ -5,4 +5,7 @@ gem "webrick"  # webrick 추가
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+
+gem 'csv'
+
 end
