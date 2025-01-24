@@ -301,7 +301,7 @@ PLATFORMS
 DEPENDENCIES
   csv
   github-pages (~> 228)
-  jekyll-feed (~> 0.12)
+  jekyll-feed
   webrick
 
 BUNDLED WITH
