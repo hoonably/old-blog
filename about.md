@@ -24,12 +24,10 @@ I have a dream to spend my life studying/researching with good people.
   </div>
   <div><a href="mailto:happypjh2001@unist.ac.kr">e-mail</a> : happypjh2001@unist.ac.kr</div>
 </div>
-<br style="clear: both;">
-
+<!-- <br style="clear: both;"> -->
 
 
 ## 🎓 EDUCATION & 💼 EXPERIENCE
-
 <table>
   <tr>
     <th>Period</th>
