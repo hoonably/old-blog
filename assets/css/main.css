@@ -14,6 +14,11 @@
     font-weight: bold;
     text-decoration: none; }
 
+  b {
+    font-weight: 600; /* 700~900 사이에서 조정 */
+    font-family: Arial, sans-serif; /* 폰트 변경 */
+  }
+
   p, ul, ol, dl {
     font-size: 100%;
     line-height: 32px; }

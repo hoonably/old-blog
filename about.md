@@ -1,13 +1,10 @@
 ---
 layout: page
-# title: Résumé
 title : Who am I?
 subtitle: Someone Who Lives and Breathes Computers
-# A Person Who Loves Technology
 ---
 <span style="float: right; "><a href="{{ '/pdf_files/CV_JeonghoonPark.pdf' | prepend: relative_url }}"><strong>> Download CV as PDF (Might not latest)</strong></a> </span>  
 <span style="float: right; "><a href="https://docs.google.com/document/d/1bB1oRGQLz7CdFOSeQ7TDATfNh-0aqKD9yZqbrmqVTZc/edit?usp=sharing"><strong>> Look CV as docs (Automatically latest)</strong></a> </span>
-
 
 
 
@@ -31,18 +28,51 @@ I have a dream to spend my life studying/researching with good people.
 
 
 
+## 🎓 EDUCATION & 💼 EXPERIENCE
 
-
-## 🎓 EDUCATION
-
-| Start | End | Institution	| Details |
-|:-------:|:-----:|:-----:|:-----:|
-| 2020.03 | ~ |<img src="assets/img/UNIST_logo1.jpg" alt="UNIST image" width="150"/> [UNIST](https://www.unist.ac.kr/) | 🎓 Bachelor of Science<br>in Computer Science & Engineering|
-| 2025.01 | ~ |<img src="assets/img/UAI_logo1-2.png" alt="UNIST image" width="150"/> [UAI](https://sites.google.com/view/uailab/home?authuser=0) | 🥼 Undergraduate Intern<br>in Ubiquitous Artificial Intelligence Lab |
-
-
-
-
+<table>
+  <tr>
+    <th>Period</th>
+    <th>Institution</th>
+    <th>Details</th>
+  </tr>
+  <tr>
+    <td>2020.03<br>~<br>now</td>
+    <td>
+      <img src="assets/img/UNIST_logo1.jpg" width="150" alt="UNIST Logo"/>
+      <a href="https://www.unist.ac.kr/" target="_blank">UNIST</a>
+    </td>
+    <td style="text-align: left;">  <!-- detail -->
+      <b>🎓 Bachelor of Science in Computer Science & Engineering</b><br>
+      - <a href="https://github.com/hoonably/data-structure.git">Data Structure repo</a>
+    </td>
+  </tr>
+  <tr>
+    <td>2021. 7<br>~<br>2024. 7</td>
+    <td>
+    <img src="https://github.com/user-attachments/assets/40592a8c-56c4-442e-bf8f-15a40e25f7ed" width="90" alt="Topmath Logo">
+    Topmath
+    </td>
+    <td style="text-align: left;">  <!-- detail -->
+      <b>🧑🏻‍🏫 Math institution (hagwon)</b><br>
+      - Math instruction in Korean high school all curriculum.<br>
+      - Calculus, probability and statistics, geometry, etc.<br>
+      - Teaching multiple classes on my own, not just part-time.<br>  
+      - 4-10 students in a class.<br>
+    </td>
+  </tr>
+  <tr>
+    <td>2025.01<br>~<br>now</td>
+    <td>
+      <img src="assets/img/UAI_logo1-2.png" width="150" alt="UAI Logo"/>
+      <a href="https://sites.google.com/view/uailab/home?authuser=0">UAI</a>
+    </td>
+    <td style="text-align: left;">  <!-- detail -->
+      <b>🥼 Undergraduate Intern in Ubiquitous Artificial Intelligence Lab</b><br>
+      - TinyLLM : <a href="https://foil-plant-837.notion.site/Jetson-Nano-181451cf7b798058b1d0dc189ab6d30d?pvs=4">Notion</a><br>
+    </td>
+  </tr>
+</table>
 
 ## 🛠 PS (Problem Solving)
 ### Baekjoon Online Judge (<a href="https://solved.ac/hoonably" target="_blank">solved.ac profile</a>)<span class="about__date">2023. 12. 31 ~ </span>  
@@ -56,35 +86,15 @@ I have a dream to spend my life studying/researching with good people.
   <a href="https://solved.ac/hoonably" target="_blank">
     <img src="http://mazandi.herokuapp.com/api?handle=hoonably&theme=dark" alt="mazandi profile">
   </a>
-</div>  
+</div>
+
 ### ICPC 2024 Seoul Online Preliminary Contest <span class="about__date">2024. 10. 26</span>  
   - Team ‘WhereIsWoongJae’ with Hyeonseo Kim, Jaehyun Bang
   - 201st / 455
 
 
-
-
-
-## 💼 EXPERIENCE
-
-### Math institution (hagwon) - **Topmath** <span class="about__date">2021. 7 ~ 2024. 7 (3 years)</span>  
-  - Math instruction in Korean high school all curriculum.
-  - Calculus, probability and statistics, geometry, etc.
-  - Teaching multiple classes on my own, not just part-time.
-  - 4-10 students in a class.
- 
-<!-- 
-Title - **Comapany** <span class="about__date">Duration</span>  
-_Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
-Technologies used  
-
-Title - **Comapany** <span class="about__date">Duration</span>  
-_Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
-Technologies used  
--->
- 
 ## 🚀 PROJECTS
-I want to do some project!
+- not yet
 
 <!-- **Title** - Description - Place <span class="about__date">Time span</span>  
 Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse platea dictumst. Etiam facilisis velit velit, id dapibus lacus bibendum nec. Proin euismod tortor non nunc luctus, ut varius mauris tristique.  
@@ -95,14 +105,22 @@ Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse pl
 <!-- **Title** - Description - Place <span class="about__date">Time span</span>  
 Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse platea dictumst. Etiam facilisis velit velit, id dapibus lacus bibendum nec. Proin euismod tortor non nunc luctus, ut varius mauris tristique.   -->
 
+<!-- 
+## 💼 EXPERIENCE
+
+Title - **Comapany** <span class="about__date">Duration</span>  
+_Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
+Technologies used  
+
+Title - **Comapany** <span class="about__date">Duration</span>  
+_Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
+Technologies used  
+-->
 
 ## 🔭 INTERESTS
 
 - On-device AI
 - Adaptive and Personalized AI
-- System programming
-- Algorithm
-  
 
 
 ## 🛠 SKILLS 
