@@ -8,5 +8,5 @@ Disallow: /assets/img/profile1.jpg
 Disallow: /assets/img/profile2.jpg
 Disallow: /assets/img/profile3.jpg
 Disallow: /assets/img/favicon.png
-
+Allow: /
 Sitemap: {{ site.url }}/sitemap.xml
