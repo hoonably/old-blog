@@ -10,8 +10,8 @@ subtitle: Someone Who Lives and Breathes Computers
 
 ## 🧑🏻‍💻 Jeong Hoon Park
 <div class="responsive-images" style="text-align: left;">
-  <img src="{{ 'assets/img/profile1.jpg' | prepend: relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
-  <img src="{{ 'assets/img/profile3.jpg' | prepend: relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
+  <img src="{{ '/assets/img/profile1.jpg' | prepend: relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
+  <img src="{{ '/assets/img/profile3.jpg' | prepend: relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
 </div>
 Hello, My name is Jeonghoon Park.  
 I have a dream to spend my life studying/researching with good people.
@@ -37,7 +37,7 @@ I have a dream to spend my life studying/researching with good people.
   <tr>
     <td>2020.03<br>~<br>now</td>
     <td>
-      <img src="assets/img/UNIST_logo1.jpg" width="150" alt="UNIST Logo"/>
+      <img src="/assets/img/UNIST_logo1.jpg" width="150" alt="UNIST Logo"/>
       <a href="https://www.unist.ac.kr/" target="_blank">UNIST</a>
     </td>
     <td style="text-align: left;">  <!-- detail -->
@@ -62,7 +62,7 @@ I have a dream to spend my life studying/researching with good people.
   <tr>
     <td>2025.01<br>~<br>now</td>
     <td>
-      <img src="assets/img/UAI_logo1-2.png" width="150" alt="UAI Logo"/>
+      <img src="/assets/img/UAI_logo1-2.png" width="150" alt="UAI Logo"/>
       <a href="https://sites.google.com/view/uailab/home?authuser=0">UAI</a>
     </td>
     <td style="text-align: left;">  <!-- detail -->
