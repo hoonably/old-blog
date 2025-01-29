@@ -203,20 +203,12 @@ table img {
   margin-left: 5px; /* 이미지와 텍스트 사이의 간격 조정 */
 }
 
-
-/* 좁아져도 양옆으로 이미지 */
-.responsive-images {
+/* 두개 이미지 가운데 정렬 */
+.two-images {
   display: flex;
-  justify-content: left;
-  align-items: center;
-  flex-wrap: nowrap; /* 줄 바꿈 방지 */
 }
-
-.responsive-images img {
-  height: 230px;
-  width: auto;
-  object-fit: cover;
-  margin-right: 5%;
+.two-images img {
+  float: none;
 }
 
 /* 좁아지면 위아래로 이미지 */
@@ -333,7 +325,7 @@ li {
 /* =Small screen *//*************************************************************/
 @media (max-width: 600px) {
   p, ul, ol, dl {
-    font-size: 100%;
+    font-size: 90%;
     line-height: 1.4; }
 
   .wrapper {
@@ -396,16 +388,23 @@ li {
     margin-bottom: 3%;
   }
 
+
+
   /* 이미지 좌우로 최대한 맞춰서 */
-  .responsive-images {
+  .two-images {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
   
   /* 좁아지면 위아래로 */
-  .responsive-images img {
-    float: none;
+  .two-images img {
+    flex: 1;
+    max-width: calc((100% - 6%) / 2); /* 좌우 마진 고려한 최대 크기 */
+    width: 100%;
+    height: auto;
+    margin: 0 3%; /* 좌우 마진 3% */
   }
   .responsive-links {
     flex-direction: column; /* 수직으로 쌓기 */

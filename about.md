@@ -9,7 +9,7 @@ subtitle: Someone Who Lives and Breathes Computers
 
 
 ## 🧑🏻‍💻 Jeong Hoon Park
-<div class="responsive-images" style="text-align: left;">
+<div class="two-images" style="text-align: left;">
   <img src="{{ '/assets/img/profile1.jpg' | prepend: relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
   <img src="{{ '/assets/img/profile3.jpg' | prepend: relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
 </div>
