@@ -46,7 +46,7 @@ I have a dream to spend my life studying/researching with good people.
     </td>
   </tr>
   <tr>
-    <td>2021. 7<br>~<br>2024. 7</td>
+    <td>2021.07<br>~<br>2024.07</td>
     <td>
     <img src="https://github.com/user-attachments/assets/40592a8c-56c4-442e-bf8f-15a40e25f7ed" width="90" alt="Topmath Logo">
     Topmath
