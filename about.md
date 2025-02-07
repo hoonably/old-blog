@@ -42,7 +42,7 @@ I have a dream to spend my life studying/researching with good people.
     </td>
     <td style="text-align: left;">  <!-- detail -->
       <b>🎓 Bachelor of Science in Computer Science & Engineering</b><br>
-      - <a href="https://github.com/hoonably/data-structure.git">Data Structure repo</a>
+      - Major subjects : Advanced Programming(OOP), System Programming,	 Data Structures, Computer Architecture, Programming Languages, Data Mining, Operating Systems, Algorithms, Information Visualization
     </td>
   </tr>
   <tr>
@@ -67,7 +67,9 @@ I have a dream to spend my life studying/researching with good people.
     </td>
     <td style="text-align: left;">  <!-- detail -->
       <b>🥼 Undergraduate Intern in Ubiquitous Artificial Intelligence Lab</b><br>
-      - TinyLLM : <a href="https://foil-plant-837.notion.site/Jetson-Nano-181451cf7b798058b1d0dc189ab6d30d?pvs=4">Notion</a><br>
+      - Beginning winter term of sophomore year<br>
+      - Presenting paper in English every two weeks<br>
+      - Conducting personal research<br>
     </td>
   </tr>
 </table>
@@ -92,11 +94,13 @@ I have a dream to spend my life studying/researching with good people.
 
 
 ## 🚀 PROJECTS
-- not yet
 
-<!-- **Title** - Description - Place <span class="about__date">Time span</span>  
-Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse platea dictumst. Etiam facilisis velit velit, id dapibus lacus bibendum nec. Proin euismod tortor non nunc luctus, ut varius mauris tristique.  
+**TinyLLM** - Measurement - UAI Lab <span class="about__date">2025.01</span>  
+- Investigating LLMs that can run in resource-constrained environments (such as on-device) and analyzed the accuracy and inference time of each model through various evaluation sets
+- <a href="https://foil-plant-837.notion.site/Jetson-Nano-181451cf7b798058b1d0dc189ab6d30d?pvs=4">Notion</a>
+- <a href="https://github.com/hoonably/TinyLLM">Github Repo</a>
 
+<!--
 **Title** - Description - Place <span class="about__date">Time span</span>  
 Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse platea dictumst. Etiam facilisis velit velit, id dapibus lacus bibendum nec. Proin euismod tortor non nunc luctus, ut varius mauris tristique.   -->
 
@@ -142,6 +146,8 @@ Technologies used
       <td>Proficient</td>
       <td>
         <img src="https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white" alt="Markdown" style="display: inline-block;">
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white" alt="Docker" style="display: inline-block;"/> 
+        <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat&logo=Visual Studio Code&logoColor=white" style="display: inline-block;">
       </td>
     </tr>
     <tr>
@@ -149,6 +155,9 @@ Technologies used
       <td>
         <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML" style="display: inline-block;">
         <img src="https://img.shields.io/badge/Java-FF7800?style=flat&logo=OpenJDK&logoColor=white" alt="Java" style="display: inline-block;">
+        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=TensorFlow&logoColor=white" alt="TensorFlow" style="display: inline-block;"/>
+        <img src="https://img.shields.io/badge/Anaconda-44A833?style=flat&logo=Anaconda&logoColor=white" style="display: inline-block;">
+        <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white" style="display: inline-block;">
       </td>
     </tr>
     <tr>
@@ -156,23 +165,25 @@ Technologies used
       <td>
         <img src="https://img.shields.io/badge/MariaDB-003545?style=flat&logo=MariaDB&logoColor=white" alt="MariaDB" style="display: inline-block;">
         <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white" alt="MySQL" style="display: inline-block;">
+        <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=Ubuntu&logoColor=white" alt="Ubuntu" style="display: inline-block;"> 
+        <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat&logo=Google Colab&logoColor=white" style="display: inline-block;">
+        <img src="https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white" style="display: inline-block;">
       </td>
     </tr>
   </tbody>
 </table>
 
 <!--
+뱃지 모음 링크 : https://velog.io/@hippohami/Git-README-%EA%BE%B8%EB%AF%B8%EA%B8%B0-%EB%B1%83%EC%A7%80-%EB%AA%A8%EC%9D%8C
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
 <img src="https://img.shields.io/badge/-Spring Boot-6DB33F?style=flat&logo=SpringBoot&logoColor=white"/>
 <img src="https://img.shields.io/badge/-Gradle-02303A?style=flat&logo=Gradle"/>
 <img src="https://img.shields.io/badge/-Flask-000000?style=flat&logo=Flask"/> 
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=TensorFlow&logoColor=white"/>
 <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=PHP&logoColor=white"/>
 <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=Laravel&logoColor=white"/>
 <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=Firebase&logoColor=white"/>
 <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat&logo=Amazon AWS&logoColor=white"/> 
 <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=Ubuntu&logoColor=white"/> 
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white"/> 
 <img src="https://img.shields.io/badge/NGINX-009639?style=flat&logo=NGINX&logoColor=white"/>
 -->
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hoonably&layout=compact&hide=javascript,css,scss&theme=dracula&langs_count=8"/>
