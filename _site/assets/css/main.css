@@ -1,7 +1,96 @@
 @charset "UTF-8";
+/* QuickSand */
+@font-face {
+  font-family: 'Quicksand';
+  src: url('/assets/fonts/Quicksand-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Quicksand';
+  src: url('/assets/fonts/Quicksand-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Quicksand';
+  src: url('/assets/fonts/Quicksand-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Quicksand';
+  src: url('/assets/fonts/Quicksand-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Quicksand';
+  src: url('/assets/fonts/Quicksand-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* 나눔바른고딕 */
+/* @font-face {
+  font-family: 'NanumBarunGothic';
+  src: url('/assets/fonts/NanumBarunGothicUltraLight.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NanumBarunGothic';
+  src: url('/assets/fonts/NanumBarunGothicLight.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NanumBarunGothic';
+  src: url('/assets/fonts/NanumBarunGothic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NanumBarunGothic';
+  src: url('/assets/fonts/NanumBarunGothicBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+} */
+
+/* 나눔스퀘어라운드 */
+@font-face {
+  font-family: 'NanumSquareRound';
+  src: url('/assets/fonts/NanumSquareRoundL.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  /* 레귤러 */
+  font-family: 'NanumSquareRound';
+  src: url('/assets/fonts/NanumSquareRoundR.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NanumSquareRound';
+  src: url('/assets/fonts/NanumSquareRoundB.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NanumSquareRound';
+  src: url('/assets/fonts/NanumSquareRoundEB.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
 /* =Base *//*************************************************************/
   body {
-    font-family: 'Quicksand', sans-serif;  
+    /* 영어는 Quicksand, 한국어는 나눔스퀘어라운드 */
+    font-family: 'Quicksand', 'NanumSquareRound', sans-serif;  
+    font-weight: 400;
     font-size: 100%;
     color: #012;
     background-color: #FFF; 
@@ -10,14 +99,22 @@
   }
 
   a {
+    /* Link */
     color: #57A;
-    font-weight: bold;
+    font-weight: 600;
     text-decoration: none; }
 
   b {
-    font-weight: 600; /* 700~900 사이에서 조정 */
-    font-family: Arial, sans-serif; /* 폰트 변경 */
+    /* <b> */
+    font-weight: 600;
   }
+
+  strong {
+    /* **강조** */
+    font-weight: 600;
+    color: #16a085; 
+  }
+
 
   p, ul, ol, dl {
     font-size: 100%;
@@ -29,30 +126,10 @@
   }
 
   blockquote {
-    letter-spacing: 3px;
-    margin: 0px;
-    margin-top: 40px;
-    margin-bottom: 70px;
-    padding: 0px;
-    text-align: center;
-    position: relative; }
-    blockquote footer {
-      position: absolute;
-      bottom: -35px;
-      font-size: 80%;
-      color: #333333;
-      letter-spacing: 0px;
-      left: 0px;
-      right: 0px; }
-    blockquote p {
-      display: inline;
-      font-size: 120%;
-      color: #828282;
-      font-weight: 400; }
-
-  strong {
-    font-weight: 400;  /*100~900*/
-    color: #16a085; 
+    letter-spacing: 1px;
+    /* text-align: center; */
+    font-style: italic; /* 인용문 느낌 강화 */
+    color: #555;
   }
 
   .wrapper {
@@ -68,7 +145,7 @@
 
   .logo {
     font-size: 300%;
-    font-weight: 700;
+    font-weight: 600;
     color: #16a085;
     display: block; }
 
@@ -105,7 +182,7 @@
     text-align: center; }
 
   .page-title__text {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 150%; }
 
   .page-title__subtitle {
@@ -118,11 +195,11 @@
     text-align: center; }
 
   .blog-title__text {
-    font-weight: 400;
+    font-weight: 600;
     font-size: 100%; }
 
   .blog-title__subtitle {
-    font-weight: 200;
+    font-weight: 400;
     font-size: 60%;
     color: #828282; }
 
@@ -136,13 +213,9 @@
 
 /* =Section Titles *//*************************************************************/
 
-/* h1, h2 등의 글꼴 두께 조정 */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 600; /* 글꼴 두께 조정 (100~900 사이의 값 사용) */
-}
-
 h1 { 
-  margin-top: 100px; /*헤더 위에 여백*/
+  font-weight: 600;
+  margin-top: 80px; /*헤더 위에 여백*/
   /* border-bottom: 2px solid #ccc; */
   padding-bottom: 10px;
   margin-bottom: 10px;
@@ -152,15 +225,15 @@ h1 {
 h2 { /* 헤더 아래에 밑줄 넣기 */
   /* border-top: 1px solid #ccc; */
   /* padding-top: 10px; */
-  margin-top: 80px; /*헤더 위에 여백*/
+  font-weight: 500;
+  margin-top: 60px; /*헤더 위에 여백*/
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
 
 h3 { /* 헤더 아래에 밑줄 넣기 */
-  /* border-top: 1px solid #ccc; */
-  /* padding-top: 10px; */
+  font-weight: 400;
   margin-top: 30px; /*헤더 위에 여백*/
   border-bottom: 0.3px solid #ccc;
   padding-bottom: 5px;
@@ -173,9 +246,12 @@ table {
   border-collapse: collapse;
 }
 
-table, th, td {
-  border: 1px solid black;
+th, td {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
 }
+
 
 th, td {
   padding: 10px;
@@ -203,26 +279,12 @@ table img {
   margin-left: 5px; /* 이미지와 텍스트 사이의 간격 조정 */
 }
 
-/* 두개 이미지 가운데 정렬 */
+/* 두개 이미지 한 줄에, 좁아지면 이미지도 작아짐*/
 .two-images {
   display: flex;
 }
 .two-images img {
   float: none;
-}
-
-/* 좁아지면 위아래로 이미지 */
-.responsive-links {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.responsive-links a {
-  margin-right: 10px;
-}
-
-.responsive-links a:last-child {
-  margin-right: 0;
 }
 
 /* =List (목록) *//*************************************************************/
@@ -397,7 +459,6 @@ li {
     align-items: center;
     width: 100%;
   }
-  
   /* 좁아지면 위아래로 */
   .two-images img {
     flex: 1;
@@ -405,17 +466,6 @@ li {
     width: 100%;
     height: auto;
     margin: 0 3%; /* 좌우 마진 3% */
-  }
-  .responsive-links {
-    flex-direction: column; /* 수직으로 쌓기 */
-    align-items: flex-start; /* 왼쪽 정렬 */
-  }
-  .responsive-links a {
-    margin-right: 0;
-    margin-bottom: 10px; /* 링크 사이 여백 추가 */
-  }
-  .responsive-links a:last-child {
-    margin-bottom: 0;
   }
 }
 
@@ -630,47 +680,55 @@ li {
   100% {
     text-shadow: -1px 0 0 blue, 1px 0 0 lime; } }
 
-      
-/* Custom */
-.go-home {
-  text-align: center; }
 
-/* 복사 버튼 스타일 */
+/* 📌 복사 버튼 스타일 (Notion 스타일) */
 .copy-button {
   position: absolute;
-  right: 5px;
-  top: 5px;
-  background: #4CAF50;
-  color: white;
+  right: 12px;
+  top: 12px;
+  background: #E1E1E1;
+  color: #3D3D3D;
   border: none;
-  padding: 7px 15px;
+  padding: 5px 10px;
   cursor: pointer;
-  border-radius: 10px;
-  font-size: 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  transition: background 0.2s;
 }
 
-/* 코드 블록 스타일 */
+.copy-button:hover {
+  background: #D6D6D6;
+}
+
+/* 📌 Notion 스타일 코드 블럭 */
 pre {
   position: relative;
-  background: #3d3d3d; /* 배경색 */
-  border: 0.5px solid #ddd; /* 테두리 */
-  border-radius: 10px; /* 모서리 둥글게 */
-  padding: 10px; /* 안쪽 여백 */
-  padding-top: 40px;
+  background: #F6F6F6; /* 밝은 회색 배경 */
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  padding: 8px;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 14px;
+  color: #333;
+  overflow-x: auto;
 }
 
-/* 코드 블록 안의 코드 스타일 */
+/* 📌 코드 블록 내부 스타일 */
 pre code {
-  position: relative;
-  border-radius: 10px; /* 모서리 둥글게 */
+  background: none;
+  color: #EB5757; /* 기본 코드 텍스트 색상 (빨간색) */
+  font-size: 14px;
+  border-radius: 6px;
 }
 
-/* 인라인 코드 스타일 */
+/* 📌 인라인 코드 블럭 스타일 */
 p code {
-  background-color: #e0e0e0; /* 배경색 */
-  border: 1px solid #404040;
-  border-radius: 3px; /* 모서리 둥글게 */
-  padding: 3px 5px; /* 안쪽 여백 */
-  font-size: 14px; /* 폰트 크기 */
-  color: #333; /* 글자색 */
+  background-color: rgba(135, 131, 120, 0.15);
+  color: #EB5757;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 14px;
+  white-space: nowrap;
 }
+

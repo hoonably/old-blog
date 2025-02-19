@@ -21,7 +21,7 @@
 <link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="stylesheet" href="/assets/vendor/highlight/styles/darkula.css">
+<link rel="stylesheet" href="/assets/vendor/highlight/styles/github.css">
 
 <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.css">
 <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> -->
@@ -30,7 +30,7 @@
 <link rel="stylesheet" href="/assets/vendor/normalize-css/normalize.css">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="stylesheet" href="/assets/vendor/highlight/styles/darkula.css">
+<link rel="stylesheet" href="/assets/vendor/highlight/styles/github.css">
 
 <link rel="stylesheet" href="/assets/vendor/font-awesome/css/font-awesome.css">
 <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
@@ -64,6 +64,24 @@
 
 </ul>
 </header>
+<!-- highlight.js 추가 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll("pre code").forEach(block => {
+      hljs.highlightElement(block);
+      const language = block.className.split("language-")[1]; // 언어명 추출
+      if (language) {
+        const label = document.createElement("div");
+        label.className = "code-label";
+        label.innerText = language.toUpperCase();
+        block.parentNode.insertBefore(label, block);
+      }
+    });
+  });
+</script>
+
 <h1 class="page-title">
 <div class="page-title__text">Hello</div>
 <div class="page-title__subtitle">My name is Jeonghoon Park</div>
