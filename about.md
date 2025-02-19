@@ -118,7 +118,7 @@ I have a dream to spend my life studying/researching with good people.
 
 ## 🛠 SKILLS 
 
-**Languages**
+<b>Languages</b>
 <p>
   <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white" alt="C++" style="display: inline-block;">
   <img src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white" alt="C" style="display: inline-block;">
@@ -129,13 +129,13 @@ I have a dream to spend my life studying/researching with good people.
   <img src="https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white" style="display: inline-block;">
 </p>
 
-**Libraries / Frameworks**
+<b>Libraries / Frameworks</b>
 <p>
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=TensorFlow&logoColor=white" alt="TensorFlow" style="display: inline-block;">
 <img src="https://img.shields.io/badge/Anaconda-44A833?style=flat&logo=Anaconda&logoColor=white" alt="Anaconda" style="display: inline-block;">
 </p>
 
-**Tools / Platforms**
+<b>Tools / Platforms</b>
 <p>
 <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white" alt="GitHub" style="display: inline-block;">
 <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat&logo=Visual Studio Code&logoColor=white" alt="VSCode" style="display: inline-block;">
@@ -143,13 +143,13 @@ I have a dream to spend my life studying/researching with good people.
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white" alt="Docker" style="display: inline-block;">
 </p>
 
-**Databases**
+<b>Databases</b>
 <p>
 <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white" alt="MySQL" style="display: inline-block;">
 <img src="https://img.shields.io/badge/MariaDB-003545?style=flat&logo=MariaDB&logoColor=white" alt="MariaDB" style="display: inline-block;">
 </p>
 
-**Operating Systems**
+<b>Operating Systems</b>
 <p>
 <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=Ubuntu&logoColor=white" alt="Ubuntu" style="display: inline-block;">
 </p>
