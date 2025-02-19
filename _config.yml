@@ -42,4 +42,5 @@ markdown: kramdown
 
 plugins:
   - jekyll-sitemap
-  - jekyll-seo-tag
+  - jekyll-seo-
+  - jekyll-feed
