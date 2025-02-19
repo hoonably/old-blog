@@ -302,6 +302,8 @@ DEPENDENCIES
   csv
   github-pages (~> 228)
   jekyll-feed (~> 0.12)
+  jekyll-seo-tag
+  jekyll-sitemap
   webrick
 
 BUNDLED WITH
