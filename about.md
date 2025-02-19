@@ -186,7 +186,7 @@ I have a dream to spend my life studying/researching with good people.
 <!-- https://github.com/ryo-ma/github-profile-trophy -->
 <!-- <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=hoonably&theme=onedark" alt="hoonably" /></a> </p> -->
 
-![trophy](https://github-profile-trophy.vercel.app/?username=hoonably&title=MultiLanguage,Commits,Experience,Organizations,Repositories,PullRequest,Followers&column=8)
+![trophy](https://github-profile-trophy.vercel.app/?username=hoonably&title=MultiLanguage,Commits,Experience,Organizations,Repositories,PullRequest,Followers&column=5)
 <!-- Github에서는 &theme=onedark 사용 -->
 <!-- ![trophy](https://github-profile-trophy.vercel.app/?username=hoonably&title=MultiLanguage,Commits,Experience,Organizations,Repositories,PullRequest,Followers&column=8&theme=onedark) -->
 
