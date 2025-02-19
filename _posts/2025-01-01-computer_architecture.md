@@ -19,12 +19,12 @@ author: "hoonably"
 - 중간고사 범위
 - abstraction ~ instructions ~ arithmetic ~ performance
 
-<a href="{{ '/pdf_files/Computer_Architecture/CA_mid.pdf' | prepend: relative_url }}"><strong>> 중간고사 범위 정리 </strong></a>
+<a href="{{ '/pdf_files/Computer_Architecture/CA_mid.pdf' | prepend: relative_url }}"> 중간고사 범위 정리 </a>
 
 - 기말고사 범위
 - Logic Design Basics ~ Processor ~ Memory ~ Parallel Architecture
 
-<a href="{{ '/pdf_files/Computer_Architecture/CA_final.pdf' | prepend: relative_url }}"><strong>> 기말고사 범위 정리 </strong></a>
+<a href="{{ '/pdf_files/Computer_Architecture/CA_final.pdf' | prepend: relative_url }}"> 기말고사 범위 정리 </a>
 
 ## 💡 문제
 
@@ -34,16 +34,16 @@ author: "hoonably"
 
 - 중간고사 범위
 
-<a href="{{ '/pdf_files/Computer_Architecture/CA_mid_prob.pdf' | prepend: relative_url }}"><strong>> 중간고사 예상문제 </strong></a>
+<a href="{{ '/pdf_files/Computer_Architecture/CA_mid_prob.pdf' | prepend: relative_url }}"> 중간고사 예상문제 </a>
 
 - 중간고사 문제 답 (따로 있음)
 
-<a href="{{ '/pdf_files/Computer_Architecture/CA_mid_ans.pdf' | prepend: relative_url }}"><strong>> 중간고사 예상문제 정답 </strong></a>
+<a href="{{ '/pdf_files/Computer_Architecture/CA_mid_ans.pdf' | prepend: relative_url }}"> 중간고사 예상문제 정답 </a>
 
 
 - 기말고사 범위 (각 문제의 아래에 답)
 
-<a href="{{ '/pdf_files/Computer_Architecture/CA_final_prob.pdf' | prepend: relative_url }}"><strong>> 기말고사 예상문제 </strong></a>
+<a href="{{ '/pdf_files/Computer_Architecture/CA_final_prob.pdf' | prepend: relative_url }}"> 기말고사 예상문제 </a>
 
 
 
