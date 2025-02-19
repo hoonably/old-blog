@@ -6,7 +6,8 @@ subtitle: Someone Who Lives and Breathes Computers
 <span style="float: right; "><a href="{{ '/pdf_files/CV_JeonghoonPark.pdf' | prepend: relative_url }}"><strong>> Download CV as PDF (Might not latest)</strong></a> </span>  
 <span style="float: right; "><a href="https://docs.google.com/document/d/1bB1oRGQLz7CdFOSeQ7TDATfNh-0aqKD9yZqbrmqVTZc/edit?usp=sharing"><strong>> Look CV as docs (Automatically latest)</strong></a> </span>
 
-
+<!-- For Github -->
+<!-- [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhoonably&count_bg=%23B5E1FF&title_bg=%2383B2FF&icon=smugmug.svg&icon_color=%23E7E7E7&title=VISIT&edge_flat=false)](https://github.com/hoonably) -->
 
 ## 🧑🏻‍💻 Jeong Hoon Park
 <div class="two-images" style="text-align: left;">
@@ -15,17 +16,14 @@ subtitle: Someone Who Lives and Breathes Computers
 </div>
 Hello, My name is Jeonghoon Park.  
 I have a dream to spend my life studying/researching with good people.
-<br>
-<div class="about__text">
-  <div>
-    <a href="https://github.com/hoonably"><img src="https://img.shields.io/badge/-Github-181717?style=flat&logo=GitHub&logoColor=white&" style="height: 25px;"></a>
-    <a href="https://www.linkedin.com/in/hoonably"><img src="https://img.shields.io/badge/linkedin-0A66C2?style=flat&logo=linkedin&logoColor=white&" style="height: 25px;"></a>
-    <a href="https://www.instagram.com/hoonably"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white&" style="height: 25px;"></a>
-  </div>
-  <div><a href="mailto:happypjh2001@unist.ac.kr">e-mail</a> : happypjh2001@unist.ac.kr</div>
+<div>
+  <a href="https://hoonably.github.io/"><img src="https://img.shields.io/badge/-Website-EF4223?style=flat&logo=codeigniter&logoColor=white&" style="height: 25px; display: inline-block;"></a>
+  <a href="https://github.com/hoonably"><img src="https://img.shields.io/badge/-Github-181717?style=flat&logo=GitHub&logoColor=white&" style="height: 25px; display: inline-block;"></a>
+  <a href="https://www.linkedin.com/in/hoonably"><img src="https://img.shields.io/badge/linkedin-0A66C2?style=flat&logo=linkedin&logoColor=white&" style="height: 25px; display: inline-block;"></a>
+  <a href="https://www.instagram.com/hoonably"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat&logo=instagram&logoColor=white&" style="height: 25px; display: inline-block;"></a>
 </div>
-<!-- <br style="clear: both;"> -->
 
+<br>
 
 ## 🎓 EDUCATION & 💼 EXPERIENCE
 <table>
@@ -37,7 +35,7 @@ I have a dream to spend my life studying/researching with good people.
   <tr>
     <td>2020.03<br>~<br>now</td>
     <td>
-      <img src="/assets/img/UNIST_logo1.jpg" width="150" alt="UNIST Logo"/>
+      <img src="https://github.com/user-attachments/assets/9202b661-f7a6-4d80-9b4f-10f1bc5a7654" width="150" alt="UNIST Logo"/><br>
       <a href="https://www.unist.ac.kr/" target="_blank">UNIST</a>
     </td>
     <td style="text-align: left;">  <!-- detail -->
@@ -48,7 +46,7 @@ I have a dream to spend my life studying/researching with good people.
   <tr>
     <td>2021.07<br>~<br>2024.07</td>
     <td>
-    <img src="https://github.com/user-attachments/assets/40592a8c-56c4-442e-bf8f-15a40e25f7ed" width="90" alt="Topmath Logo">
+    <img src="https://github.com/user-attachments/assets/40592a8c-56c4-442e-bf8f-15a40e25f7ed" width="90" alt="Topmath Logo"/><br>
     Topmath
     </td>
     <td style="text-align: left;">  <!-- detail -->
@@ -62,7 +60,7 @@ I have a dream to spend my life studying/researching with good people.
   <tr>
     <td>2025.01<br>~<br>now</td>
     <td>
-      <img src="/assets/img/UAI_logo1-2.png" width="150" alt="UAI Logo"/>
+      <img src="https://github.com/user-attachments/assets/61a0d2c3-2b5d-4809-a8f2-e9288681715e" width="150" alt="UAI Logo"/><br>
       <a href="https://sites.google.com/view/uailab/home?authuser=0">UAI</a>
     </td>
     <td style="text-align: left;">  <!-- detail -->
@@ -73,57 +71,50 @@ I have a dream to spend my life studying/researching with good people.
     </td>
   </tr>
 </table>
+<br><br>
+
+<!--
+글자색 넣기
+<p>$\huge{\rm{\color{#5ad7b7}큰글씨\ 로만체\ 초록색}}$</p>
+<p>$\bf{\large{\color{#6580DD}두꺼운\ 글씨체,\ 큰글씨,\ 파란색}}$</p>
+<p>$\it{\large{\color{#DD6565}이텔릭체,\ 큰글씨,\ 빨간색}}$</p>
+-->
 
 ## 🛠 PS (Problem Solving)
-### Baekjoon Online Judge (<a href="https://solved.ac/hoonably" target="_blank">solved.ac profile</a>)<span class="about__date">2023. 12. 31 ~ </span>  
+### Baekjoon Online Judge (<a href="https://solved.ac/hoonably" target="_blank">solved.ac profile</a>)
+  - 2023.12.31 ~ 
   - 🏆 Ranking: **#576** (Top 0.38%)
   - ⏳ Longest Streak: **366** Days (23.12.31 ~ 24.12.31)
   - <a href="https://github.com/hoonably/PS" target="_blank">PS codes repository in github</a>
-<div class="responsive-links" style="display: flex; justify-content: flex-start;">
+
   <a href="https://solved.ac/hoonably" style="margin-right: 10px;" target="_blank">
-    <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=hoonably" alt="Solved.ac 프로필">
+    <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=hoonably" alt="Solved.ac 프로필" style="display: inline-block;">
   </a>
   <a href="https://solved.ac/hoonably" target="_blank">
-    <img src="http://mazandi.herokuapp.com/api?handle=hoonably&theme=dark" alt="mazandi profile">
+    <img src="http://mazandi.herokuapp.com/api?handle=hoonably&theme=dark" alt="mazandi profile" style="display: inline-block;">
   </a>
-</div>
 
-### ICPC 2024 Seoul Online Preliminary Contest <span class="about__date">2024. 10. 26</span>  
+### ICPC 2024 Seoul Online Preliminary Contest 
+  - 2024.10.26
   - Team ‘WhereIsWoongJae’ with Hyeonseo Kim, Jaehyun Bang
   - 201st / 455
 
+<br><br>
 
 ## 🚀 PROJECTS
-
-**TinyLLM** - Measurement - UAI Lab <span class="about__date">2025.01</span>  
+### **TinyLLM** - Measurement - UAI Lab <span class="about__date">2025.01</span>  
 - Investigating LLMs that can run in resource-constrained environments (such as on-device) and analyzed the accuracy and inference time of each model through various evaluation sets
 - <a href="https://foil-plant-837.notion.site/Jetson-Nano-181451cf7b798058b1d0dc189ab6d30d?pvs=4">Notion</a>
 - <a href="https://github.com/hoonably/TinyLLM">Github Repo</a>
 
-<!--
-**Title** - Description - Place <span class="about__date">Time span</span>  
-Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse platea dictumst. Etiam facilisis velit velit, id dapibus lacus bibendum nec. Proin euismod tortor non nunc luctus, ut varius mauris tristique.   -->
-
-<!-- **Title** - Description - Place <span class="about__date">Time span</span>  
-Pellentesque euismod odio nec mollis rutrum. Nulla facilisi. In hac habitasse platea dictumst. Etiam facilisis velit velit, id dapibus lacus bibendum nec. Proin euismod tortor non nunc luctus, ut varius mauris tristique.   -->
-
-<!-- 
-## 💼 EXPERIENCE
-
-Title - **Comapany** <span class="about__date">Duration</span>  
-_Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
-Technologies used  
-
-Title - **Comapany** <span class="about__date">Duration</span>  
-_Description Phasellus a tellus volutpat, ornare sapien et, lacinia erat. Suspendisse congue, enim vitae mattis pulvinar, eros lacus porttitor neque, eu sodales nibh metus nec arcu. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;_  
-Technologies used  
--->
+<br><br>
 
 ## 🔭 INTERESTS
 
 - On-device AI
 - Adaptive and Personalized AI
 
+<br><br>
 
 ## 🛠 SKILLS 
 <table>
@@ -174,16 +165,30 @@ Technologies used
 </table>
 
 <!--
-뱃지 모음 링크 : https://velog.io/@hippohami/Git-README-%EA%BE%B8%EB%AF%B8%EA%B8%B0-%EB%B1%83%EC%A7%80-%EB%AA%A8%EC%9D%8C
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
 <img src="https://img.shields.io/badge/-Spring Boot-6DB33F?style=flat&logo=SpringBoot&logoColor=white"/>
 <img src="https://img.shields.io/badge/-Gradle-02303A?style=flat&logo=Gradle"/>
 <img src="https://img.shields.io/badge/-Flask-000000?style=flat&logo=Flask"/> 
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=TensorFlow&logoColor=white"/>
 <img src="https://img.shields.io/badge/PHP-777BB4?style=flat&logo=PHP&logoColor=white"/>
 <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=Laravel&logoColor=white"/>
 <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=Firebase&logoColor=white"/>
 <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat&logo=Amazon AWS&logoColor=white"/> 
 <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=Ubuntu&logoColor=white"/> 
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white"/> 
 <img src="https://img.shields.io/badge/NGINX-009639?style=flat&logo=NGINX&logoColor=white"/>
 -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hoonably&layout=compact&hide=javascript,css,scss&theme=dracula&langs_count=8"/>
+
+<br><br>
+
+## GITHUB STATS
+
+<!-- https://github.com/ryo-ma/github-profile-trophy -->
+<!-- <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=hoonably&theme=onedark" alt="hoonably" /></a> </p> -->
+
+![trophy](https://github-profile-trophy.vercel.app/?username=hoonably&title=MultiLanguage,Commits,Experience,Organizations,Repositories,PullRequest,Followers&column=8)
+<!-- Github에서는 &theme=onedark 사용 -->
+<!-- ![trophy](https://github-profile-trophy.vercel.app/?username=hoonably&title=MultiLanguage,Commits,Experience,Organizations,Repositories,PullRequest,Followers&column=8&theme=onedark) -->
+
+<img src="https://ghchart.rshah.org/hoonably" />
+<!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hoonably&layout=compact&hide=javascript,css,scss&theme=dracula&langs_count=8"/> -->
