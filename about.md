@@ -80,6 +80,21 @@ I have a dream to spend my life studying/researching with good people.
 <p>$\it{\large{\color{#DD6565}이텔릭체,\ 큰글씨,\ 빨간색}}$</p>
 -->
 
+## 🚀 PROJECTS
+### **TinyLLM** - Measurement - UAI Lab <span class="about__date">2025.01</span>  
+- Investigating LLMs that can run in resource-constrained environments (such as on-device) and analyzed the accuracy and inference time of each model through various evaluation sets
+- <a href="https://foil-plant-837.notion.site/Jetson-Nano-181451cf7b798058b1d0dc189ab6d30d?pvs=4">Notion</a>
+- <a href="https://github.com/hoonably/TinyLLM">Github Repo</a>
+
+<br><br>
+
+## 🔭 INTERESTS
+
+- On-device AI
+- Adaptive and Personalized AI
+
+<br><br>
+
 ## 🛠 PS (Problem Solving)
 ### Baekjoon Online Judge (<a href="https://solved.ac/hoonably" target="_blank">solved.ac profile</a>)
   - 2023.12.31 ~ 
@@ -101,71 +116,46 @@ I have a dream to spend my life studying/researching with good people.
 
 <br><br>
 
-## 🚀 PROJECTS
-### **TinyLLM** - Measurement - UAI Lab <span class="about__date">2025.01</span>  
-- Investigating LLMs that can run in resource-constrained environments (such as on-device) and analyzed the accuracy and inference time of each model through various evaluation sets
-- <a href="https://foil-plant-837.notion.site/Jetson-Nano-181451cf7b798058b1d0dc189ab6d30d?pvs=4">Notion</a>
-- <a href="https://github.com/hoonably/TinyLLM">Github Repo</a>
-
-<br><br>
-
-## 🔭 INTERESTS
-
-- On-device AI
-- Adaptive and Personalized AI
-
-<br><br>
-
 ## 🛠 SKILLS 
-<table>
-  <thead>
-    <tr>
-      <th>Level</th>
-      <th>Languages</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Expert</td>
-      <td>
-        <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white" alt="C++" style="display: inline-block;">
-        <img src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white" alt="C" style="display: inline-block;">
-        <img src="https://img.shields.io/badge/Python-ECD53F?style=flat&logo=Python&logoColor=white" alt="Python" style="display: inline-block;">
-      </td>
-    </tr>
-    <tr>
-      <td>Proficient</td>
-      <td>
-        <img src="https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white" alt="Markdown" style="display: inline-block;">
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white" alt="Docker" style="display: inline-block;"/> 
-        <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat&logo=Visual Studio Code&logoColor=white" style="display: inline-block;">
-      </td>
-    </tr>
-    <tr>
-      <td>Familiar</td>
-      <td>
-        <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML" style="display: inline-block;">
-        <img src="https://img.shields.io/badge/Java-FF7800?style=flat&logo=OpenJDK&logoColor=white" alt="Java" style="display: inline-block;">
-        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=TensorFlow&logoColor=white" alt="TensorFlow" style="display: inline-block;"/>
-        <img src="https://img.shields.io/badge/Anaconda-44A833?style=flat&logo=Anaconda&logoColor=white" style="display: inline-block;">
-        <img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white" style="display: inline-block;">
-      </td>
-    </tr>
-    <tr>
-      <td>Novice</td>
-      <td>
-        <img src="https://img.shields.io/badge/MariaDB-003545?style=flat&logo=MariaDB&logoColor=white" alt="MariaDB" style="display: inline-block;">
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white" alt="MySQL" style="display: inline-block;">
-        <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=Ubuntu&logoColor=white" alt="Ubuntu" style="display: inline-block;"> 
-        <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat&logo=Google Colab&logoColor=white" style="display: inline-block;">
-        <img src="https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white" style="display: inline-block;">
-      </td>
-    </tr>
-  </tbody>
-</table>
+
+**Languages**
+<p>
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white" alt="C++" style="display: inline-block;">
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white" alt="C" style="display: inline-block;">
+  <img src="https://img.shields.io/badge/Python-ECD53F?style=flat&logo=Python&logoColor=white" alt="Python" style="display: inline-block;">
+  <img src="https://img.shields.io/badge/Java-FF7800?style=flat&logo=OpenJDK&logoColor=white" alt="Java" style="display: inline-block;">
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML" style="display: inline-block;">
+  <img src="https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white" alt="Markdown" style="display: inline-block;">
+  <img src="https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white" style="display: inline-block;">
+</p>
+
+**Libraries / Frameworks**
+<p>
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=TensorFlow&logoColor=white" alt="TensorFlow" style="display: inline-block;">
+<img src="https://img.shields.io/badge/Anaconda-44A833?style=flat&logo=Anaconda&logoColor=white" alt="Anaconda" style="display: inline-block;">
+</p>
+
+**Tools / Platforms**
+<p>
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white" alt="GitHub" style="display: inline-block;">
+<img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat&logo=Visual Studio Code&logoColor=white" alt="VSCode" style="display: inline-block;">
+<img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat&logo=Google Colab&logoColor=white" alt="Google Colab" style="display: inline-block;">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white" alt="Docker" style="display: inline-block;">
+</p>
+
+**Databases**
+<p>
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white" alt="MySQL" style="display: inline-block;">
+<img src="https://img.shields.io/badge/MariaDB-003545?style=flat&logo=MariaDB&logoColor=white" alt="MariaDB" style="display: inline-block;">
+</p>
+
+**Operating Systems**
+<p>
+<img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=Ubuntu&logoColor=white" alt="Ubuntu" style="display: inline-block;">
+</p>
+
 
 <!--
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat&logo=css3&logoColor=white)
 <img src="https://img.shields.io/badge/-Spring Boot-6DB33F?style=flat&logo=SpringBoot&logoColor=white"/>
 <img src="https://img.shields.io/badge/-Gradle-02303A?style=flat&logo=Gradle"/>
 <img src="https://img.shields.io/badge/-Flask-000000?style=flat&logo=Flask"/> 
@@ -174,8 +164,6 @@ I have a dream to spend my life studying/researching with good people.
 <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat&logo=Laravel&logoColor=white"/>
 <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=Firebase&logoColor=white"/>
 <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat&logo=Amazon AWS&logoColor=white"/> 
-<img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=Ubuntu&logoColor=white"/> 
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white"/> 
 <img src="https://img.shields.io/badge/NGINX-009639?style=flat&logo=NGINX&logoColor=white"/>
 -->
 
