@@ -116,42 +116,48 @@ I have a dream to spend my life studying/researching with good people.
 
 <br><br>
 
-## 🛠 SKILLS 
+## 🛠 SKILLS
 
 <b>Languages</b>
 <p>
-  <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white" alt="C++" style="display: inline-block;">
-  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white" alt="C" style="display: inline-block;">
-  <img src="https://img.shields.io/badge/Python-ECD53F?style=flat&logo=Python&logoColor=white" alt="Python" style="display: inline-block;">
-  <img src="https://img.shields.io/badge/Java-FF7800?style=flat&logo=OpenJDK&logoColor=white" alt="Java" style="display: inline-block;">
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML" style="display: inline-block;">
-  <img src="https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white" alt="Markdown" style="display: inline-block;">
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white" style="display: inline-block;">
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=white" style="display: inline-block;">
+  <img src="https://img.shields.io/badge/Python-ECD53F?style=flat&logo=Python&logoColor=white" style="display: inline-block;">
+  <img src="https://img.shields.io/badge/Java-FF7800?style=flat&logo=OpenJDK&logoColor=white" style="display: inline-block;">
+  <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" style="display: inline-block;">
+  <img src="https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white" style="display: inline-block;">
   <img src="https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white" style="display: inline-block;">
 </p>
 
 <b>Libraries / Frameworks</b>
 <p>
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=TensorFlow&logoColor=white" alt="TensorFlow" style="display: inline-block;">
-<img src="https://img.shields.io/badge/Anaconda-44A833?style=flat&logo=Anaconda&logoColor=white" alt="Anaconda" style="display: inline-block;">
+<img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white" style="display: inline-block;">
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=TensorFlow&logoColor=white" style="display: inline-block;">
+<img src="https://img.shields.io/badge/Anaconda-44A833?style=flat&logo=Anaconda&logoColor=white" style="display: inline-block;">
+<img src="https://img.shields.io/badge/cuda-000000.svg?style=flat&logo=nVIDIA&logoColor=green" style="display: inline-block;">
 </p>
 
 <b>Tools / Platforms</b>
 <p>
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white" alt="GitHub" style="display: inline-block;">
-<img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat&logo=Visual Studio Code&logoColor=white" alt="VSCode" style="display: inline-block;">
-<img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat&logo=Google Colab&logoColor=white" alt="Google Colab" style="display: inline-block;">
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white" alt="Docker" style="display: inline-block;">
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white" style="display: inline-block;">
+<img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat&logo=Visual Studio Code&logoColor=white" style="display: inline-block;">
+<img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat&logo=Google Colab&logoColor=white" style="display: inline-block;">
+<img src="https://img.shields.io/badge/Notion-%23000000.svg?style=flat&logo=notion&logoColor=white" style="display: inline-block;">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white" style="display: inline-block;">
+<img src="https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=flat&logo=kubernetes&logoColor=white
+" style="display: inline-block;">
 </p>
 
 <b>Databases</b>
 <p>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white" alt="MySQL" style="display: inline-block;">
-<img src="https://img.shields.io/badge/MariaDB-003545?style=flat&logo=MariaDB&logoColor=white" alt="MariaDB" style="display: inline-block;">
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=MySQL&logoColor=white" style="display: inline-block;">
+<img src="https://img.shields.io/badge/MariaDB-003545?style=flat&logo=MariaDB&logoColor=white" style="display: inline-block;">
 </p>
 
 <b>Operating Systems</b>
 <p>
-<img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=Ubuntu&logoColor=white" alt="Ubuntu" style="display: inline-block;">
+<img src="https://img.shields.io/badge/mac%20os-000000?style=flat&logo=macos&logoColor=F0F0F0" style="display: inline-block;">
+<img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=Ubuntu&logoColor=white" style="display: inline-block;">
 </p>
 
 
