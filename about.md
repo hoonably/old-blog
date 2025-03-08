@@ -116,7 +116,7 @@ I have a dream to spend my life studying/researching with good people.
 
 <br><br>
 
-## 🛠 SKILLS
+## 🛠 SKILLS & TRIED
 
 <b>Languages</b>
 <p>
@@ -126,15 +126,15 @@ I have a dream to spend my life studying/researching with good people.
   <img src="https://img.shields.io/badge/Java-FF7800?style=flat&logo=OpenJDK&logoColor=white" style="display: inline-block;">
   <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" style="display: inline-block;">
   <img src="https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white" style="display: inline-block;">
-  <img src="https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white" style="display: inline-block;">
+  <!-- <img src="https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white" style="display: inline-block;"> -->
 </p>
 
 <b>Libraries / Frameworks</b>
 <p>
 <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white" style="display: inline-block;">
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=TensorFlow&logoColor=white" style="display: inline-block;">
+<!-- <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=TensorFlow&logoColor=white" style="display: inline-block;"> -->
 <img src="https://img.shields.io/badge/Anaconda-44A833?style=flat&logo=Anaconda&logoColor=white" style="display: inline-block;">
-<img src="https://img.shields.io/badge/cuda-000000.svg?style=flat&logo=nVIDIA&logoColor=green" style="display: inline-block;">
+<!-- <img src="https://img.shields.io/badge/cuda-000000.svg?style=flat&logo=nVIDIA&logoColor=green" style="display: inline-block;"> -->
 </p>
 
 <b>Tools / Platforms</b>
