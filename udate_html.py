@@ -6,6 +6,7 @@ from datetime import datetime
 # 1. 다운받은 html 파일을 이름변경하지 않고 이 파일과 같은 위치로 옮깁니다.
 # 2. 이 스크립트를 실행하여 Notion에서 받은 HTML 파일의 이미지 경로를 Jekyll 형식으로 변환합니다.
 # 3. 이미지와 pdf 등이 있는 폴더를 이름변경하고 assets/images/ 폴더로 옮깁니다.
+# 4. 기존 html 파일을 삭제합니다.
 
 
 # 현재 날짜 및 시간 설정
