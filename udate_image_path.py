@@ -30,9 +30,31 @@ updated_html = re.sub(
     html_content
 )
 
+# ✅ `white-space: pre-wrap;`을 주석 처리
+updated_html = re.sub(
+    r'(white-space:\s*pre-wrap;)',  # 찾을 패턴
+    '', # 삭제
+    updated_html
+)
+
+# ✅ `a,` (콤마 포함) 제거하여 `a.visited`만 남기기
+updated_html = re.sub(
+    r'a,\s*\n',  # `a,`와 줄바꿈을 포함한 패턴 찾기
+    '',  # 삭제
+    updated_html
+)
+
+# ✅ <header> 태그 삭제
+updated_html = re.sub(
+    r'<header[\s\S]*?</header>',  # <header>와 </header> 사이의 모든 내용 삭제
+    '',
+    updated_html
+)
+
+
 # 업데이트된 HTML 저장
 jekyll_html_file = file_name + ".html"  # Jekyll에서 사용할 HTML 파일 이름
 with open(jekyll_html_file, "w", encoding="utf-8") as file:
     file.write(updated_html)
 
-print(f"✅ 이미지 경로가 Jekyll 형식으로 변환되었습니다! ➝ {jekyll_html_file}")
+print(f"✅ 이미지 경로가 Jekyll 형식으로 변환되었고, 필요없는 부분이 수정되었습니다! ➝ {jekyll_html_file} 파일을 끌어서 _posts/에 넣어주세요.")
