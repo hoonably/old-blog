@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Ablation Study 란?"
 subtitle: ""
 date: 2025-03-12 17:20:00 +09:00

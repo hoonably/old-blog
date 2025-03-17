@@ -3,8 +3,8 @@ layout: page
 title : Who am I?
 subtitle: Someone Who Lives and Breathes Computers
 ---
-<span style="float: right; "><a href="{{ '/pdf_files/CV_JeonghoonPark.pdf' | prepend: relative_url }}"><strong>> Download CV as PDF (Might not latest)</strong></a> </span>  
-<span style="float: right; "><a href="https://docs.google.com/document/d/1bB1oRGQLz7CdFOSeQ7TDATfNh-0aqKD9yZqbrmqVTZc/edit?usp=sharing"><strong>> Look CV as docs (Automatically latest)</strong></a> </span>
+<span style="float: right; "><a href="{{ '/pdf_files/CV_JeonghoonPark.pdf' | prepend: relative_url }}"><color_strong>> Download CV as PDF (Might not latest)</color_strong></a> </span>  
+<span style="float: right; "><a href="https://docs.google.com/document/d/1bB1oRGQLz7CdFOSeQ7TDATfNh-0aqKD9yZqbrmqVTZc/edit?usp=sharing"><color_strong>> Look CV as docs (Automatically latest)</color_strong></a> </span>
 
 <!-- For Github -->
 <!-- [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fhoonably&count_bg=%23B5E1FF&title_bg=%2383B2FF&icon=smugmug.svg&icon_color=%23E7E7E7&title=VISIT&edge_flat=false)](https://github.com/hoonably) -->

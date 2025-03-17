@@ -8,14 +8,14 @@ subtitle: ramblings of me
 {% assign postsCategory = site.posts | group_by_exp:"post", "post.categories"  %}
 {% for category in postsCategory %}
 <h4 class="post-teaser__month">
-<strong>
+<color_strong>
 {% if category.name %} 
 <br>
 <span class="category-name">- - - - - - {{ category.name }} - - - - - -</span>
 {% else %} 
 {{ Print }} 
 {% endif %}
-</strong>
+</color_strong>
 </h4>
 <ul class="list-posts">
 {% for post in category.items %}

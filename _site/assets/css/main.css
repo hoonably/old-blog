@@ -112,6 +112,12 @@
   strong {
     /* **강조** */
     font-weight: 600;
+    /* color: #16a085;  */
+  }
+
+  color_strong {
+    /* **강조** */
+    font-weight: 600;
     color: #16a085; 
   }
 
