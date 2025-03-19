@@ -3,7 +3,7 @@ layout: page
 title : Who am I?
 subtitle: Someone Who Lives and Breathes Computers
 ---
-<span style="float: right; "><a href="{{ '/pdf_files/CV_JeonghoonPark.pdf' | prepend: relative_url }}"><color_strong>> Download CV as PDF (Might not latest)</color_strong></a> </span>  
+<span style="float: right; "><a href="{{ '/files/CV_JeonghoonPark.pdf' | prepend: relative_url }}"><color_strong>> Download CV as PDF (Might not latest)</color_strong></a> </span>  
 <span style="float: right; "><a href="https://docs.google.com/document/d/1bB1oRGQLz7CdFOSeQ7TDATfNh-0aqKD9yZqbrmqVTZc/edit?usp=sharing"><color_strong>> Look CV as docs (Automatically latest)</color_strong></a> </span>
 
 <!-- For Github -->
