@@ -1,59 +1,59 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+# # Sample workflow for building and deploying a Jekyll site to GitHub Pages
+# name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 
-# 이벤트 트리거 설정
-on:
-  # 기본(main) 브랜치로 push가 될 때 자동으로 실행
-  push:
-    branches: ["main"]
+# # 이벤트 트리거 설정
+# on:
+#   # 기본(main) 브랜치로 push가 될 때 자동으로 실행
+#   push:
+#     branches: ["main"]
 
-  # GitHub Actions 탭에서 수동으로 실행 가능하게 설정
-  workflow_dispatch:
+#   # GitHub Actions 탭에서 수동으로 실행 가능하게 설정
+#   workflow_dispatch:
 
-# GitHub Pages에 배포 권한 설정
-permissions:
-  contents: read   # repository 내용 읽기 권한
-  pages: write     # GitHub Pages 배포 권한
-  id-token: write  # id-token 작성 권한
+# # GitHub Pages에 배포 권한 설정
+# permissions:
+#   contents: read   # repository 내용 읽기 권한
+#   pages: write     # GitHub Pages 배포 권한
+#   id-token: write  # id-token 작성 권한
 
-# 동시 실행을 제어하여 배포 중복을 방지
-concurrency:
-  group: "pages"
-  cancel-in-progress: false  # 진행 중인 실행은 중지하지 않음
+# # 동시 실행을 제어하여 배포 중복을 방지
+# concurrency:
+#   group: "pages"
+#   cancel-in-progress: false  # 진행 중인 실행은 중지하지 않음
 
-jobs:
-  # 첫 번째 작업: 빌드 (Build job)
-  build:
-    runs-on: ubuntu-latest  # 최신 우분투 환경에서 실행
-    steps:
-      # GitHub 리포지토리의 코드를 체크아웃
-      - name: Checkout
-        uses: actions/checkout@v4
+# jobs:
+#   # 첫 번째 작업: 빌드 (Build job)
+#   build:
+#     runs-on: ubuntu-latest  # 최신 우분투 환경에서 실행
+#     steps:
+#       # GitHub 리포지토리의 코드를 체크아웃
+#       - name: Checkout
+#         uses: actions/checkout@v4
 
-      # GitHub Pages 설정
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+#       # GitHub Pages 설정
+#       - name: Setup Pages
+#         uses: actions/configure-pages@v5
 
-      # Jekyll로 사이트 빌드
-      - name: Build with Jekyll
-        uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./          # 소스 폴더 설정 (루트 폴더 사용)
-          destination: ./_site # 빌드 결과물 저장 폴더
+#       # Jekyll로 사이트 빌드
+#       - name: Build with Jekyll
+#         uses: actions/jekyll-build-pages@v1
+#         with:
+#           source: ./          # 소스 폴더 설정 (루트 폴더 사용)
+#           destination: ./_site # 빌드 결과물 저장 폴더
 
-      # 빌드된 사이트 아티팩트(artifact) 업로드
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+#       # 빌드된 사이트 아티팩트(artifact) 업로드
+#       - name: Upload artifact
+#         uses: actions/upload-pages-artifact@v3
 
-  # 두 번째 작업: 배포 (Deployment job)
-  deploy:
-    environment:
-      name: github-pages      # GitHub Pages 환경 설정
-      url: ${{ steps.deployment.outputs.page_url }}  # 배포 후 사이트 URL
-    runs-on: ubuntu-latest     # 최신 우분투 환경에서 실행
-    needs: build               # build 작업 완료 후 실행
-    steps:
-      # 빌드된 파일을 GitHub Pages에 배포
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+#   # 두 번째 작업: 배포 (Deployment job)
+#   deploy:
+#     environment:
+#       name: github-pages      # GitHub Pages 환경 설정
+#       url: ${{ steps.deployment.outputs.page_url }}  # 배포 후 사이트 URL
+#     runs-on: ubuntu-latest     # 최신 우분투 환경에서 실행
+#     needs: build               # build 작업 완료 후 실행
+#     steps:
+#       # 빌드된 파일을 GitHub Pages에 배포
+#       - name: Deploy to GitHub Pages
+#         id: deployment
+#         uses: actions/deploy-pages@v4
