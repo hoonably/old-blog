@@ -1,30 +1,21 @@
-<!-- <meta charset="UTF-8"> -->
-<!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-
-<!-- 페이지 창에 대표로 뜨는 부분 (구글 검색시 뜨는 부분) subtitle 안나오게 변경 -->
-<!-- <title>{% if page.title %} {{ page.title }} — {{ page.subtitle }} {% endif %} | {{ site.title }}</title> -->
-<!-- <title>{% if page.title %} {{ page.title }} {% endif %} | {{ site.title }}</title> -->
-
-<!-- <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"> -->
-
-<!-- {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %} -->
-
-<!-- <link rel="canonical" href="{{ page.url | replace:'index.html','' | site.baseurl }}"> -->
-<!-- <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}"> -->
-<!-- <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}"> -->
-
-<!-- 캐시 저장 X --> 
-<!-- <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"> -->
-
-<!-- google site 인증 -->
-<!-- <meta name="google-site-verification" content="UF9aPIHL0gyy9XNMhsgSZizZ_Ni9ciW6GIzLr4ZYIZc" /> -->
-
-<!-- seo로 자동 관리 -->
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
-<meta name="google-site-verification" content="UF9aPIHL0gyy9XNMhsgSZizZ_Ni9ciW6GIzLr4ZYIZc">
 
-{% seo %}
+<!-- 페이지 창에 대표로 뜨는 부분 (구글 검색시 뜨는 부분) subtitle 안나오게 변경 -->
+<!-- <title>{% if page.title %} {{ page.title }} — {{ page.subtitle }} {% endif %} | {{ site.title }}</title> -->
+<title>{% if page.title %} {{ page.title }} {% endif %} | {{ site.title }}</title>
+
+<meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+{% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+
+<!-- <link rel="canonical" href="{{ page.url | replace:'index.html','' | site.baseurl }}"> -->
+<!-- <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}"> -->
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+<!-- 캐시 저장 X --> 
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+
+<!-- google site 인증 -->
+<!-- <meta name="google-site-verification" content="UF9aPIHL0gyy9XNMhsgSZizZ_Ni9ciW6GIzLr4ZYIZc"/> -->
