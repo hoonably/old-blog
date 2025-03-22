@@ -3,7 +3,7 @@ layout: page
 title : Who am I?
 subtitle: Someone Who Lives and Breathes Computers
 ---
-<span style="float: right; "><a href="{{ '/files/CV_JeonghoonPark.pdf' | prepend: relative_url }}"><color_strong>> Download CV as PDF (Might not latest)</color_strong></a> </span>  
+<span style="float: right; "><a href="{{ '/files/CV_JeonghoonPark.pdf' | relative_url }}"><color_strong>> Download CV as PDF (Might not latest)</color_strong></a> </span>  
 <span style="float: right; "><a href="https://docs.google.com/document/d/1bB1oRGQLz7CdFOSeQ7TDATfNh-0aqKD9yZqbrmqVTZc/edit?usp=sharing"><color_strong>> Look CV as docs (Automatically latest)</color_strong></a> </span>
 
 <!-- For Github -->
@@ -11,8 +11,8 @@ subtitle: Someone Who Lives and Breathes Computers
 
 ## 🧑🏻‍💻 Jeong Hoon Park
 <div class="two-images" style="text-align: left;">
-  <img src="{{ '/assets/img/profile1.jpg' | prepend: relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
-  <img src="{{ '/assets/img/profile3.jpg' | prepend: relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
+  <img src="{{ '/assets/img/profile1.jpg' | relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
+  <img src="{{ '/assets/img/profile3.jpg' | relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
 </div>
 Hello, My name is Jeonghoon Park.  
 I have a dream to spend my life studying/researching with good people.
@@ -80,13 +80,13 @@ I have a dream to spend my life studying/researching with good people.
 <p>$\it{\large{\color{#DD6565}이텔릭체,\ 큰글씨,\ 빨간색}}$</p>
 -->
 
-## 🚀 PROJECTS
+<!-- ## 🚀 PROJECTS
 ### **TinyLLM** - Measurement - UAI Lab <span class="about__date">2025.01</span>  
 - Investigating LLMs that can run in resource-constrained environments (such as on-device) and analyzed the accuracy and inference time of each model through various evaluation sets
 - <a href="https://foil-plant-837.notion.site/Jetson-Nano-181451cf7b798058b1d0dc189ab6d30d?pvs=4">Notion</a>
 - <a href="https://github.com/hoonably/TinyLLM">Github Repo</a>
 
-<br><br>
+<br><br> -->
 
 ## 🔭 INTERESTS
 
@@ -109,13 +109,14 @@ I have a dream to spend my life studying/researching with good people.
     <img src="http://mazandi.herokuapp.com/api?handle=hoonably&theme=dark" alt="mazandi profile" style="display: inline-block;">
   </a>
 
-### ICPC 2024 Seoul Online Preliminary Contest 
+<!-- ### ICPC 2024 Seoul Online Preliminary Contest 
   - 2024.10.26
   - Team ‘WhereIsWoongJae’ with Hyeonseo Kim, Jaehyun Bang
-  - 201st / 455
+  - 201st / 455 -->
 
 <br><br>
 
+<!--
 ## 🛠 SKILLS & TRIED
 
 <b>Languages</b>
@@ -126,15 +127,12 @@ I have a dream to spend my life studying/researching with good people.
   <img src="https://img.shields.io/badge/Java-FF7800?style=flat&logo=OpenJDK&logoColor=white" style="display: inline-block;">
   <img src="https://img.shields.io/badge/HTML-E34F26?style=flat&logo=html5&logoColor=white" style="display: inline-block;">
   <img src="https://img.shields.io/badge/Markdown-000000?style=flat&logo=markdown&logoColor=white" style="display: inline-block;">
-  <!-- <img src="https://img.shields.io/badge/JSON-000000?style=flat&logo=json&logoColor=white" style="display: inline-block;"> -->
 </p>
 
 <b>Libraries / Frameworks</b>
 <p>
 <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white" style="display: inline-block;">
-<!-- <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=TensorFlow&logoColor=white" style="display: inline-block;"> -->
 <img src="https://img.shields.io/badge/Anaconda-44A833?style=flat&logo=Anaconda&logoColor=white" style="display: inline-block;">
-<!-- <img src="https://img.shields.io/badge/cuda-000000.svg?style=flat&logo=nVIDIA&logoColor=green" style="display: inline-block;"> -->
 </p>
 
 <b>Tools / Platforms</b>
@@ -159,7 +157,7 @@ I have a dream to spend my life studying/researching with good people.
 <img src="https://img.shields.io/badge/mac%20os-000000?style=flat&logo=macos&logoColor=F0F0F0" style="display: inline-block;">
 <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=Ubuntu&logoColor=white" style="display: inline-block;">
 </p>
-
+-->
 
 <!--
 <img src="https://img.shields.io/badge/-Spring Boot-6DB33F?style=flat&logo=SpringBoot&logoColor=white"/>
@@ -171,9 +169,9 @@ I have a dream to spend my life studying/researching with good people.
 <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=Firebase&logoColor=white"/>
 <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat&logo=Amazon AWS&logoColor=white"/> 
 <img src="https://img.shields.io/badge/NGINX-009639?style=flat&logo=NGINX&logoColor=white"/>
+<br><br>
 -->
 
-<br><br>
 
 ## GITHUB STATS
 
