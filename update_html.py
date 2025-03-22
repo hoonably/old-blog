@@ -22,7 +22,7 @@ print("\n📂 블로그 카테고리를 입력해주세요. \nPaper, Research, S
 catregory = input()
 
 # 새로운 Jekyll 이미지 폴더 경로
-new_image_folder = "/assets/img/" + new_name
+new_image_folder = "/images/" + new_name
 
 # HTML 파일 읽기
 with open(old_name+".html", "r", encoding="utf-8") as file:

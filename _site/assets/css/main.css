@@ -115,8 +115,8 @@
     /* color: #16a085;  */
   }
 
-  color_strong {
-    /* **강조** */
+  .color_strong {
+    /* 색 + 강조 */
     font-weight: 600;
     color: #16a085; 
   }
@@ -183,30 +183,30 @@
     margin-left: 10px; }
 
 /* =Titles *//*************************************************************/
-  .page-title {
+  .page_title {
     margin: 30px auto;
     text-align: center; }
 
-  .page-title__text {
+  .page_title__text {
     font-weight: 600;
-    font-size: 130%; }
+    font-size: 140%; }
 
-  .page-title__subtitle {
+  .page_title__subtitle {
     font-weight: 400;
     font-size: 80%;
     color: #828282; }
 
-  .blog-title {
+  .blog_title {
     margin: 30px auto;
     text-align: center; }
 
-  .blog-title__text {
+  .blog_title__text {
     font-weight: 600;
-    font-size: 100%; }
+    font-size: 110%; }
 
-  .blog-title__subtitle {
+  .blog_title__subtitle {
     font-weight: 400;
-    font-size: 60%;
+    font-size: 70%;
     color: #828282; }
 
 /* category-name 스타일 */
@@ -271,16 +271,16 @@ table img {
 }
 
 /* =텍스트나 이미지 사이 간격 *//*************************************************************/
-.about__text {
+.footer_text {
   display: block;
 }
 
-.about__text div {
+.footer_text div {
   display: block;
   margin-bottom: 10px; /* 텍스트와 이미지 사이의 간격 조정 */
 }
 
-.about__text a img {
+.footer_text a img {
   display: inline-block;
   margin-left: 5px; /* 이미지와 텍스트 사이의 간격 조정 */
 }
@@ -334,17 +334,19 @@ li {
   color: #333333;
   text-align: center; }
 
-/* =Post page *//*************************************************************/
-.about {
+/* Post page ************************************************************* */
+.footer {
   color: #828282;
   text-align: center;
   line-height: 24px; }
 
-.about__divider {
-  font-size: 100%;
-  letter-spacing: 9.09px; }
+.footer__divider {
+  border-top: 1px dashed #ccc;
+  margin: 2rem auto;
+  width: 60%;
+}
 
-.about__text {
+.footer_text {
   font-size: 100%; }
 
 .center-text {
@@ -410,25 +412,25 @@ li {
     font-size: 200%;
     margin: 10px auto; }
 
-  .page-title {
+  .page_title {
     margin-top: 10px;
     margin-bottom: 30px; }
 
-  .page-title__text {
+  .page_title__text {
     font-size: 110%; }
 
-  .page-title__subtitle {
+  .page_title__subtitle {
     font-size: 60%; }
 
-  .blog-title {
+  .blog_title {
     margin-top: 10px;
     margin-bottom: 30px; }
 
-  .blog-title__text {
-    font-size: 90%; }
+  .blog_title__text {
+    font-size: 70%; }
 
-  .blog-title__subtitle {
-    font-size: 60%; }
+  .blog_title__subtitle {
+    font-size: 50%; }
 
   .post-teaser__title {
     font-size: 100%;

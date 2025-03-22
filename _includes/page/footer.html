@@ -1,12 +1,11 @@
 <!--
 꼬리말 부분
 -->
-<div class="about">
-    <br><br><br>
-    <div class="about__divider">**********</div>
-    <div class="about__text">
-      <color_strong> Please contact me if you have any question. </color_strong>
-      <div>e-mail : happypjh2001@unist.ac.kr</div>
+<div class="footer" style="margin-top: 80px;">
+  <div class="footer__divider"></div>
+    <div class="footer_text">
+      <span class="color_strong">Please contact me if you have any question.</span>
+      <div>e-mail : hoonably@unist.ac.kr</div>
       <div>
         <a href="https://github.com/hoonably"><img src="https://img.shields.io/badge/-Github-181717?style=flat&logo=GitHub&logoColor=white&" style="height: 25px;"></a>
         <a href="https://www.linkedin.com/in/hoonably"><img src="https://img.shields.io/badge/linkedin-0A66C2?style=flat&logo=linkedin&logoColor=white&" style="height: 25px;"></a>
@@ -14,4 +13,21 @@
       </div>
     </div>
   </div>
-  <br>
+<br>
+
+<!-- highlight.js 스크립트: footer 쪽에 두는 걸 추천 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll("pre code").forEach(block => {
+      hljs.highlightElement(block);
+      const language = block.className.split("language-")[1]; // 언어명 추출
+      if (language) {
+        const label = document.createElement("div");
+        label.className = "code-label";
+        label.innerText = language.toUpperCase();
+        block.parentNode.insertBefore(label, block);
+      }
+    });
+  });
+</script>
