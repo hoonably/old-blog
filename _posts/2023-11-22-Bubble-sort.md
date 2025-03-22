@@ -226,7 +226,7 @@ public class Main {
 
 시간 복잡도가 무엇인지 모른다면 이 글을 참고하자.
 
-[[알고리즘] 시간 복잡도 (Time Complexity)](https://hoonably.github.io/algorithm/2023/12/15/Time-Complexity)
+[[알고리즘] 시간 복잡도 (Time Complexity)](https://hoonably.github.io/algorithm/Time-Complexity)
 
 <img width="1107" alt="image" src="https://github.com/hhhoon/hhhoon.github.io/assets/77783081/76be57bb-c35a-4225-a1df-58db08724fd1">
 

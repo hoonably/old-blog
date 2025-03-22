@@ -15,8 +15,8 @@ author:
   linkedin: hoonably
   email: hoonably@naver.com
 
-# .html로 사이트가 끝나지 않도록
-permalink: pretty
+# 카테고리/제목 형식으로 URL을 만들어줌
+permalink: /:categories/:title/
 
 # Syntax highlighting
 highlightstyle: 'github'
