@@ -6,6 +6,8 @@ sitemap:
   priority: 0.9
 ---
 
+<br>
+
 <img src="{{ '/assets/img/profile1.jpg' | relative_url }}" id="main-img">
 
 <div id="describe-text">

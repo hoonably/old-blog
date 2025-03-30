@@ -1,21 +1,22 @@
 ---
 layout: page
 title : Jeonghoon Park
-subtitle: Someone Who Lives and Breathes Computers
+subtitle: 
 ---
-<span style="float: right; "><a href="{{ '/files/CV_JeonghoonPark.pdf' | relative_url }}"><span class="color_strong">> Download CV as PDF (Might not latest)</span></a> </span>  
-<span style="float: right; "><a href="https://docs.google.com/document/d/1bB1oRGQLz7CdFOSeQ7TDATfNh-0aqKD9yZqbrmqVTZc/edit?usp=sharing"><span class="color_strong">> Look CV as docs (Automatically latest)</span></a> </span>
+<span style="float: right; "><a href="{{ '/files/CV_JeonghoonPark.pdf' | relative_url }}"><span class="color_strong">> Look CV as PDF</span></a> </span>  
+<span style="float: right; "><a href="https://docs.google.com/document/d/1bB1oRGQLz7CdFOSeQ7TDATfNh-0aqKD9yZqbrmqVTZc/edit?usp=sharing"><span class="color_strong">> Look CV as docs</span></a> </span>
 
 
 
 
 ## 🧑🏻‍💻 Me
-<div style="display: flex; gap: 5%;">
-  <img src="{{ '/assets/img/profile1.jpg' | relative_url }}" 
-       style="height: 230px; width: auto; object-fit: cover;">
-  <img src="{{ '/assets/img/profile3.jpg' | relative_url }}" 
-       style="height: 230px; width: auto; object-fit: cover;">
+<div class="image-flex">
+  <img src="{{ '/assets/img/profile1.jpg' | relative_url }}">
+  <img src="{{ '/assets/img/profile3.jpg' | relative_url }}">
 </div>
+
+
+
 
 👋 Hello, My name is **Jeonghoon Park**.
 I'm interested in **On-device AI** because it has clear benefits for privacy and personalization. I'm particularly interested in solving problems related to running AI efficiently in limited hardware environments. Currently, I'm doing an undergraduate research internship at UNIST's <a href="https://sites.google.com/view/uailab/home?authuser=0">Ubiquitous AI Lab</a> with professor <a href="https://taesikgong.com/">Taesik Gong</a>, learning a lot and also doing some personal research.
