@@ -99,19 +99,20 @@
   }
 
   a {
-    /* Link */
+    /* Link (링크) */
     color: #57A;
-    font-weight: 600;
-    text-decoration: none; }
+    font-weight: 800;
+    text-decoration: none;
+  }
 
   b {
     /* <b> */
-    font-weight: 600;
+    font-weight: 800;
   }
 
   strong {
     /* **강조** */
-    font-weight: 600;
+    font-weight: 800;
     /* color: #16a085;  */
   }
 
@@ -353,12 +354,6 @@ li {
   text-align: center;
 }
 
-.about__date {
-  float: right;
-  font-size: 85%;
-  color: #828282;
-}
-
 /* =Page navigation *//*************************************************************/
 .PageNavigation {
   display: block;
@@ -393,7 +388,7 @@ li {
 }
 
 /* =Small screen *//*************************************************************/
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   p, ul, ol, dl {
     font-size: 90%;
     line-height: 1.4; }
@@ -472,7 +467,7 @@ li {
     flex: 1;
     max-width: calc((100% - 6%) / 2); /* 좌우 마진 고려한 최대 크기 */
     width: 100%;
-    height: auto;
+    /* height: auto; */
     margin: 0 3%; /* 좌우 마진 3% */
   }
 }

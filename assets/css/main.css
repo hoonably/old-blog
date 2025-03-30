@@ -99,19 +99,20 @@
   }
 
   a {
-    /* Link */
+    /* Link (링크) */
     color: #57A;
-    font-weight: 600;
-    text-decoration: none; }
+    font-weight: 800;
+    text-decoration: none;
+  }
 
   b {
     /* <b> */
-    font-weight: 600;
+    font-weight: 800;
   }
 
   strong {
     /* **강조** */
-    font-weight: 600;
+    font-weight: 800;
     /* color: #16a085;  */
   }
 
@@ -285,14 +286,6 @@ table img {
   margin-left: 5px; /* 이미지와 텍스트 사이의 간격 조정 */
 }
 
-/* 두개 이미지 한 줄에, 좁아지면 이미지도 작아짐*/
-.two-images {
-  display: flex;
-}
-.two-images img {
-  float: none;
-}
-
 /* =List (목록) *//*************************************************************/
 ul, ol {
   padding-left: 2%; /* 목록의 전체 들여쓰기 조정 */
@@ -387,7 +380,7 @@ li {
 }
 
 /* =Small screen *//*************************************************************/
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   p, ul, ol, dl {
     font-size: 90%;
     line-height: 1.4; }
@@ -450,24 +443,6 @@ li {
     max-width: 160px;
     margin: auto;
     margin-bottom: 3%;
-  }
-
-
-
-  /* 이미지 좌우로 최대한 맞춰서 */
-  .two-images {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-  /* 좁아지면 위아래로 */
-  .two-images img {
-    flex: 1;
-    max-width: calc((100% - 6%) / 2); /* 좌우 마진 고려한 최대 크기 */
-    width: 100%;
-    height: auto;
-    margin: 0 3%; /* 좌우 마진 3% */
   }
 }
 

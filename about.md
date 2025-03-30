@@ -10,13 +10,15 @@ subtitle: Someone Who Lives and Breathes Computers
 
 
 ## 🧑🏻‍💻 Me
-<div class="two-images" style="text-align: left;">
-  <img src="{{ '/assets/img/profile1.jpg' | relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
-  <img src="{{ '/assets/img/profile3.jpg' | relative_url }}" style="height: 230px; width: auto; display: inline-block; margin-right: 5%; object-fit: cover; float: left;">
+<div style="display: flex; gap: 5%;">
+  <img src="{{ '/assets/img/profile1.jpg' | relative_url }}" 
+       style="height: 230px; width: auto; object-fit: cover;">
+  <img src="{{ '/assets/img/profile3.jpg' | relative_url }}" 
+       style="height: 230px; width: auto; object-fit: cover;">
 </div>
 
-👋 Hello, My name is **Jeonghoon Park**.  
-I'm interested in **On-device AI** because it has clear benefits for privacy and personalization. I'm particularly interested in solving problems related to running AI efficiently in limited hardware environments. Currently, I'm doing an undergraduate research internship at UNIST's <a href="https://sites.google.com/view/uailab/home?authuser=0">Ubiquitous AI Lab</a> with professor Taesik Gong, learning a lot and also doing some personal research.
+👋 Hello, My name is **Jeonghoon Park**.
+I'm interested in **On-device AI** because it has clear benefits for privacy and personalization. I'm particularly interested in solving problems related to running AI efficiently in limited hardware environments. Currently, I'm doing an undergraduate research internship at UNIST's <a href="https://sites.google.com/view/uailab/home?authuser=0">Ubiquitous AI Lab</a> with professor <a href="https://taesikgong.com/">Taesik Gong</a>, learning a lot and also doing some personal research.
 <div>
   <a href="https://hoonably.github.io/"><img src="https://img.shields.io/badge/-Website-EF4223?style=flat&logo=codeigniter&logoColor=white&" style="height: 25px; display: inline-block;"></a>
   <a href="https://github.com/hoonably"><img src="https://img.shields.io/badge/-Github-181717?style=flat&logo=GitHub&logoColor=white&" style="height: 25px; display: inline-block;"></a>
@@ -34,6 +36,7 @@ I'm interested in **On-device AI** because it has clear benefits for privacy and
 
 <i>2020.03.02 – Present</i>  
 **B.S. in Computer Science, [UNIST](https://www.unist.ac.kr/), Republic of Korea**  
+Teaching Assistant, LG Electronics LDC Program (Data Preprocessing & PBL)  
 
 <br>
 
@@ -41,8 +44,8 @@ I'm interested in **On-device AI** because it has clear benefits for privacy and
 
 <i> 2021.07.05 – Jul. 2024.07.18</i>   
 **Math Instructor, Topmath, Republic of Korea**  
-Led multiple classes independently (4–10 students per class)  
-Held a primary teaching role, not just part-time assistance  
+Primary Role (Multiple Classes, Not Part-Time)  
+High School Math (Students achieved Grade 1 in Korean SAT)  
 
 <br>
 
