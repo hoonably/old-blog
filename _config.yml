@@ -18,6 +18,9 @@ author:
 # 카테고리/제목 형식으로 URL을 만들어줌
 permalink: /:categories/:title/
 
+# 이거 안하면 UTC기준으로 날짜 나옴
+timezone: Asia/Seoul
+
 # Syntax highlighting
 highlightstyle: 'github'
 
