@@ -1,10 +1,10 @@
 # Notion에서 export한 HTML 파일을 Jekyll 블로그 포스트로 변환하는 스크립트
 
 # 사용법
-# 1. 다운받은 html 파일을 이름변경하지 않고 이 파일과 같은 위치로 옮깁니다.
-# 2. 이 파일을 실행합니다.
-# 3. 카테고리를 입력합니다.
-# 4. 변환된 파일은 _posts 폴더에 저장됩니다.
+# 1. Notion에서 export한 HTML 파일과 이미지 폴더가 들어있는 zip 파일을 이 스크립트와 같은 폴더에 넣습니다.
+# 2. 스크립트를 실행합니다.
+# 3. 카테고리를 선택합니다.
+# 4. 변환된 Markdown 파일이 _posts 폴더에 생성됩니다.
 
 import os
 import re
@@ -20,7 +20,7 @@ def get_category_from_user():
     site_path = os.path.join(os.path.dirname(script_dir), "_site")
 
     # 제외할 폴더명
-    excluded_dirs = {"about", "assets", "blog", "files", "images", "screenshots", "update_html"}
+    excluded_dirs = {"about", "assets", "blog", "files", "images", "screenshots", "update_notion_script"}
 
     if not os.path.exists(site_path):
         print(f"⚠️  _site 경로가 존재하지 않음: {site_path}")
@@ -125,7 +125,7 @@ def process_html_file(filepath, current_date):
     filename_no_ext = os.path.splitext(base_name)[0]
     split_parts = filename_no_ext.strip().split()
     title = ' '.join(split_parts[:-1]) if len(split_parts) > 1 else filename_no_ext
-    print(f"\n\n\n ⭐️⭐️⭐️⭐️⭐️ {title} 작업을 시작합니다.")
+    print(f"\n\n\n ⭐️⭐️⭐️⭐️⭐️ \"{title}\".html 변환작업을 시작합니다.")
     category = get_category_from_user()
 
     # YAML 프론트 매터 생성
@@ -151,8 +151,14 @@ author: "hoonably"
     safe_title = title.replace(" ", "-")
     folder_name = f"{date_prefix}-{title}"
 
+    # ✅ 이미지 경로 한 번만 제대로 바꾸기
     html_content = rewrite_image_paths(html_content, title, date_prefix)
+
+    # ✅ 이미지 복사
     copy_images_to_post_folder(filepath, title, date_prefix)
+
+    # ✅ 최종 콘텐츠 생성 (수정된 html_content 사용!)
+    final_content = yaml_front_matter + html_content
 
     new_filename = f"{folder_name}.md"
     new_filepath = os.path.join(posts_dir, new_filename)
@@ -161,7 +167,7 @@ author: "hoonably"
     with open(new_filepath, 'w', encoding='utf-8') as file:
         file.write(final_content)
 
-    # 원본 HTML도 잘라서 다시 저장
+    # 원본 HTML도 정리해서 다시 저장
     with open(filepath, 'w', encoding='utf-8') as file:
         file.write(html_content)
 
@@ -192,8 +198,7 @@ if __name__ == "__main__":
             if html_file:
                 process_html_file(html_file, current_date)
 
-            # zip 및 해제된 폴더 삭제
+            # 해제된 폴더 삭제
             shutil.rmtree(extract_dir)
-            os.remove(zip_path)
-
+            # os.remove(zip_path)
 
