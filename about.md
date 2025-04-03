@@ -84,7 +84,7 @@ Investigating LLMs that can run in resource-constrained environments (such as on
 
 **Contest**  
 <a href="https://icpckorea.org/2024-seoul/preliminary">ICPC 2024 Seoul Preliminary Contest</a> - 201st  
-<a href="https://github.com/user-attachments/assets/97edb7e4-69f2-4c7d-bcd8-40ac526ae9a1">UDPC 2025 Senior Division</a> - 11st  
+<a href="https://github.com/user-attachments/assets/97edb7e4-69f2-4c7d-bcd8-40ac526ae9a1">UDPC 2025 Senior Division</a> - 11th  
 
 <br><br>
 
