@@ -223,5 +223,5 @@ if __name__ == "__main__":
             shutil.rmtree(extract_dir)
 
             # zip 파일 삭제
-            # os.remove(zip_path)
+            os.remove(zip_path)
 
