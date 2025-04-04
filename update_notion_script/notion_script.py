@@ -5,6 +5,8 @@
 # 2. 스크립트를 실행합니다.
 # 3. 카테고리를 선택합니다.
 # 4. 변환된 Markdown 파일이 _posts 폴더에 생성됩니다.
+# 5. 해제됐던 폴더는 사라지고, zip 파일은 남아있습니다.
+# 6. 확인 후 zip 파일을 직접 삭제합니다.
 
 import os
 import re
@@ -13,6 +15,12 @@ from urllib.parse import unquote  # ✅ 꼭 필요
 import shutil
 import zipfile
 
+current_time = ""  # 현재 시간 (YYYY-MM-DD HH:MM:SS)
+current_date = ""  # 날짜 (YYYY-MM-DD)
+old_filename = ""  # 기존 HTML 파일명 ()
+new_filename = ""  # 마크다운 파일명과 폴더명 (YYYY-MM-DD-Data-Structure)
+
+# 카테고리를 입력받는 함수
 def get_category_from_user():
 
     # 현재 스크립트 기준 _site 경로
@@ -60,72 +68,52 @@ def get_category_from_user():
     else:
         return possible_categories[selected_num - 1]
 
-def rewrite_image_paths(html_content, title, date_prefix):
-    folder_name = f"{date_prefix}-{title.strip()}"
+# html 파일 내에 있는 src, href 속성의 경로를 변경하는 함수
+def rewrite_image_paths(html_content):
 
-    def replace_src(match):
-        original_src = unquote(match.group(1))  # ✅ URL 디코딩
-        filename = os.path.basename(original_src)
-        return f'src="/images/{folder_name}/{filename}"'
-
-    def replace_href(match):
-        original_href = unquote(match.group(1))  # ✅ URL 디코딩
-        filename = os.path.basename(original_href)
-        return f'href="/images/{folder_name}/{filename}"'
-
-    html_content = re.sub(r'src=["\']([^"\']+)["\']', replace_src, html_content)
-    html_content = re.sub(r'href=["\']([^"\']+)["\']', replace_href, html_content)
-
+    old_encoded = old_filename.replace(" ", "%20")
+    html_content = html_content.replace(
+        f'src="{old_encoded}',
+        f'src="/images/{new_filename}'
+    )
+    html_content = html_content.replace(
+        f'href="{old_encoded}',
+        f'href="/images/{new_filename}'
+    )
+    print(f"1️⃣ 이미지 경로 수정 완료: {old_encoded} → /images/{new_filename}")
     return html_content
 
-def copy_images_to_post_folder(html_path, title, date_prefix):
-    html_dir = os.path.dirname(html_path)
-    html_filename = os.path.splitext(os.path.basename(html_path))[0]
-    original_folder = os.path.join(html_dir, html_filename)
-
-    if not os.path.exists(original_folder):
-        print(f"⚠️ 이미지 폴더가 존재하지 않음: {original_folder}")
-        return
-
-    folder_name = f"{date_prefix}-{title.strip()}"
-
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    root_dir = os.path.dirname(script_dir)
-    target_image_dir = os.path.join(root_dir, "images", folder_name)
-    os.makedirs(target_image_dir, exist_ok=True)
-
-    for filename in os.listdir(original_folder):
-        source_file = os.path.join(original_folder, filename)
-        target_file = os.path.join(target_image_dir, filename)
-        if os.path.isfile(source_file):
-            shutil.copy2(source_file, target_file)
-
-def process_html_file(filepath, current_date):
-    # 파일 읽기
-    with open(filepath, 'r', encoding='utf-8') as file:
-        html_content = file.read()
+# 마크다운 파일 수정 및 생성하는 함수
+def write_markdown_file(filepath, html_content):
+    global new_filename  # 전역변수 변경해야하므로
 
     # <div class="page-body"> 이전 내용 제거
     marker = '<div class="page-body">'
     marker_index = html_content.find(marker)
     if marker_index != -1:
         html_content = html_content[marker_index:]
-    else:
-        print(f"❌ {filepath} 에서 <div class=\"page-body\"> 태그를 찾을 수 없습니다. 건너뜁니다.")
-        return
 
     # 마지막 줄 </article> 이후 제거
     end_marker = '</article>'
     end_index = html_content.find(end_marker)
     if end_index != -1:
         html_content = html_content[:end_index]
-
+    
     # 파일명에서 title 추출
     base_name = os.path.basename(filepath)
     filename_no_ext = os.path.splitext(base_name)[0]
     split_parts = filename_no_ext.strip().split()
     title = ' '.join(split_parts[:-1]) if len(split_parts) > 1 else filename_no_ext
-    print(f"\n\n\n ⭐️⭐️⭐️⭐️⭐️ \"{title}\".html 변환작업을 시작합니다.")
+    print(f"⭐️⭐️⭐️⭐️⭐️ {title}.html 변환작업을 시작합니다.")
+
+    # .md 파일명과 이미지 등이 들어있는 폴더명 사용자가 지정
+    new_filename = input("파일명을 영어로 입력해주세요 (공백은 '-'으로 자동 변경됩니다): ").strip()
+    while not new_filename:
+        new_filename = input("❌ 비워둘 수 없습니다. 다시 입력해주세요: ").strip()
+    new_filename = new_filename.replace(" ", "-")
+    new_filename = current_date + "-" + new_filename
+
+    # category 선택
     category = get_category_from_user()
 
     # YAML 프론트 매터 생성
@@ -133,49 +121,75 @@ def process_html_file(filepath, current_date):
 layout: blog
 title: "{title}"
 subtitle: ""
-date: {current_date} +09:00
+date: {current_time} +09:00
 categories: {category}
 author: "hoonably"
 ---
 """
+    
+    # 이미지 경로 수정
+    html_content = rewrite_image_paths(html_content)
 
-    # 최종 콘텐츠 생성
+    # ✅ .md 수정본 생성 후 저장
     final_content = yaml_front_matter + html_content
-
-    # 저장 경로 설정
     script_dir = os.path.dirname(os.path.abspath(__file__))
     posts_dir = os.path.join(os.path.dirname(script_dir), "_posts")
     os.makedirs(posts_dir, exist_ok=True)
-
-    date_prefix = current_date.split()[0]
-    safe_title = title.replace(" ", "-")
-    folder_name = f"{date_prefix}-{title}"
-
-    # ✅ 이미지 경로 한 번만 제대로 바꾸기
-    html_content = rewrite_image_paths(html_content, title, date_prefix)
-
-    # ✅ 이미지 복사
-    copy_images_to_post_folder(filepath, title, date_prefix)
-
-    # ✅ 최종 콘텐츠 생성 (수정된 html_content 사용!)
-    final_content = yaml_front_matter + html_content
-
-    new_filename = f"{folder_name}.md"
-    new_filepath = os.path.join(posts_dir, new_filename)
-
-    # Markdown 파일 저장
+    new_filepath = os.path.join(posts_dir, f"{new_filename}.md")
     with open(new_filepath, 'w', encoding='utf-8') as file:
         file.write(final_content)
+    print(f"2️⃣ 마크다운 파일 생성 완료: {new_filepath}")
 
-    # 원본 HTML도 정리해서 다시 저장
-    with open(filepath, 'w', encoding='utf-8') as file:
-        file.write(html_content)
+# 이미지가 들어있는 폴더를 "images/" 안으로 복사하는 함수
+def copy_folder(html_path):
+    """
+    html_path: 원본 HTML 경로
+    new_filename: 예시 - '2025-04-04-MLOps.md'
+    """
+
+    # 원본 이미지 폴더: html 파일 옆에 있는 동일 이름 폴더
+    html_dir = os.path.dirname(html_path)
+    html_filename = os.path.splitext(os.path.basename(html_path))[0]
+    original_image_folder = os.path.join(html_dir, html_filename)
+
+    if not os.path.exists(original_image_folder):
+        print(f"❌ 이미지 폴더가 존재하지 않습니다.: {original_image_folder}")
+        return
+
+    # 타겟 경로: images/{new_filename_without_ext}/
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    root_dir = os.path.dirname(script_dir)
+    folder_name = os.path.splitext(new_filename)[0]  # .md 제거
+    target_folder = os.path.join(root_dir, "images", folder_name)
+    os.makedirs(target_folder, exist_ok=True)
+
+    # 이미지 복사
+    for item in os.listdir(original_image_folder):
+        src_path = os.path.join(original_image_folder, item)
+        dst_path = os.path.join(target_folder, item)
+        if os.path.isfile(src_path):
+            shutil.copy2(src_path, dst_path)
+
+    print(f"3️⃣ 이미지 복사 완료 → {target_folder}")
+
+def process_html_file(filepath):
+    # 파일 읽기
+    with open(filepath, 'r', encoding='utf-8') as file:
+        html_content = file.read()
+
+    # 마크다운 파일 생성
+    write_markdown_file(filepath, html_content)
+
+    # 이미지 들어있는 폴더 옮기기
+    copy_folder(html_file)
 
     # ✅ 변환 완료 메시지
-    print(f"✅✅✅✅✅ 변환 완료: {new_filename}")
+    print(f"✅ 모든 작업 완료 → {new_filename}")
 
 if __name__ == "__main__":
-    current_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    current_date = current_time.split()[0]
+
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
     for filename in os.listdir(script_dir):
@@ -193,12 +207,15 @@ if __name__ == "__main__":
                 for f in files:
                     if f.endswith(".html"):
                         html_file = os.path.join(root, f)
+                        old_filename = os.path.splitext(f)[0]
                         break
 
             if html_file:
-                process_html_file(html_file, current_date)
+                process_html_file(html_file)
 
             # 해제된 폴더 삭제
             shutil.rmtree(extract_dir)
-            # os.remove(zip_path)
+
+            # zip 파일 삭제
+            os.remove(zip_path)
 
