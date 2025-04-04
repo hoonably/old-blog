@@ -104,14 +104,20 @@ def write_markdown_file(filepath, html_content):
     filename_no_ext = os.path.splitext(base_name)[0]
     split_parts = filename_no_ext.strip().split()
     title = ' '.join(split_parts[:-1]) if len(split_parts) > 1 else filename_no_ext
-    print(f"⭐️⭐️⭐️⭐️⭐️ {title}.html 변환작업을 시작합니다.")
+    print(f"\n⭐️⭐️⭐️⭐️⭐️ {title}.html 변환작업을 시작합니다.")
 
     # .md 파일명과 이미지 등이 들어있는 폴더명 사용자가 지정
     new_filename = input("파일명을 영어로 입력해주세요 (공백은 '-'으로 자동 변경됩니다): ").strip()
-    while not new_filename:
-        new_filename = input("❌ 비워둘 수 없습니다. 다시 입력해주세요: ").strip()
-    new_filename = new_filename.replace(" ", "-")
-    new_filename = current_date + "-" + new_filename
+
+    # 허용: 알파벳(a-zA-Z), 숫자(0-9), 공백만 → 그 외는 모두 거부
+    while not new_filename or not re.fullmatch(r"[a-zA-Z0-9 ]+", new_filename):
+        if not new_filename:
+            print("❌ 비워둘 수 없습니다.")
+        else:
+            print("❌ 영어, 숫자, 공백만 사용할 수 있습니다.")
+        new_filename = input("다시 입력해주세요: ").strip()
+    new_filename = new_filename.replace(" ", "-")  # 공백을 '-'로 변경
+    new_filename = f"{current_date}-{new_filename}"  # 날짜 추가
 
     # category 선택
     category = get_category_from_user()
@@ -153,7 +159,7 @@ def copy_folder(html_path):
     original_image_folder = os.path.join(html_dir, html_filename)
 
     if not os.path.exists(original_image_folder):
-        print(f"❌ 이미지 폴더가 존재하지 않습니다.: {original_image_folder}")
+        print(f"🌉 이미지가 존재하지 않습니다.")
         return
 
     # 타겟 경로: images/{new_filename_without_ext}/
@@ -217,5 +223,5 @@ if __name__ == "__main__":
             shutil.rmtree(extract_dir)
 
             # zip 파일 삭제
-            os.remove(zip_path)
+            # os.remove(zip_path)
 
