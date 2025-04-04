@@ -87,6 +87,9 @@ def rewrite_image_paths(html_content):
 def write_markdown_file(filepath, html_content):
     global new_filename  # 전역변수 변경해야하므로
 
+    # 제목 추출
+    title = html_content.split("<title>")[1].split("</title>")[0].strip()
+
     # <div class="page-body"> 이전 내용 제거
     marker = '<div class="page-body">'
     marker_index = html_content.find(marker)
@@ -103,23 +106,17 @@ def write_markdown_file(filepath, html_content):
     html_content = html_content.replace("<details open=\"\">", "<details>")
     html_content = html_content.replace("<details open>", "<details>")
 
-    
-    # 파일명에서 title 추출
-    base_name = os.path.basename(filepath)
-    filename_no_ext = os.path.splitext(base_name)[0]
-    split_parts = filename_no_ext.strip().split()
-    title = ' '.join(split_parts[:-1]) if len(split_parts) > 1 else filename_no_ext
     print(f"\n⭐️⭐️⭐️⭐️⭐️ {title}.html 변환작업을 시작합니다.")
 
     # .md 파일명과 이미지 등이 들어있는 폴더명 사용자가 지정
     new_filename = input("파일명을 영어로 입력해주세요 (공백은 '-'으로 자동 변경됩니다): ").strip()
 
-    # 허용: 알파벳(a-zA-Z), 숫자(0-9), 공백만 → 그 외는 모두 거부
-    while not new_filename or not re.fullmatch(r"[a-zA-Z0-9 ]+", new_filename):
+    # 허용: 알파벳(a-zA-Z), 숫자(0-9), 공백, 하이픈(-)만 → 그 외는 모두 거부
+    while not new_filename or not re.fullmatch(r"[a-zA-Z0-9 \-]+", new_filename):
         if not new_filename:
             print("❌ 비워둘 수 없습니다.")
         else:
-            print("❌ 영어, 숫자, 공백만 사용할 수 있습니다.")
+            print("❌ 영어, 숫자, 공백, 하이픈(-)만 사용할 수 있습니다.")
         new_filename = input("다시 입력해주세요: ").strip()
     new_filename = new_filename.replace(" ", "-")  # 공백을 '-'로 변경
     new_filename = f"{current_date}-{new_filename}"  # 날짜 추가
