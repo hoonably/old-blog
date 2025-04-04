@@ -1,2 +1,8 @@
 _site
 .DS_Store
+
+# update_notion_script 디렉토리: 모든 파일 무시
+update_notion_script/*
+
+# 예외: notion_script.py만 추적
+!update_notion_script/notion_script.py
