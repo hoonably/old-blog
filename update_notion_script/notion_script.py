@@ -11,7 +11,7 @@
 import os
 import re
 from datetime import datetime
-from urllib.parse import unquote  # ✅ 꼭 필요
+from urllib.parse import quote
 import shutil
 import zipfile
 
@@ -44,19 +44,19 @@ def get_category_from_user():
 
     # 목록 출력
     print("사용 가능한 카테고리:")
+    print("0. 새 카테고리 입력")
     for idx, cat in enumerate(possible_categories, 1):
         print(f"{idx}. {cat}")
-    print(f"{len(possible_categories) + 1}. 새 카테고리 입력")
 
     # 사용자 숫자 입력 받기
     selected = input("사용하실 카테고리 번호를 입력해주세요: ").strip()
-    while not selected.isdigit() or not (1 <= int(selected) <= len(possible_categories) + 1):
+    while not selected.isdigit() or not (0 <= int(selected) <= len(possible_categories)):
         selected = input("잘못된 입력입니다. 다시 입력해주세요: ").strip()
 
     selected_num = int(selected)
 
     # 새 카테고리 입력 시
-    if selected_num == len(possible_categories) + 1:
+    if selected_num == 0:
         while True:
             new_cat = input("새로운 카테고리 이름을 입력해주세요: ").strip()
             if new_cat in excluded_dirs:
@@ -70,8 +70,8 @@ def get_category_from_user():
 
 # html 파일 내에 있는 src, href 속성의 경로를 변경하는 함수
 def rewrite_image_paths(html_content):
+    old_encoded = quote(old_filename)  # 한글일때 인코딩 문제 해결
 
-    old_encoded = old_filename.replace(" ", "%20")
     html_content = html_content.replace(
         f'src="{old_encoded}',
         f'src="/images/{new_filename}'
@@ -98,6 +98,11 @@ def write_markdown_file(filepath, html_content):
     end_index = html_content.find(end_marker)
     if end_index != -1:
         html_content = html_content[:end_index]
+
+    # <details> 태그 수정 (기본적으로 열려있는 상태가 아니도록)
+    html_content = html_content.replace("<details open=\"\">", "<details>")
+    html_content = html_content.replace("<details open>", "<details>")
+
     
     # 파일명에서 title 추출
     base_name = os.path.basename(filepath)
