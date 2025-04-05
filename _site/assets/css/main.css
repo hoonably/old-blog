@@ -232,12 +232,22 @@
 /* =Section Titles *//*************************************************************/
 
 h1 { 
-  font-size: 1.7em;   /* 기본 글자 크기의 2배 */
+  font-size: 1.7em;
   font-weight: 600;
-  margin-top: 80px;
-  padding-bottom: 0px;
+  margin-top: 100px;
+  border-bottom: 1.5px solid #ccc;
   margin-bottom: 20px;
 } 
+
+h1.page_title {
+  font-size: 2em;
+  border-bottom: none;  /* 밑줄 제거 */
+}
+
+h1.blog_title {
+  font-size: 1.8em;
+  border-bottom: none;  /* 밑줄 제거 */
+}
 
 h2 {
   font-size: 1.5em;
@@ -251,7 +261,7 @@ h2 {
 h3 {
   font-size: 1.2em;
   font-weight: 400;
-  margin-top: 30px;
+  margin-top: 50px;
   border-bottom: 0.3px solid #ccc;
   padding-bottom: 5px;
   margin-bottom: 10px;
@@ -260,8 +270,8 @@ h3 {
 /* --- 줄 */
 
 hr {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
   border: none;
   border-top: 1px solid #ccc; /* 기본 줄 스타일 */
 }
