@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "Pintos Setting"
+title: "[운영체제] Pintos Setting"
 subtitle: ""
 date: 2025-03-20 18:41:39 +09:00
 categories: Study
