@@ -3,7 +3,7 @@ layout: blog
 title: "Pintos Setting"
 subtitle: ""
 date: 2025-03-20 18:41:39 +09:00
-categories: study
+categories: Study
 author: "hoonably"
 ---
 <div class="page-body"><figure id="1c4451cf-7b79-814e-a5bd-e13eaac51e2f"><div class="source"><a href="/files/2025-03-20-pintos-setting/Environment_Setup_with_Docker(250321).pdf">Environment Setup with Docker(250321).pdf</a></div></figure><p id="1c4451cf-7b79-81a8-b376-e6b2e65b23f0" class="">

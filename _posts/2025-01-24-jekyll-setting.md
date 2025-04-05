@@ -3,7 +3,7 @@ layout: blog
 title: "Gitblog를 위한 Jekyll과 Ruby 설정"
 subtitle: ""
 date: 2025-01-24 17:57:53 +09:00
-categories: setting
+categories: Setting
 author: "hoonably"
 ---
 <div class="page-body"><p id="184451cf-7b79-806f-b18e-c064ffe1041d" class="">

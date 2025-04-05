@@ -66,7 +66,7 @@ def get_category_from_user():
             else:
                 return new_cat
     else:
-        return possible_categories[selected_num - 1]
+        return possible_categories[selected_num - 1].capitalize()  # 첫 글자 대문자
 
 # html 파일 내에 있는 src, href 속성의 경로를 변경하는 함수
 def rewrite_image_paths(html_content):

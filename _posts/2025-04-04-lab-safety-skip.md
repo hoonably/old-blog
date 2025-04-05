@@ -3,7 +3,7 @@ layout: blog
 title: "연구실 안전교육 스킵"
 subtitle: ""
 date: 2025-04-04 18:32:35 +09:00
-categories: tips
+categories: Tips
 author: "hoonably"
 ---
 <div class="page-body"><p id="1cb451cf-7b79-80fb-90bb-e2e38ae8a956" class="">국가 돈낭비 중 하나인 연구실 안전교육을 아마 매학기 해야하는데 정말 귀찮다.</p><p id="1cb451cf-7b79-80e9-a2db-d4d26ec0d9fe" class="">특히 컴공은 정말 쓸데없는 듯 하다.</p><p id="1cb451cf-7b79-802c-963b-ce99e8087ce4" class="">

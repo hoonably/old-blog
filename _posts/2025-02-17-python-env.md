@@ -3,7 +3,7 @@ layout: blog
 title: "Python env (Conda, Homebrew)"
 subtitle: ""
 date: 2025-02-17 18:21:38 +09:00
-categories: setting
+categories: Setting
 author: "hoonably"
 ---
 <div class="page-body"><p id="181451cf-7b79-802d-98be-c4c5f43ed3fe" class="">
