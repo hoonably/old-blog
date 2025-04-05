@@ -28,7 +28,7 @@ def get_category_from_user():
     site_path = os.path.join(os.path.dirname(script_dir), "_site")
 
     # 제외할 폴더명
-    excluded_dirs = {"about", "assets", "blog", "files", "images", "screenshots", "update_notion_script"}
+    excluded_dirs = {"about", "assets", "blog", "files", "files", "screenshots", "update_notion_script"}
 
     if not os.path.exists(site_path):
         print(f"⚠️  _site 경로가 존재하지 않음: {site_path}")
@@ -74,13 +74,13 @@ def rewrite_image_paths(html_content):
 
     html_content = html_content.replace(
         f'src="{old_encoded}',
-        f'src="/images/{new_filename}'
+        f'src="/files/{new_filename}'
     )
     html_content = html_content.replace(
         f'href="{old_encoded}',
-        f'href="/images/{new_filename}'
+        f'href="/files/{new_filename}'
     )
-    print(f"1️⃣ 이미지 경로 수정 완료: {old_encoded} → /images/{new_filename}")
+    print(f"1️⃣ 이미지 경로 수정 완료: {old_encoded} → /files/{new_filename}")
     return html_content
 
 # 마크다운 파일 수정 및 생성하는 함수
@@ -148,7 +148,7 @@ author: "hoonably"
         file.write(final_content)
     print(f"2️⃣ 마크다운 파일 생성 완료: {new_filepath}")
 
-# 이미지가 들어있는 폴더를 "images/" 안으로 복사하는 함수
+# 이미지가 들어있는 폴더를 "files/" 안으로 복사하는 함수
 def copy_folder(html_path):
     """
     html_path: 원본 HTML 경로
@@ -164,11 +164,11 @@ def copy_folder(html_path):
         print(f"🌉 이미지가 존재하지 않습니다.")
         return
 
-    # 타겟 경로: images/{new_filename_without_ext}/
+    # 타겟 경로: files/{new_filename_without_ext}/
     script_dir = os.path.dirname(os.path.abspath(__file__))
     root_dir = os.path.dirname(script_dir)
     folder_name = os.path.splitext(new_filename)[0]  # .md 제거
-    target_folder = os.path.join(root_dir, "images", folder_name)
+    target_folder = os.path.join(root_dir, "files", folder_name)
     os.makedirs(target_folder, exist_ok=True)
 
     # 이미지 복사
