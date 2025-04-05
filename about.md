@@ -3,7 +3,7 @@ layout: page
 title : Jeonghoon Park
 subtitle: 
 ---
-<span style="float: right; "><a href="{{ '/files/CV_JeonghoonPark.pdf' | relative_url }}"><span class="color_strong">> Look CV as PDF</span></a> </span>  
+<span style="float: right; "><a href="https://drive.google.com/file/d/1-hnP4m8VDXOOgTyCjOG5TG7dDwpXdZil/view?usp=drive_link"><span class="color_strong">> Look CV as PDF</span></a> </span>  
 <span style="float: right; "><a href="https://docs.google.com/document/d/1bB1oRGQLz7CdFOSeQ7TDATfNh-0aqKD9yZqbrmqVTZc/edit?usp=sharing"><span class="color_strong">> Look CV as docs</span></a> </span>
 
 
