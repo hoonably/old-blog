@@ -5,24 +5,22 @@ permalink: /sitemap.xml
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-  <!-- 일반 페이지 -->
-  {% for page in site.pages %}
-    {% unless page.path contains 'files/' or page.path contains 'sitemap.xml' %}
-      <url>
-        <loc>{{ site.url }}{{ page.url | xml_escape }}</loc>
-        {% if page.date %}
-          <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
-        {% endif %}
-      </url>
-    {% endunless %}
-  {% endfor %}
+  <url>
+    <loc>{{ site.url }}/</loc>
+  </url>
+  
+  <url>
+    <loc>{{ site.url }}/about/</loc>
+  </url>
 
-  <!-- 블로그 포스트 -->
+  <url>
+    <loc>{{ site.url }}/blog/</loc>
+  </url>
   {% for post in site.posts %}
-    <url>
-      <loc>{{ site.url }}{{ post.url | xml_escape }}</loc>
-      <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
-    </url>
+  <url>
+    <loc>{{ site.url }}{{ post.url | xml_escape }}</loc>
+    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+  </url>
   {% endfor %}
 
 </urlset>
