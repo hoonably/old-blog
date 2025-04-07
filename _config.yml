@@ -1,30 +1,45 @@
 # 이 부분의 내용을 수정했다면
 # 다시 jekyll serve를 해줘야 적용이 된다.
 
-# Site settings
+# ---------------------
+# 🌐 Site Settings
+# ---------------------
 title: hoonably
 description: >
   Jeonghoon Park's Website
 
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://hoonably.github.io" # the base hostname & protocol for your site
+url: "https://hoonably.github.io" # 사이트의 도메인
+baseurl: ""                        # 하위 경로 (없으면 "")
 
+# ---------------------
+# 👤 Author Info
+# ---------------------
 author:
   fullname: Jeonghoon Park
   github: hoonably
   linkedin: hoonably
   email: hoonably@naver.com
 
-# 카테고리/제목 형식으로 URL을 만들어줌
-permalink: /:categories/:title/
+# ---------------------
+# 🔗 URL & Permalink
+# ---------------------
+permalink: /:categories/:title/ # 카테고리/제목 형식으로 URL 생성
 
-# 이거 안하면 UTC기준으로 날짜 나옴
-timezone: Asia/Seoul
+# ---------------------
+# 🕒 Timezone
+# ---------------------
+timezone: Asia/Seoul # UTC 기준 방지
 
-# Syntax highlighting
+# ---------------------
+# ✍️ Markdown & Syntax Highlight
+# ---------------------
+markdown: kramdown
+highlighter: none
+# highlighter: rouge
 highlightstyle: 'github'
 
-#아래 중에서 골라서 위에 쓰면 됨
+# ---------------------
+# 🎨 Available Code Styles (사용할 스타일 위에 선택)
 styles: [agate, androidstudio, arta, 
   asceti, atelier-cave.dark, atelier-cave.light, atelier-dune.dark, atelier-dune.light, 
   atelier-estuary.dark, atelier-estuary.light, atelier-forest.dark, atelier-forest.light, 
@@ -39,12 +54,10 @@ styles: [agate, androidstudio, arta,
   sunburst, tomorrow, tomorrow-night-blue, tomorrow-night-bright, tomorrow-night, 
   tomorrow-night-eightie, v, xcode, zenburn]
 
-# Build settings
-highlighter: none
-# highlighter: rouge
-markdown: kramdown
-
+# ---------------------
+# 🔧 Plugins & Build Settings
+# ---------------------
 plugins:
-  # - jekyll-sitemap
   - jekyll-feed
+  # - jekyll-sitemap
   # - jekyll-seo-tag
