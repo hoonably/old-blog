@@ -70,18 +70,28 @@ def get_category_from_user():
 
 # html 파일 내에 있는 src, href 속성의 경로를 변경하는 함수
 def rewrite_image_paths(html_content):
-    old_encoded = quote(old_filename)  # 한글일때 인코딩 문제 해결
+    print(f"🔄 이미지 경로 수정 시작: {old_filename}")
 
-    html_content = html_content.replace(
-        f'src="{old_encoded}',
-        f'src="/files/{new_filename}'
+    # old_filename 인코딩된 형태와 인코딩되지 않은 형태 모두 대응
+    encoded = quote(old_filename)
+    encoded_plus_fixed = encoded.replace("%2B", r"(?:\+|%2B)")  # + 또는 %2B 모두 매치
+    escaped_old = re.escape(old_filename)
+
+    # 정규표현식으로 src / href 내부 경로 모두 수정
+    html_content = re.sub(
+        rf'src="(?:\.\/)?{encoded_plus_fixed}',
+        f'src="/files/{new_filename}',
+        html_content
     )
-    html_content = html_content.replace(
-        f'href="{old_encoded}',
-        f'href="/files/{new_filename}'
+    html_content = re.sub(
+        rf'href="(?:\.\/)?{encoded_plus_fixed}',
+        f'href="/files/{new_filename}',
+        html_content
     )
-    print(f"1️⃣ 이미지 경로 수정 완료: {old_encoded} → /files/{new_filename}")
+
+    print(f"1️⃣ 이미지 경로 수정 완료: {old_filename} → /files/{new_filename}")
     return html_content
+
 
 # 마크다운 파일 수정 및 생성하는 함수
 def write_markdown_file(filepath, html_content):
