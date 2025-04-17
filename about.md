@@ -67,7 +67,7 @@ Investigating LLMs that can run in resource-constrained environments (such as on
 
 **Sorting Algorithm Analysis** <i style="float: right; color: #828282;">2025.04.07 – 2025.04.15</i>  
 Implemented and benchmarked 12 sorting algorithms under various input types and data conditions, analyzing performance, stability, and memory usage.  
-<a href="https://github.com/hoonably/Sorting-Project">Github Repo</a>
+<a href="https://hoonably.github.io/files/Sorting_Algorithm_Analysis_and_Implementation.pdf">PDF</a> / <a href="https://github.com/hoonably/Sorting-Project">Github Repo</a>
 
 <br><br>
 
