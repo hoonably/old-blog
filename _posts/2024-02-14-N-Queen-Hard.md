@@ -27,7 +27,7 @@ author: "hoonably"
 ## 💡 백트래킹 방식
 
 
-백트래킹과 전반적인 풀이 방식은 [🧩 N-Queen (Easy) 풀이](https://hoonably.github.io/ps/N-Queen-Easy/) 와 동일하다. 안봤다면 꼭 보고 오자.
+백트래킹과 전반적인 풀이 방식은 [🧩 N-Queen (Easy) 풀이](/ps/N-Queen-Easy/) 와 동일하다. 안봤다면 꼭 보고 오자.
 
 
 ## 💡 음수 비트연산?
