@@ -43,7 +43,7 @@ Teaching Assistant, LG Electronics LDC Program (Data Preprocessing & PBL)
 
 <img src="https://github.com/user-attachments/assets/40592a8c-56c4-442e-bf8f-15a40e25f7ed" width="150" alt="Topmath Logo" />
 
-<i> 2021.07.05 – Jul. 2024.07.18</i>   
+<i> 2021.07.05 – 2024.07.18</i>   
 **Math Instructor, Topmath, Republic of Korea**  
 Primary Role (Multiple Classes, Not Part-Time)  
 High School Math (Students achieved Grade 1 in Korean SAT)  
