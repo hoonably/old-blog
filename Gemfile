@@ -13,3 +13,5 @@ end
 gem "csv"
 
 gem "logger"
+
+gem "github-pages", group: :jekyll_plugins
