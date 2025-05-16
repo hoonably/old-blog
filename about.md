@@ -82,9 +82,9 @@ Implemented and benchmarked 12 sorting algorithms under various input types and 
 <a href="https://solved.ac/hoonably" style="margin-right: 10px;" target="_blank">
   <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=hoonably" alt="Solved.ac 프로필" style="display: inline-block;">
 </a>
-<a href="https://solved.ac/hoonably" target="_blank">
+<!-- <a href="https://solved.ac/hoonably" target="_blank">
   <img src="http://mazandi.herokuapp.com/api?handle=hoonably&theme=dark" alt="mazandi profile" style="display: inline-block;">
-</a>
+</a> -->
 
 **Contest**  
 <a href="https://icpckorea.org/2024-seoul/preliminary">ICPC 2024 Seoul Preliminary Contest</a> - 201st  
