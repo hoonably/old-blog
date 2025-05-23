@@ -60,14 +60,10 @@ Member of EarthCops (Soccer Club)
 
 ## TEACHING
 
-<!-- **UNIST**, Teaching Assistant (Tentative)  
-Data Structures <i>2025.09–12</i>   -->
-
-**LG Electronics LDC**, Teaching Assistant  
-Project-Based Learning (PBL) <i>2025.02–03</i>  
-
-**LG Electronics LDC**, Teaching Assistant  
-Data Preprocessing <i>2025.01</i>  
+Spring 2025
+<!-- - Data Structure (CSE221), Teaching Assistant, UNIST -->
+- Project-Based Learning (PBL), Teaching Assistant, LG Electronics LDC
+- Data Preprocessing, Teaching Assistant, LG Electronics LDC
 
 <br><br>
 
@@ -82,7 +78,7 @@ Implemented and benchmarked 12 sorting algorithms under various input types and 
 
 <br><br>
 
-## PS (Problem Solving)
+## Problem Solving
 **Baekjoon Online Judge**  <i style="float: right; color: #828282;">2023.12 – Present</i>  
 Best Ranking: <u>#576</u> (Top 0.38%)  
 Longest Streak: <u>366 Days</u> (23.12.31 ~ 24.12.31)  
