@@ -62,6 +62,7 @@ Member of EarthCops (Soccer Club)
 
 Spring 2025
 <!-- - Data Structure (CSE221), Teaching Assistant, UNIST -->
+- AI Theory Education, Teaching Assistant, AI Novatus Academia (6th)
 - Project-Based Learning (PBL), Teaching Assistant, LG Electronics LDC
 - Data Preprocessing, Teaching Assistant, LG Electronics LDC
 
