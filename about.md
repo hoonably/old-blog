@@ -78,9 +78,9 @@ Winter 2024
 ## PROJECTS
 
 **Pintos Project** <i style="float: right; color: #828282;">2025.03 – 2025.06</i>  
-Implemented core OS components based on [Stanford’s PintOS project](https://web.stanford.edu/class/cs140/projects/pintos/pintos.html): thread scheduling, system calls, user programs, virtual memory (demand paging, swapping, mmap), and extensible file system with indexed allocation.
+Implemented core OS components based on Stanford’s Pintos project: thread scheduling, system calls, user programs, virtual memory (demand paging, swapping, mmap), and extensible file system with indexed allocation.
 Completed as a team project for an operating systems course, gaining deep insight into OS internals through hands-on implementation.  
-<a href="https://github.com/hoonably/pintos-project">Github Repo</a>
+<a href="https://web.stanford.edu/class/cs140/projects/pintos/pintos.html">Manual</a> / <a href="https://github.com/hoonably/pintos-project">Github Repo</a>
 
 **Traveling Salesman Problem (TSP) Solver** <i style="float: right; color: #828282;">2025.05 – 2025.06</i>  
 Implemented and analyzed classical TSP algorithms (Held-Karp, MST, Greedy, 2-opt) alongside a novel MCMF-based heuristic combining global flow and local refinement. Evaluated solution quality and runtime across diverse datasets.  
