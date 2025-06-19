@@ -61,7 +61,7 @@ Member of EarthCops (Soccer Club)
 ## TEACHING
 
 <!-- Fall 2025 -->
-<!-- - Data Structure (CSE221), Teaching Assistant, UNIST -->'
+<!-- - Data Structure (CSE221), Teaching Assistant, UNIST -->
 
 Summer 2025
 - Data Preprocessing, Teaching Assistant, LG Electronics LDC
@@ -76,13 +76,18 @@ Winter 2024
 <br><br>
 
 ## PROJECTS
-**TinyLLM - UAI Lab**  <i style="float: right; color: #828282;">2025.01 – 2025.02</i>  
-Investigating LLMs that can run in resource-constrained environments (such as on-device) and analyzed the accuracy and inference time of each model through various evaluation sets  
-<a href="https://foil-plant-837.notion.site/TinyLLM-181451cf7b798058b1d0dc189ab6d30d?pvs=4">Notion</a> / <a href="https://github.com/hoonably/TinyLLM">Github Repo</a>  
+
+**Traveling Salesman Problem (TSP) Solver** <i style="float: right; color: #828282;">2025.05 – 2025.06</i>  
+Implemented and analyzed classical TSP algorithms (Held-Karp, MST, Greedy, 2-opt) alongside a novel MCMF-based heuristic combining global flow and local refinement. Evaluated solution quality and runtime across diverse datasets.
+<a href="https://hoonably.github.io/files/Solving_the_Traveling_Salesman_Problem.pdf">PDF</a> / <a href="https://github.com/hoonably/traveling-salesman">Github Repo</a>
 
 **Sorting Algorithm Analysis** <i style="float: right; color: #828282;">2025.04 – 2025.04</i>  
 Implemented and benchmarked 12 sorting algorithms under various input types and data conditions, analyzing performance, stability, and memory usage.  
 <a href="https://hoonably.github.io/files/Sorting_Algorithm_Analysis_and_Implementation.pdf">PDF</a> / <a href="https://github.com/hoonably/Sorting-Project">Github Repo</a>
+
+**TinyLLM - UAI Lab**  <i style="float: right; color: #828282;">2025.01 – 2025.02</i>  
+Investigating LLMs that can run in resource-constrained environments (such as on-device) and analyzed the accuracy and inference time of each model through various evaluation sets  
+<a href="https://foil-plant-837.notion.site/TinyLLM-181451cf7b798058b1d0dc189ab6d30d?pvs=4">Notion</a> / <a href="https://github.com/hoonably/TinyLLM">Github Repo</a>  
 
 <br><br>
 
