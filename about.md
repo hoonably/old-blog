@@ -78,7 +78,7 @@ Winter 2024
 ## PROJECTS
 
 **Traveling Salesman Problem (TSP) Solver** <i style="float: right; color: #828282;">2025.05 – 2025.06</i>  
-Implemented and analyzed classical TSP algorithms (Held-Karp, MST, Greedy, 2-opt) alongside a novel MCMF-based heuristic combining global flow and local refinement. Evaluated solution quality and runtime across diverse datasets.
+Implemented and analyzed classical TSP algorithms (Held-Karp, MST, Greedy, 2-opt) alongside a novel MCMF-based heuristic combining global flow and local refinement. Evaluated solution quality and runtime across diverse datasets.  
 <a href="https://hoonably.github.io/files/Solving_the_Traveling_Salesman_Problem.pdf">PDF</a> / <a href="https://github.com/hoonably/traveling-salesman">Github Repo</a>
 
 **Sorting Algorithm Analysis** <i style="float: right; color: #828282;">2025.04 – 2025.04</i>  
